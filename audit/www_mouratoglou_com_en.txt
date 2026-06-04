@@ -1,0 +1,1959 @@
+<!doctype html>
+<html lang="en-GB" data-theme="light" data-scroll="start" data-page-view-event="&#x7B;&quot;event&quot;&#x3A;&quot;page_view&quot;,&quot;website_language&quot;&#x3A;&quot;en&quot;,&quot;page_type&quot;&#x3A;&quot;home&#x20;page&quot;,&quot;page_category&quot;&#x3A;&quot;stages&quot;&#x7D;" class="home">
+        <head><script>window.axeptioSettings = {
+  clientId: "66fbe3fb4700326e96bbc667",
+  cookiesVersion: "mouratoglou-EU",
+  userCookiesDomain: "booking.mouratoglou.com"
+  googleConsentMode: {
+    default: {
+      analytics_storage: "denied",
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      wait_for_update: 500
+    }
+  }
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://tagging-server.mouratoglou.com/7bg3usup0m5kl53.js?awl='+i.replace(/^GTM-/, '')+dl;
+f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T6T3FWR');</script><meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" href="https://www.mouratoglou.com/en/" hreflang="en" />
+<link rel="alternate" href="https://www.mouratoglou.com/" hreflang="fr" />
+<link rel="alternate" href="https://www.mouratoglou.com/it/" hreflang="it" />
+<link rel="alternate" href="https://www.mouratoglou.com/de/" hreflang="de" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Mouratoglou Tennis Academy - French Riviera, France</title>
+	<meta name="description" content="Welcome to the Mouratoglou Tennis Academy, the world’s most successful tennis academy, founded in 1996 by Patrick Mouratoglou." />
+	<link rel="canonical" href="https://www.mouratoglou.com/en/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:locale:alternate" content="fr_FR" />
+	<meta property="og:locale:alternate" content="it_IT" />
+	<meta property="og:locale:alternate" content="de_DE" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Mouratoglou Tennis Academy - French Riviera, France" />
+	<meta property="og:description" content="Welcome to the Mouratoglou Tennis Academy, the world’s most successful tennis academy, founded in 1996 by Patrick Mouratoglou." />
+	<meta property="og:url" content="https://www.mouratoglou.com/en/" />
+	<meta property="og:site_name" content="Mouratoglou" />
+	<meta property="article:modified_time" content="2026-02-04T09:36:17+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.mouratoglou.com/en/","url":"https://www.mouratoglou.com/en/","name":"Mouratoglou Tennis Academy - French Riviera, France","isPartOf":{"@id":"https://www.mouratoglou.com/en/#website"},"datePublished":"2024-12-08T20:30:11+00:00","dateModified":"2026-02-04T09:36:17+00:00","description":"Welcome to the Mouratoglou Tennis Academy, the world’s most successful tennis academy, founded in 1996 by Patrick Mouratoglou.","breadcrumb":{"@id":"https://www.mouratoglou.com/en/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://www.mouratoglou.com/en/"]}]},{"@type":"BreadcrumbList","@id":"https://www.mouratoglou.com/en/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.mouratoglou.com/en/#website","url":"https://www.mouratoglou.com/en/","name":"Mouratoglou","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.mouratoglou.com/en/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//js-eu1.hs-scripts.com' />
+<link rel='dns-prefetch' href='//challenges.cloudflare.com' />
+<link rel='stylesheet' id='app-css' href='https://www.mouratoglou.com/wp-content/themes/solanum/public/build/frontend/css/app.css?ver=1779095558' media='all' />
+<script src="https://www.mouratoglou.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://www.mouratoglou.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="3d-flip-book-client-locale-loader-js-extra">
+var FB3D_CLIENT_LOCALE = {"ajaxurl":"https:\/\/www.mouratoglou.com\/wp-admin\/admin-ajax.php","dictionary":{"Table of contents":"Table of contents","Close":"Close","Bookmarks":"Bookmarks","Thumbnails":"Thumbnails","Search":"Search","Share":"Share","Facebook":"Facebook","Twitter":"Twitter","Email":"Email","Play":"Play","Previous page":"Previous page","Next page":"Next page","Zoom in":"Zoom in","Zoom out":"Zoom out","Fit view":"Fit view","Auto play":"Auto play","Full screen":"Full screen","More":"More","Smart pan":"Smart pan","Single page":"Single page","Sounds":"Sounds","Stats":"Stats","Print":"Print","Download":"Download","Goto first page":"Goto first page","Goto last page":"Goto last page"},"images":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/interactive-3d-flipbook-powered-physics-engine\/assets\/images\/","jsData":{"urls":[],"posts":{"ids_mis":[],"ids":[]},"pages":[],"firstPages":[],"bookCtrlProps":[],"bookTemplates":[]},"key":"3d-flip-book","pdfJS":{"pdfJsLib":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/interactive-3d-flipbook-powered-physics-engine\/assets\/js\/pdf.min.js?ver=4.3.136","pdfJsWorker":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/interactive-3d-flipbook-powered-physics-engine\/assets\/js\/pdf.worker.js?ver=4.3.136","stablePdfJsLib":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/interactive-3d-flipbook-powered-physics-engine\/assets\/js\/stable\/pdf.min.js?ver=2.5.207","stablePdfJsWorker":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/interactive-3d-flipbook-powered-physics-engine\/assets\/js\/stable\/pdf.worker.js?ver=2.5.207","pdfJsCMapUrl":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/interactive-3d-flipbook-powered-physics-engine\/assets\/cmaps\/"},"cacheurl":"https:\/\/www.mouratoglou.com\/wp-content\/uploads\/3d-flip-book\/cache\/","pluginsurl":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/","pluginurl":"https:\/\/www.mouratoglou.com\/wp-content\/plugins\/interactive-3d-flipbook-powered-physics-engine\/","thumbnailSize":{"width":"150","height":"150"},"version":"1.16.17"};
+</script>
+<script src="https://www.mouratoglou.com/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/client-locale-loader.js?ver=1.16.17" id="3d-flip-book-client-locale-loader-js" async data-wp-strategy="async"></script>
+<link rel="https://api.w.org/" href="https://www.mouratoglou.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.mouratoglou.com/wp-json/wp/v2/pages/5497" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.mouratoglou.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://www.mouratoglou.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.mouratoglou.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.mouratoglou.com%2Fen%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.mouratoglou.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.mouratoglou.com%2Fen%2F&#038;format=xml" />
+			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v11.3.21-->
+			<script class="hsq-set-content-id" data-content-id="standard-page">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "standard-page"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+			<link rel="icon" href="https://www.mouratoglou.com/wp-content/uploads/2024/10/38325007-0ebc-4b3b-b7ee-638ddb93ed1c-favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.mouratoglou.com/wp-content/uploads/2024/10/38325007-0ebc-4b3b-b7ee-638ddb93ed1c-favicon-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.mouratoglou.com/wp-content/uploads/2024/10/38325007-0ebc-4b3b-b7ee-638ddb93ed1c-favicon-300x300.png" />
+<meta name="msapplication-TileImage" content="https://www.mouratoglou.com/wp-content/uploads/2024/10/38325007-0ebc-4b3b-b7ee-638ddb93ed1c-favicon-300x300.png" />
+</head>
+
+        <body><div class="quick-access">
+            <a href="#en-tete" class="quick-access-link">Go to header</a><a href="#main-content" class="quick-access-link">Skip to main content</a>
+                <a href="#footer" class="quick-access-link">Go to footer</a>
+
+                                    </div>
+
+        <div id="44809" data-theme="orange" class="info-banner">
+        <div class="info-banner-content"><p class="info-banner-text">Summer Camps launch on June 15th! Secure your spot</p><a href="https://booking.mouratoglou.com/en" data-click-event="{&quot;event&quot;:&quot;click_top_banner&quot;,&quot;banner_name&quot;:&quot;Book your spot for this summer!&quot;}" class="info-banner-link">BOOK</a></div>
+
+        <button type="button" aria-label="Close" class="info-banner-close">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </button>
+    </div>
+
+                            <header id="en-tete" role="banner" class="header">
+    <div class="container">
+        <div class="header-wrapper"><a href="https://www.mouratoglou.com/en/" class="header-logo">
+                    <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/02/f09ba860-ded8-4975-a924-335b80978360-Logo-30Years-Lockup-Mouratoglou-Light-Black-cropped1.svg" alt="" width="299" height="28" class="header-logo-inner">
+                </a><nav role="navigation" aria-label="Main menu" class="menu">
+                <button type="button" aria-controls="menu" aria-expanded="false" class="menu-toggle">
+                    <span class="menu-toggle-label">Menu</span>
+                    <span class="menu-toggle-label">Close</span>
+                    <i class="menu-toggle-icon"></i>
+                </button>
+
+                <div id="menu" inert class="menu-wrapper">
+                    <ul class="menu-list">
+                                                    <li data-devices="all" class="menu-item">
+                                                                    <button type="button" aria-controls="submenu-1" aria-expanded="false" class="menu-link">Camps</button>
+
+                                    <div id="submenu-1" inert class="submenu">
+    <div class="container">
+        <div class="submenu-wrapper"><div class="submenu-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/01/de985e77-eeae-4181-93c7-7521499e856a-14fa295e-7686-48d3-9d82-6be062e14a04-JUL03149-1340x1340-c-center-670x670-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/01/de985e77-eeae-4181-93c7-7521499e856a-14fa295e-7686-48d3-9d82-6be062e14a04-JUL03149-1340x1340-c-center-670x670-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/01/de985e77-eeae-4181-93c7-7521499e856a-14fa295e-7686-48d3-9d82-6be062e14a04-JUL03149-1340x1340-c-center-1340x1340-c-center.webp 2x" alt="" width="670" height="670" loading="lazy">
+            </div><div class="submenu-header">
+            <button type="button" data-close="submenu-1" aria-label="Back" class="submenu-back">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M11.2308 3.19998L6.43083 7.99998L11.2308 12.8" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button>
+
+            <p class="submenu-title h300">Camps</p>
+
+            <button type="button" data-close="menu" aria-label="Close" class="submenu-close">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button><p class="submenu-text">Tennis camps adapted to every ages, every levels, every week of the year.</p><ul class="submenu-buttons"><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/stages/" class="button button--fill"><span class="button-label">Our camps</span></a>
+
+                        </li></ul></div>
+
+        <div class="submenu-body"><ul class="submenu-links"><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/stages/" class="submenu-link submenu-link--primary">Our camps</a>
+                        </li></ul><ul class="submenu-cards"><li class="submenu-cards-item">
+                            <a href="https://www.mouratoglou.com/en/types/adults/ " class="submenu-card"><div class="submenu-card-image media-cover">
+                                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/fbfd1319-f1ab-45da-afbe-c4c19982c3fe-0R6A3642-269x269-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/fbfd1319-f1ab-45da-afbe-c4c19982c3fe-0R6A3642-269x269-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/fbfd1319-f1ab-45da-afbe-c4c19982c3fe-0R6A3642-538x538-c-center.webp 2x" alt="coaching adulte tennis" width="269" height="269" loading="lazy">
+                                    </div><span class="submenu-card-title">
+                                    Adults camps
+
+                                    <svg aria-hidden="true" class="submenu-card-arrow icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                </span>
+                            </a>
+                        </li><li class="submenu-cards-item">
+                            <a href="https://www.mouratoglou.com/en/types/junior/" class="submenu-card"><div class="submenu-card-image media-cover">
+                                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/c3963382-da08-4884-bfa0-3d4f5fdf627f-MOURATOGLOUGALATENNISSESSION2024SUNDAY185-269x269-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/c3963382-da08-4884-bfa0-3d4f5fdf627f-MOURATOGLOUGALATENNISSESSION2024SUNDAY185-269x269-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/c3963382-da08-4884-bfa0-3d4f5fdf627f-MOURATOGLOUGALATENNISSESSION2024SUNDAY185-538x538-c-center.webp 2x" alt="Patrick Mouratoglou coach kids" width="269" height="269" loading="lazy">
+                                    </div><span class="submenu-card-title">
+                                    Juniors camps
+
+                                    <svg aria-hidden="true" class="submenu-card-arrow icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                </span>
+                            </a>
+                        </li></ul></div></div>
+    </div>
+</div>
+                                                            </li>
+                                                    <li data-devices="all" class="menu-item">
+                                                                    <button type="button" aria-controls="submenu-2" aria-expanded="false" class="menu-link">Tennis & School</button>
+
+                                    <div id="submenu-2" inert class="submenu">
+    <div class="container">
+        <div class="submenu-wrapper"><div class="submenu-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/1f9e9410-1279-485b-b0d2-25b3c71733d5-6J7A4361-670x670-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/1f9e9410-1279-485b-b0d2-25b3c71733d5-6J7A4361-670x670-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/1f9e9410-1279-485b-b0d2-25b3c71733d5-6J7A4361-1340x1340-c-center.webp 2x" alt="sport etude tennis mouratoglou" width="670" height="670" loading="lazy">
+            </div><div class="submenu-header">
+            <button type="button" data-close="submenu-2" aria-label="Back" class="submenu-back">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M11.2308 3.19998L6.43083 7.99998L11.2308 12.8" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button>
+
+            <p class="submenu-title h300">Tennis & School</p>
+
+            <button type="button" data-close="menu" aria-label="Close" class="submenu-close">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button><p class="submenu-text">Our Tennis & School program offers our young students a high level of sports and academic training to combine intensive training, tournaments and school courses throughout the year.</p><ul class="submenu-buttons"><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/" class="button button--fill"><span class="button-label">Know everything about Tennis & School</span></a>
+
+                        </li><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/admission/" class="button button--fill"><span class="button-label">Admission</span></a>
+
+                        </li></ul></div>
+
+        <div class="submenu-body"><ul class="submenu-links"><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/" class="submenu-link submenu-link--primary">Know everything about Tennis & School</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/admission/" class="submenu-link submenu-link--primary">Admission</a>
+                        </li></ul><ul class="submenu-links"><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/sports-program/" class="submenu-link">Sports program</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/selection-week/" class="submenu-link">Selection week</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/schooling-american-section/" class="submenu-link">School - American Section</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/schooling-french-section/" class="submenu-link">School - French Section</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/campus/" class="submenu-link">Campus</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/university-placement-program/" class="submenu-link">University placement</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/the-mouratoglou-academy/sports-medical-center/" class="submenu-link">Sports Medical Center</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/contact-tennis-and-school/" class="submenu-link">Contact</a>
+                        </li></ul></div></div>
+    </div>
+</div>
+                                                            </li>
+                                                    <li data-devices="all" class="menu-item">
+                                                                    <button type="button" aria-controls="submenu-3" aria-expanded="false" class="menu-link">Academy</button>
+
+                                    <div id="submenu-3" inert class="submenu">
+    <div class="container">
+        <div class="submenu-wrapper"><div class="submenu-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/02/dcefbea5-ddbc-42f2-ab36-d5be6d9acf08-Header30ans1-670x670-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/02/dcefbea5-ddbc-42f2-ab36-d5be6d9acf08-Header30ans1-670x670-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/02/dcefbea5-ddbc-42f2-ab36-d5be6d9acf08-Header30ans1-1340x1340-c-center.webp 2x" alt="" width="670" height="670" loading="lazy">
+            </div><div class="submenu-header">
+            <button type="button" data-close="submenu-3" aria-label="Back" class="submenu-back">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M11.2308 3.19998L6.43083 7.99998L11.2308 12.8" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button>
+
+            <p class="submenu-title h300">Academy</p>
+
+            <button type="button" data-close="menu" aria-label="Close" class="submenu-close">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button><p class="submenu-text">Discover Mouratoglou Academy infrastructures, including sports facilities, relaxation and wellness area. </p><ul class="submenu-buttons"><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/academy/" class="button button--fill"><span class="button-label">Academy</span></a>
+
+                        </li><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/academy/patrick-mouratoglou/" class="button button--fill"><span class="button-label">Patrick Mouratoglou</span></a>
+
+                        </li><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/academy/methodology/" class="button button--fill"><span class="button-label">Methodology</span></a>
+
+                        </li><li class="submenu-buttons-item">
+                            <a href="https://www.patrickmouratoglou.com/en/champion-mindset-pre-order/" class="button button--fill"><span class="button-label">Patrick's new book</span></a>
+
+                        </li><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/our-30th-anniversary/" class="button button--fill"><span class="button-label">OUR 30 YEARS</span></a>
+
+                        </li></ul></div>
+
+        <div class="submenu-body"><ul class="submenu-links"><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/" class="submenu-link submenu-link--primary">Academy</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/patrick-mouratoglou/" class="submenu-link submenu-link--primary">Patrick Mouratoglou</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/methodology/" class="submenu-link submenu-link--primary">Methodology</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.patrickmouratoglou.com/en/champion-mindset-pre-order/" class="submenu-link submenu-link--primary">Patrick's new book</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/our-30th-anniversary/" class="submenu-link submenu-link--primary">OUR 30 YEARS</a>
+                        </li></ul><ul class="submenu-links"><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/tennis-and-school/campus/" class="submenu-link">Campus</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/sports-medical-center/" class="submenu-link">Sports Medical Center</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/country-club/" class="submenu-link">Mouratoglou Country Club</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/fitness-and-musculation/" class="submenu-link">Fitness & Musculation</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/mouratoglou-hotel-resort/" class="submenu-link">Mouratoglou Hotel & Resort</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/lembleme-restaurant/" class="submenu-link">L'Emblème Restaurant</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/spa-cinq-mondes/" class="submenu-link">Spa Thalgo</a>
+                        </li><li class="submenu-links-item">
+                            <a href="https://www.mouratoglou.com/en/academy/practical-info/" class="submenu-link">Contact</a>
+                        </li></ul></div></div>
+    </div>
+</div>
+                                                            </li>
+                                                    <li data-devices="all" class="menu-item">
+                                                                    <button type="button" aria-controls="submenu-4" aria-expanded="false" class="menu-link">International</button>
+
+                                    <div id="submenu-4" inert class="submenu">
+    <div class="container">
+        <div class="submenu-wrapper"><div class="submenu-header">
+            <button type="button" data-close="submenu-4" aria-label="Back" class="submenu-back">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M11.2308 3.19998L6.43083 7.99998L11.2308 12.8" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button>
+
+            <p class="submenu-title h300">International</p>
+
+            <button type="button" data-close="menu" aria-label="Close" class="submenu-close">
+                <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </button><p class="submenu-text">Since 2020, the Academies and Mouratoglou Tennis Centers have been spreading the excellence and passion of the Mouratoglou Academy around the world.</p><ul class="submenu-buttons"><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/international/" class="button button--fill"><span class="button-label">Mouratoglou International</span></a>
+
+                        </li><li class="submenu-buttons-item">
+                            <a href="https://mouratoglouinternational.taleez.com/" class="button button--fill"><span class="button-label">Job Offers</span></a>
+
+                        </li><li class="submenu-buttons-item">
+                            <a href="https://www.mouratoglou.com/en/international/share-your-project/" class="button button--fill"><span class="button-label">Share your project</span></a>
+
+                        </li></ul></div>
+
+        <div class="submenu-locations">
+            <ul class="submenu-locations-filters">
+                <li class="submenu-locations-filters-item">
+                    <input type="checkbox" id="submenu-location-0" name="submenu-locations" value="" checked class="submenu-locations-filters-input">
+                    <label for="submenu-location-0" class="submenu-locations-filters-label">All</label>
+                </li><li class="submenu-locations-filters-item">
+                        <input type="checkbox" id="submenu-location-1" name="submenu-locations" value="mouratoglou-tennis-centers" class="submenu-locations-filters-input">
+                        <label for="submenu-location-1" class="submenu-locations-filters-label">Mouratoglou Tennis Centers</label>
+                    </li><li class="submenu-locations-filters-item">
+                        <input type="checkbox" id="submenu-location-2" name="submenu-locations" value="mouratoglou-academies" class="submenu-locations-filters-input">
+                        <label for="submenu-location-2" class="submenu-locations-filters-label">Mouratoglou Academies</label>
+                    </li></ul>
+
+            <div class="submenu-locations-wrapper">
+                <div class="submenu-locations-col"><div class="submenu-locations-group">
+                            <button type="button" aria-expanded="false" class="submenu-locations-group-header">
+                                ASIA
+
+                                <svg aria-hidden="true" class="submenu-locations-group-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+    
+                            <div inert class="submenu-locations-group-wrapper">
+                                <div class="submenu-locations-group-inner">
+                                    <ul class="submenu-locations-list"><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/bali/" class="submenu-link">Bali, Indonesia</a>
+                                            </li><li data-products="mouratoglou-academies" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/kuala-lumpur/" class="submenu-link">Kuala Lumpur, Malaysia</a>
+                                            </li></ul>
+                                </div>
+                            </div>
+                        </div><div class="submenu-locations-group">
+                            <button type="button" aria-expanded="false" class="submenu-locations-group-header">
+                                EUROPE
+
+                                <svg aria-hidden="true" class="submenu-locations-group-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+    
+                            <div inert class="submenu-locations-group-wrapper">
+                                <div class="submenu-locations-group-inner">
+                                    <ul class="submenu-locations-list"><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/bodrum/" class="submenu-link">Bodrum, Turkey</a>
+                                            </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/calatrava/" class="submenu-link">Calatrava, Spain</a>
+                                            </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/costa-navarino/" class="submenu-link">Costa Navarino, Greece</a>
+                                            </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/cala-di-volpe/" class="submenu-link">Sardinia, Italy</a>
+                                            </li></ul>
+                                </div>
+                            </div>
+                        </div><div class="submenu-locations-group">
+                            <button type="button" aria-expanded="false" class="submenu-locations-group-header">
+                                MIDDLE EAST &amp; AFRICA
+
+                                <svg aria-hidden="true" class="submenu-locations-group-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+    
+                            <div inert class="submenu-locations-group-wrapper">
+                                <div class="submenu-locations-group-inner">
+                                    <ul class="submenu-locations-list"><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/egypt-cairo/" class="submenu-link">Cairo, Egypt</a>
+                                            </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/dubai-coming-soon/" class="submenu-link">Dubaï, UAE &#8211; Coming Soon</a>
+                                            </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                <a href="https://www.mouratoglou.com/en/international/hudayriyat-island/" class="submenu-link">Hudayriyat Island, UAE</a>
+                                            </li></ul>
+                                </div>
+                            </div>
+                        </div></div><div class="submenu-locations-col"><div class="submenu-locations-group">
+                                <button type="button" aria-expanded="false" class="submenu-locations-group-header">
+                                    NORTH AMERICA
+
+                                    <svg aria-hidden="true" class="submenu-locations-group-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                </button>
+        
+                                <div inert class="submenu-locations-group-wrapper">
+                                    <div class="submenu-locations-group-inner">
+                                        <ul class="submenu-locations-list"><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/amelia-island-florida/" class="submenu-link">Amelia Island, Florida</a>
+                                                </li><li data-products="mouratoglou-academies" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/atlanta/" class="submenu-link">Atlanta, Georgia</a>
+                                                </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/boca-raton-florida/" class="submenu-link">Boca Raton, Florida</a>
+                                                </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/boston/" class="submenu-link">Boston, Massachusetts</a>
+                                                </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/horseshoe-bay/" class="submenu-link">Horseshoe Bay, Texas</a>
+                                                </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/jupiter-florida/" class="submenu-link">Jupiter, Florida</a>
+                                                </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/naples/" class="submenu-link">Naples Tiburón, Florida</a>
+                                                </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/noblesville-indiana/" class="submenu-link">Noblesville, Indiana</a>
+                                                </li><li data-products="mouratoglou-academies" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/san-francisco/" class="submenu-link">San Francisco, California</a>
+                                                </li><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/templeton/" class="submenu-link">Templeton, California</a>
+                                                </li><li data-products="mouratoglou-academies" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/zephyrhills/" class="submenu-link">Zephyrhills, Florida</a>
+                                                </li></ul>
+                                    </div>
+                                </div>
+                            </div><div class="submenu-locations-group">
+                                <button type="button" aria-expanded="false" class="submenu-locations-group-header">
+                                    LATIN AMERICA
+
+                                    <svg aria-hidden="true" class="submenu-locations-group-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                </button>
+        
+                                <div inert class="submenu-locations-group-wrapper">
+                                    <div class="submenu-locations-group-inner">
+                                        <ul class="submenu-locations-list"><li data-products="mouratoglou-tennis-centers" class="submenu-locations-item">
+                                                    <a href="https://www.mouratoglou.com/en/international/guadalajara-mexico/" class="submenu-link">Guadalajara, Mexico</a>
+                                                </li></ul>
+                                    </div>
+                                </div>
+                            </div></div><ul class="submenu-links"><li class="submenu-links-item">
+                                <a href="https://www.mouratoglou.com/en/international/" class="submenu-link submenu-link--primary">Mouratoglou International</a>
+                            </li><li class="submenu-links-item">
+                                <a href="https://mouratoglouinternational.taleez.com/" class="submenu-link submenu-link--primary">Job Offers</a>
+                            </li><li class="submenu-links-item">
+                                <a href="https://www.mouratoglou.com/en/international/share-your-project/" class="submenu-link submenu-link--primary">Share your project</a>
+                            </li></ul></div>
+        </div></div>
+    </div>
+</div>
+                                                            </li>
+                                                    <li data-devices="all" class="menu-item">
+                                                                    <a href="https://www.mouratoglou.com/en/our-30th-anniversary/" class="menu-link">30 YEARS</a>
+                                                            </li>
+                                            </ul><div class="language-switcher menu-language-switcher"><button type="button" aria-haspopup="true" aria-expanded="false" class="language-switcher-toggle">
+            EN
+            <svg aria-hidden="true" class="language-switcher-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </button><ul class="language-switcher-list">
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/" class="language-switcher-link">FR</a>
+            </li>
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/it/" class="language-switcher-link">IT</a>
+            </li>
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/de/" class="language-switcher-link">DE</a>
+            </li>
+            </ul>
+</div><div class="menu-footer">
+                                <button data-open="booking" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step_name&quot;:&quot;start&quot;}" class="button button--fill button--accent menu-button" type="button"><span class="button-label">Book</span></button>
+
+                            </div></div>
+            </nav>
+            
+            <ul class="header-actions"><li class="header-actions-item">
+                            <button data-open="booking" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step_name&quot;:&quot;start&quot;}" class="button button--fill button--accent header-actions-button" type="button"><span class="button-label">Book</span></button>
+
+                        </li><li class="header-actions-item">
+                            <button data-open="contact" class="button button--fill header-actions-button" type="button"><span class="button-label header-actions-label">Contact</span><svg aria-hidden="true" class="header-actions-icon icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_953_74)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.66675 6.25978L2.34701 1.83597C2.42605 1.36379 2.83999 1 3.33341 1H14.0001C14.4935 1 14.9074 1.36379 14.9865 1.83597L8.66675 6.25978ZM8.85788 6.93973L15.0001 2.64022V10C15.0001 10.5493 14.5493 11 14.0001 11H11.1689C11.2236 11.0451 11.2745 11.0953 11.3209 11.1501C11.448 11.3 11.5353 11.4776 11.5771 11.6667H14.0001C14.9175 11.6667 15.6667 10.9174 15.6667 10V2C15.6667 1.08257 14.9175 0.333333 14.0001 0.333333H3.33341C2.41599 0.333333 1.66675 1.08257 1.66675 2V3.89768H2.33341V2.64022L8.47561 6.93973C8.59035 7.02007 8.74315 7.02007 8.85788 6.93973Z" fill="white"/>
+<path d="M10.6108 12.7934V14.2934C10.6113 14.4326 10.5828 14.5705 10.5271 14.6981C10.4713 14.8257 10.3895 14.9402 10.2868 15.0343C10.1842 15.1285 10.0631 15.2001 9.93115 15.2447C9.79928 15.2893 9.65948 15.3059 9.52081 15.2934C7.98221 15.1262 6.50431 14.6005 5.20581 13.7584C3.99772 12.9907 2.97347 11.9665 2.20581 10.7584C1.36079 9.454 0.834928 7.96887 0.670808 6.42338C0.658311 6.28511 0.674741 6.14576 0.719054 6.01419C0.763368 5.88263 0.834594 5.76173 0.928188 5.65919C1.02179 5.55666 1.13571 5.47473 1.2627 5.41864C1.38969 5.36255 1.52697 5.33351 1.66581 5.33338H3.16581C3.40846 5.33099 3.6437 5.41692 3.82769 5.57515C4.01167 5.73337 4.13185 5.95311 4.16581 6.19338C4.22911 6.6734 4.34653 7.14473 4.51581 7.5984C4.58308 7.77733 4.59763 7.97187 4.55776 8.1588C4.51788 8.3458 4.42524 8.51747 4.29081 8.6534L3.65581 9.2884C4.36758 10.5401 5.40403 11.5766 6.65581 12.2884L7.29081 11.6534C7.42675 11.5189 7.59841 11.4263 7.78535 11.3864C7.97235 11.3465 8.16681 11.3611 8.34581 11.4284C8.79941 11.5977 9.27075 11.7151 9.75081 11.7784C9.99368 11.8127 10.2155 11.935 10.3741 12.1221C10.5326 12.3093 10.6169 12.5482 10.6108 12.7934Z" stroke="white" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_953_74">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</button>
+
+                        </li></ul>
+
+            <div class="language-switcher header-language-switcher"><button type="button" aria-haspopup="true" aria-expanded="false" class="language-switcher-toggle">
+            EN
+            <svg aria-hidden="true" class="language-switcher-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </button><ul class="language-switcher-list">
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/" class="language-switcher-link">FR</a>
+            </li>
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/it/" class="language-switcher-link">IT</a>
+            </li>
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/de/" class="language-switcher-link">DE</a>
+            </li>
+            </ul>
+</div>
+        </div>
+    </div>
+</header>
+
+        
+                <main id="main-content" role="main" class="wrapper">
+            <section class="hero section"><div class="hero-background media-cover">
+                <video poster="" autoplay loop muted><source src="https://www.mouratoglou.com/wp-content/uploads/2025/08/8111301f-7edf-4bc3-b199-cb58889b0e49-NEWBOUCLESITEV6LIGHT1.mp4"></video>
+            </div><div class="container">
+                <div class="hero-inner">
+            <div class="hero-content"><h1 class="hero-kicker">Mouratoglou Tennis Academy in Biot (French Riviera, France)</h1>
+
+                <p class="hero-title h100">A unique training experience</p>  
+            </div><nav data-theme="light" class="hero-nav"><button type="button" data-open="guide" data-click-event="{&quot;event&quot;:&quot;search_journey&quot;,&quot;search_step_name&quot;:&quot;start&quot;}" class="hero-guide">
+                        <svg aria-hidden="true" class="hero-guide-icon icon" viewBox="0 0 17 16">
+    <path d="M14.8309 14L11.9309 11.1M13.4975 7.33334C13.4975 10.2789 11.1098 12.6666 8.16421 12.6666C5.21869 12.6666 2.83087 10.2789 2.83087 7.33334C2.83087 4.38782 5.21869 2 8.16421 2C11.1098 2 13.4975 4.38782 13.4975 7.33334Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                        What are you looking for?
+                    </button>
+                </nav></div>
+            </div></section><section data-theme="light" class="tagline section"><p class="tagline-wrapper lines" style="--length: 13">
+                            <span class="tagline-line lines-item">
+                    <span class="tagline-line-inner lines-wrapper">The N°1</span>
+                </span>
+                            <span class="tagline-line lines-item">
+                    <span class="tagline-line-inner lines-wrapper">Tennis Academy</span>
+                </span>
+                            <span class="tagline-line lines-item">
+                    <span class="tagline-line-inner lines-wrapper">in Europe</span>
+                </span>
+                    </p><div class="container container--md">
+                <div class="tagline-text cms cms--large"><p><span style="color:#000000;"><strong>TENNIS ACADEMY, FRENCH RIVIERA</strong></span></p>
+<p><span style="color:#000000;">Renowned worldwide since its creation in 1996, the Mouratoglou Academy represents sporting excellence. Located between Nice and Cannes, in the heart of the French Riviera, the 32-acre campus features an outstanding complex with state-of-the-art facilities. Over the past 25 years, the Academy has helped hundreds of players from around the globe realize their dreams through a personalized tennis and educational training programme tailored to each athlete.</span></p>
+</div>
+            </div></section><section data-theme="dark" class="camp-types section"><div class="container">
+                <h2 class="section-title h100">Our camps</h2>
+
+        <div class="camp-types-wrapper">
+            <p class="camp-types-title h350">Every age,<br> every level,<br> every week of the year</p>
+
+            <div class="camp-types-content"><div class="camp-types-section">
+                        <p class="camp-types-category h500">By profile</p>
+
+                        <ul class="camp-types-list"><li class="camp-types-item">
+                                    <article class="camp-type-card"><div class="camp-type-card-image media-cover">
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/3e094f8a-5b40-439e-8f0e-5ce70266fbbc-0R6A4054-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/3e094f8a-5b40-439e-8f0e-5ce70266fbbc-0R6A4054-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/3e094f8a-5b40-439e-8f0e-5ce70266fbbc-0R6A4054-918x918-c-center.webp 2x" alt="stage tennis adulte semaine intensif" width="459" height="459" loading="lazy" class="camp-type-card-background">
+                                    
+                                                <p aria-hidden="true" class="camp-type-card-title" style="--length: 6">Adults</p>
+                                    
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/e45b4327-dc3c-4fc7-abdc-80599c7fbe46-dtourage-site-1-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/e45b4327-dc3c-4fc7-abdc-80599c7fbe46-dtourage-site-1-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/e45b4327-dc3c-4fc7-abdc-80599c7fbe46-dtourage-site-1-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-foreground">
+                                            </div><a href="https://www.mouratoglou.com/en/types/adults/ " class="tertiary-button camp-type-card-link"><svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <h3 class="tertiary-button-label">Adults</h3>
+    <svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+
+                                    </article>
+                                </li><li class="camp-types-item">
+                                    <article class="camp-type-card"><div class="camp-type-card-image media-cover">
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/4c75a7a7-e4c4-4d9e-af2a-c301e5b1f823-8a5584cb-f2e5-4b52-bc2b-e2bf2be5bc88-JUL01392-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/4c75a7a7-e4c4-4d9e-af2a-c301e5b1f823-8a5584cb-f2e5-4b52-bc2b-e2bf2be5bc88-JUL01392-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/4c75a7a7-e4c4-4d9e-af2a-c301e5b1f823-8a5584cb-f2e5-4b52-bc2b-e2bf2be5bc88-JUL01392-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-background">
+                                    
+                                                <p aria-hidden="true" class="camp-type-card-title" style="--length: 7">Juniors</p>
+                                    
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/ffe1b50c-94cd-4fc1-9c27-1b298328856f-detourage-site-6-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/ffe1b50c-94cd-4fc1-9c27-1b298328856f-detourage-site-6-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/ffe1b50c-94cd-4fc1-9c27-1b298328856f-detourage-site-6-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-foreground">
+                                            </div><a href="https://www.mouratoglou.com/en/types/junior/" class="tertiary-button camp-type-card-link"><svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <h3 class="tertiary-button-label">Juniors (6 to 17 years old)</h3>
+    <svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+
+                                    </article>
+                                </li></ul>
+                    </div><div class="camp-types-section">
+                        <p class="camp-types-category h500">By duration</p>
+
+                        <ul class="camp-types-list"><li class="camp-types-item">
+                                    <article class="camp-type-card"><div class="camp-type-card-image media-cover">
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/b48cebe5-912a-4d89-aef1-1dc3c222beb1-JUL025232-scaled-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/b48cebe5-912a-4d89-aef1-1dc3c222beb1-JUL025232-scaled-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/b48cebe5-912a-4d89-aef1-1dc3c222beb1-JUL025232-scaled-918x918-c-center.webp 2x" alt="stage semaine fille mouratoglou" width="459" height="459" loading="lazy" class="camp-type-card-background">
+                                    
+                                                <p aria-hidden="true" class="camp-type-card-title" style="--length: 6">WEEKLY</p>
+                                    
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/17f8f70b-313e-4bf2-bb1c-942223b8e0f3-detourage-site-7-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/17f8f70b-313e-4bf2-bb1c-942223b8e0f3-detourage-site-7-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/17f8f70b-313e-4bf2-bb1c-942223b8e0f3-detourage-site-7-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-foreground">
+                                            </div><a href="https://www.mouratoglou.com/en/stages/?duree=2-weeks-full-days%2Cmonday-to-saturday-mornings%2Cfrom-monday-to-friday%2Cmonday-to-friday-morning%2Cmonday-to-friday-night-sessions" class="tertiary-button camp-type-card-link"><svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <h3 class="tertiary-button-label">Week</h3>
+    <svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+
+                                    </article>
+                                </li><li class="camp-types-item">
+                                    <article class="camp-type-card"><div class="camp-type-card-image media-cover">
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/40aef523-f1cd-4a74-a0d3-cd10fa98e31a-0R6A36425-scaled-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/40aef523-f1cd-4a74-a0d3-cd10fa98e31a-0R6A36425-scaled-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/40aef523-f1cd-4a74-a0d3-cd10fa98e31a-0R6A36425-scaled-918x918-c-center.webp 2x" alt="Two tennis players celebrating with a high-five on court during a training session." width="459" height="459" loading="lazy" class="camp-type-card-background">
+                                    
+                                                <p aria-hidden="true" class="camp-type-card-title" style="--length: 7">WEEKEND</p>
+                                    
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/0e6d6d40-6b79-4c5e-a389-0877049b7709-dtourage-site-3-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/0e6d6d40-6b79-4c5e-a389-0877049b7709-dtourage-site-3-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/0e6d6d40-6b79-4c5e-a389-0877049b7709-dtourage-site-3-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-foreground">
+                                            </div><a href="https://www.mouratoglou.com/en/stages/?duree=saturday-sunday%2Csaturday-sunday-morning" class="tertiary-button camp-type-card-link"><svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <h3 class="tertiary-button-label">Weekend</h3>
+    <svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+
+                                    </article>
+                                </li></ul>
+                    </div><div class="camp-types-section">
+                        <p class="camp-types-category h500">By type</p>
+
+                        <ul class="camp-types-list"><li class="camp-types-item">
+                                    <article class="camp-type-card"><div class="camp-type-card-image media-cover">
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/732752a9-ec6e-4078-94ae-0bd13ff3169a-JUL013442-scaled-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/732752a9-ec6e-4078-94ae-0bd13ff3169a-JUL013442-scaled-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/732752a9-ec6e-4078-94ae-0bd13ff3169a-JUL013442-scaled-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-background">
+                                    
+                                                <p aria-hidden="true" class="camp-type-card-title" style="--length: 6">TENNIS</p>
+                                    
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/29ffedba-ec33-41b2-9405-d6bab60d9330-detourage-site-8-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/29ffedba-ec33-41b2-9405-d6bab60d9330-detourage-site-8-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/29ffedba-ec33-41b2-9405-d6bab60d9330-detourage-site-8-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-foreground">
+                                            </div><a href="https://www.mouratoglou.com/en/stages/" class="tertiary-button camp-type-card-link"><svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <h3 class="tertiary-button-label">Tennis</h3>
+    <svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+
+                                    </article>
+                                </li><li class="camp-types-item">
+                                    <article class="camp-type-card"><div class="camp-type-card-image media-cover">
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/20ee5763-24c8-4e72-aa52-52f3393ca99a-shutterstock2512448411-IA1b-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/20ee5763-24c8-4e72-aa52-52f3393ca99a-shutterstock2512448411-IA1b-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/20ee5763-24c8-4e72-aa52-52f3393ca99a-shutterstock2512448411-IA1b-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-background">
+                                    
+                                                <p aria-hidden="true" class="camp-type-card-title" style="--length: 4">GOLF</p>
+                                    
+                                                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/88c3c2d8-2f03-4715-b5b1-17baedebc8c2-shutterstock2512448411-IA1a-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/88c3c2d8-2f03-4715-b5b1-17baedebc8c2-shutterstock2512448411-IA1a-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/88c3c2d8-2f03-4715-b5b1-17baedebc8c2-shutterstock2512448411-IA1a-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy" class="camp-type-card-foreground">
+                                            </div><a href="https://www.mouratoglou.com/en/stages/youth-tennis-golf-clinic-week-full-days/" class="tertiary-button camp-type-card-link"><svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <h3 class="tertiary-button-label">Golf & Tennis</h3>
+    <svg aria-hidden="true" class="tertiary-button-icon icon" viewBox="0 0 16 16">
+    <path d="M0 8H15.679M15.679 8L13.7002 6.0426M15.679 8L13.7002 9.9574" stroke="white" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+
+                                    </article>
+                                </li></ul>
+                    </div></div>
+        </div>
+            </div></section><section data-theme="light" data-decoration="content" class="mixed section"><div class="container container--md">
+                <h2 class="section-title h100">Tennis & school program</h2>
+
+        <div class="mixed-wrapper"><img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/b1654609-263f-4e40-83f5-6a0610b088a4-6J7A436111-832x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/b1654609-263f-4e40-83f5-6a0610b088a4-6J7A436111-832x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/b1654609-263f-4e40-83f5-6a0610b088a4-6J7A436111-1664x0-c-default.webp 2x" alt="graduation remise des diplomes mouratoglou" width="832" height="705" loading="lazy" class="mixed-image"><div class="mixed-content">
+                <h3 class="mixed-title h300">Top-level sports and academic training</h3>
+
+                <div class="mixed-text cms cms--large"><p>With over 250 students and state-of-the-art facilities, the Mouratoglou Academy is the No. 1 tennis academy in Europe. Our mission? To help your child achieve their goals through intensive training and academic excellence.</p>
+<p>Our goal is to guide and support them as they push their limits and reach their full potential. We believe that consistent hard work is the key to success. In our multicultural environment, each student has the opportunity to embrace new cultures, explore diverse perspectives, and challenge themselves daily—both in the classroom and on the court.</p>
+<p>&nbsp;</p>
+</div><div class="section-actions">
+                        <ul class="section-actions-list"><li class="section-actions-item">
+                                    <a href="https://www.mouratoglou.com/en/tennis-and-school/" class="button button--fill section-actions-button"><span class="button-label">Discover</span></a>
+
+                                </li></ul>
+                    </div></div>
+        </div>
+            </div></section><section data-theme="dark" class="key-info section"><div class="container">
+                
+
+        <ul class="key-info-list key-info-list--center"><li class="key-info-item">
+                    <span class="key-info-title">Boarding</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Secondary school</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Campus</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Medical follow-up</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Dedicated Integrity coaching</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Passion</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Respect</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Perseverance</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Ambition</span>
+                </li><li class="key-info-item">
+                    <span class="key-info-title">Determination</span>
+                </li></ul>
+            </div></section><section data-theme="light" data-layout="reverse" data-decoration="image" class="mixed section"><div class="container container--md">
+                <h2 class="section-title h100">The Academy</h2>
+
+        <div class="mixed-wrapper"><img  src="https://www.mouratoglou.com/wp-content/uploads/2025/11/8e8edec0-601b-4371-8873-bc797eb3a50a-PHOTO4DRONEACADEMYSCREEN-832x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/11/8e8edec0-601b-4371-8873-bc797eb3a50a-PHOTO4DRONEACADEMYSCREEN-832x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/11/8e8edec0-601b-4371-8873-bc797eb3a50a-PHOTO4DRONEACADEMYSCREEN-1664x0-c-default.webp 2x" alt="Drone view - Mouratoglou Academy" width="832" height="468" loading="lazy" class="mixed-image"><div class="mixed-content">
+                <h3 class="mixed-title h300">The Mouratoglou Academy has been developing champions for 30 years</h3>
+
+                <div class="mixed-text cms cms--large"><p><span style="color:#000000;">The Mouratoglou Academy, a global leader in tennis, welcomes over 5,000 trainees and 250 students annually. Known for its commitment to excellence, it serves as a training hub for some of the world&#8217;s greatest international champions while providing a dynamic environment for young talent. The Academy seamlessly combines academics with elite-level training, fostering both athletic and personal growth.</span></p>
+</div><div class="section-actions">
+                        <ul class="section-actions-list"><li class="section-actions-item">
+                                    <a href="https://www.mouratoglou.com/en/academy/" class="button button--fill section-actions-button"><span class="button-label">The Mouratoglou Academy</span></a>
+
+                                </li></ul>
+                    </div></div>
+        </div>
+            </div></section><section data-theme="dark" data-devices="all" class="professionals slider section"><div class="container">
+                <h2 class="section-title h100">Our ambassadors</h2><div class="slider-wrapper">
+    <ul class="slider-track"><li class="slider-item">
+                        <article class="pro-card">
+            <div class="pro-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/fef1de2e-869a-41a5-a3cf-ab82c61645ce-Roma5-e1733322570254-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/fef1de2e-869a-41a5-a3cf-ab82c61645ce-Roma5-e1733322570254-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/fef1de2e-869a-41a5-a3cf-ab82c61645ce-Roma5-e1733322570254-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div>
+    
+    <h3 class="pro-card-title h300">Holger Rune</h3><p class="pro-card-ranking">Best ATP ranking <span class="pro-card-ranking-score">4</span></p><a href="https://www.mouratoglou.com/en/Professionals/holger-rune/" data-theme="light" class="secondary-button pro-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir Holger Rune</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+
+                    </li><li class="slider-item">
+                        <article class="pro-card">
+            <div class="pro-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/2892fe21-7960-4e05-9eb2-f348b4bcb652-IMG2202-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/2892fe21-7960-4e05-9eb2-f348b4bcb652-IMG2202-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/2892fe21-7960-4e05-9eb2-f348b4bcb652-IMG2202-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div>
+    
+    <h3 class="pro-card-title h300">Stefanos Tsitsipas</h3><p class="pro-card-ranking">Best ATP ranking <span class="pro-card-ranking-score">3</span></p><a href="https://www.mouratoglou.com/en/Professionals/stefanos-tsitsipas/" data-theme="light" class="secondary-button pro-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir Stefanos Tsitsipas</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+
+                    </li><li class="slider-item">
+                        <article class="pro-card">
+            <div class="pro-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/fc50b768-2d3c-45ee-984a-697d03b6fa93-CocoGauffMiami2024fist-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/fc50b768-2d3c-45ee-984a-697d03b6fa93-CocoGauffMiami2024fist-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/fc50b768-2d3c-45ee-984a-697d03b6fa93-CocoGauffMiami2024fist-918x918-c-center.webp 2x" alt="Coco Gauff Win" width="459" height="459" loading="lazy">
+        </div>
+    
+    <h3 class="pro-card-title h300">Coco Gauff</h3><p class="pro-card-ranking">Best WTA ranking <span class="pro-card-ranking-score">2</span></p><a href="https://www.mouratoglou.com/en/Professionals/coco-gauff/" data-theme="light" class="secondary-button pro-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir Coco Gauff</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+
+                    </li><li class="slider-item">
+                        <article class="pro-card">
+            <div class="pro-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/7d871406-4a85-46f4-b13e-566bce7d1cce-PANORAMIC2830520004-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/7d871406-4a85-46f4-b13e-566bce7d1cce-PANORAMIC2830520004-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/7d871406-4a85-46f4-b13e-566bce7d1cce-PANORAMIC2830520004-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div>
+    
+    <h3 class="pro-card-title h300">Brenda Fruhvirtova</h3><p class="pro-card-ranking">Best WTA ranking <span class="pro-card-ranking-score">87</span></p><a href="https://www.mouratoglou.com/en/Professionals/brenda-fruhvirtova/" data-theme="light" class="secondary-button pro-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir Brenda Fruhvirtova</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+
+                    </li><li class="slider-item">
+                        <article class="pro-card">
+            <div class="pro-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/6c77313b-9ec6-4959-9cd0-c0792f30fe04-PANORAMIC2700350110-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/6c77313b-9ec6-4959-9cd0-c0792f30fe04-PANORAMIC2700350110-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/6c77313b-9ec6-4959-9cd0-c0792f30fe04-PANORAMIC2700350110-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div>
+    
+    <h3 class="pro-card-title h300">Linda Fruhvirtova</h3><p class="pro-card-ranking">Best WTA ranking <span class="pro-card-ranking-score">49</span></p><a href="https://www.mouratoglou.com/en/Professionals/linda-fruhvirtova/" data-theme="light" class="secondary-button pro-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir Linda Fruhvirtova</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+
+                    </li><li class="slider-item">
+                        <article class="pro-card">
+            <div class="pro-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/4d0efadc-227d-4827-b07d-8ff9412e01de-US24ac07246-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/4d0efadc-227d-4827-b07d-8ff9412e01de-US24ac07246-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/4d0efadc-227d-4827-b07d-8ff9412e01de-US24ac07246-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div>
+    
+    <h3 class="pro-card-title h300">Alexei Popyrin</h3><p class="pro-card-ranking">Best ATP ranking <span class="pro-card-ranking-score">23</span></p><a href="https://www.mouratoglou.com/en/Professionals/alexei-popyrin/" data-theme="light" class="secondary-button pro-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir Alexei Popyrin</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+
+                    </li></ul>
+</div><div class="slider-controls"><div class="slider-scrollbar">
+                <div class="slider-scrollbar-handle"></div>
+            </div><div class="slider-arrows">
+                <button type="button" aria-label="Previous" class="slider-arrow slider-arrow--prev">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+
+                <button type="button" aria-label="Next" class="slider-arrow slider-arrow--next">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div></div>
+            </div></section><section data-theme="light" data-devices="all" class="coaching-corner slider section"><div class="container">
+                <h2 class="section-title h100">Coaching Corner</h2><div class="slider-wrapper">
+    <ul class="slider-track"><li class="slider-item">
+                        <article class="post-card">
+                    <div class="post-card-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/e2d0a68b-3860-4c54-9cec-e88301a32c81-JUL009191-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/e2d0a68b-3860-4c54-9cec-e88301a32c81-JUL009191-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/e2d0a68b-3860-4c54-9cec-e88301a32c81-JUL009191-918x918-c-center.webp 2x" alt="stage tennis patrick mouratoglou" width="459" height="459" loading="lazy">
+            </div>
+        <h3 class="post-card-title h300">Guide: choosing strings for your tennis racket</h3>
+
+        <time class="post-card-date">18.12.2024</time>
+
+        <a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/tennis-equipment/guide-choosing-strings-for-your-tennis-racket/" data-theme="light" class="secondary-button post-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir les conseils</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+    </article>
+                    </li><li class="slider-item">
+                        <article class="post-card">
+                    <div class="post-card-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/8a5584cb-f2e5-4b52-bc2b-e2bf2be5bc88-JUL01392-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/8a5584cb-f2e5-4b52-bc2b-e2bf2be5bc88-JUL01392-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/8a5584cb-f2e5-4b52-bc2b-e2bf2be5bc88-JUL01392-918x918-c-center.webp 2x" alt="stage tennis adolescents mouratoglou" width="459" height="459" loading="lazy">
+            </div>
+        <h3 class="post-card-title h300">Backhand volley technique in tennis</h3>
+
+        <time class="post-card-date">18.12.2024</time>
+
+        <a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/tennis-technique/backhand-volley-technique-in-tennis-2/" data-theme="light" class="secondary-button post-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir les conseils</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+    </article>
+                    </li><li class="slider-item">
+                        <article class="post-card">
+                    <div class="post-card-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/f970052b-1c32-48e1-9453-52828d58d49a-JUL00778111-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/f970052b-1c32-48e1-9453-52828d58d49a-JUL00778111-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/f970052b-1c32-48e1-9453-52828d58d49a-JUL00778111-918x918-c-center.webp 2x" alt="Tennis coach talking with a player during a training break on the court" width="459" height="459" loading="lazy">
+            </div>
+        <h3 class="post-card-title h300">5 pre-match routines to help you prepare for your tennis match</h3>
+
+        <time class="post-card-date">10.12.2024</time>
+
+        <a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/physical-and-mental-preparation/5-pre-match-routines-to-help-you-prepare-for-your-tennis-match/" data-theme="light" class="secondary-button post-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir les conseils</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+    </article>
+                    </li><li class="slider-item">
+                        <article class="post-card">
+                    <div class="post-card-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/22924e15-e915-4314-888e-a153e4439964-JUL004072-scaled-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/22924e15-e915-4314-888e-a153e4439964-JUL004072-scaled-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/22924e15-e915-4314-888e-a153e4439964-JUL004072-scaled-918x918-c-center.webp 2x" alt="Patrick mouratoglou observing a player during a match on a blue court." width="459" height="459" loading="lazy">
+            </div>
+        <h3 class="post-card-title h300">How to work on your tennis technique: The complete guide</h3>
+
+        <time class="post-card-date">10.12.2024</time>
+
+        <a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/tennis-technique/how-to-work-on-your-tennis-technique-the-complete-guide/" data-theme="light" class="secondary-button post-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir les conseils</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+    </article>
+                    </li><li class="slider-item">
+                        <article class="post-card">
+                    <div class="post-card-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/ca5f4662-1cb1-444f-91a7-2c544d401c47-DSC08115-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/ca5f4662-1cb1-444f-91a7-2c544d401c47-DSC08115-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/ca5f4662-1cb1-444f-91a7-2c544d401c47-DSC08115-918x918-c-center.webp 2x" alt="Coco Gauff tennis pad" width="459" height="459" loading="lazy">
+            </div>
+        <h3 class="post-card-title h300">Tennis volley technique</h3>
+
+        <time class="post-card-date">10.12.2024</time>
+
+        <a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/tennis-technique/tennis-volley-technique/" data-theme="light" class="secondary-button post-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir les conseils</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+    </article>
+                    </li><li class="slider-item">
+                        <article class="post-card">
+                    <div class="post-card-image media-cover">
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/432d9a0b-c6a2-4a17-83bc-fc0e1d3a2de4-DSC09401-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/432d9a0b-c6a2-4a17-83bc-fc0e1d3a2de4-DSC09401-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/432d9a0b-c6a2-4a17-83bc-fc0e1d3a2de4-DSC09401-918x918-c-center.webp 2x" alt="tennis cote d&#039;azur adult training course service" width="459" height="459" loading="lazy">
+            </div>
+        <h3 class="post-card-title h300">Tennis smash technique</h3>
+
+        <time class="post-card-date">10.12.2024</time>
+
+        <a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/tennis-technique/tennis-smash-technique/" data-theme="light" class="secondary-button post-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Découvrir les conseils</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+    </article>
+                    </li></ul>
+</div><div class="slider-controls"><div class="slider-scrollbar">
+                <div class="slider-scrollbar-handle"></div>
+            </div><div class="slider-arrows">
+                <button type="button" aria-label="Previous" class="slider-arrow slider-arrow--prev">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+
+                <button type="button" aria-label="Next" class="slider-arrow slider-arrow--next">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div></div>
+            </div></section><section data-theme="dark" class="tennis-centers section"><div class="container">
+                <h2 class="section-title h100">Mouratoglou International</h2>
+
+        <div role="tablist" class="tennis-centers-tabs"><button type="button" role="tab" aria-selected="true" class="tennis-centers-tab">ASIA</button><button type="button" role="tab" class="tennis-centers-tab">EUROPE</button><button type="button" role="tab" class="tennis-centers-tab">MIDDLE EAST &amp; AFRICA</button><button type="button" role="tab" class="tennis-centers-tab">NORTH AMERICA</button><button type="button" role="tab" class="tennis-centers-tab">LATIN AMERICA</button></div><div role="tabpanel" data-devices="all" class="tennis-centers-panel slider"><div class="slider-wrapper">
+    <ul class="slider-track"><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/02/4a98c3ab-3659-46db-af95-22e24426647c-DSC06784-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/02/4a98c3ab-3659-46db-af95-22e24426647c-DSC06784-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/02/4a98c3ab-3659-46db-af95-22e24426647c-DSC06784-918x918-c-center.webp 2x" alt="Outdoor tennis court surrounded by tropical landscape at Mouratoglou Tennis Center Bali." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&</li><li class="center-card-tag">PADEL</li><li class="center-card-tag">&</li><li class="center-card-tag">PICKLEBALL</li></ul><h3 class="center-card-title h300">Bali, Indonesia</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/bali/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/8dd81da7-1944-4b78-ac55-c07954a06526-DJI202312131131140029D2-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/8dd81da7-1944-4b78-ac55-c07954a06526-DJI202312131131140029D2-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/8dd81da7-1944-4b78-ac55-c07954a06526-DJI202312131131140029D2-918x918-c-center.webp 2x" alt="Aerial view of the Mouratoglou tennis Academy in Malaysia with multiple outdoor blue courts." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&amp;</li><li class="center-card-tag">SCHOOL</li></ul><h3 class="center-card-title h300">Kuala Lumpur, Malaysia</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/kuala-lumpur/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li></ul>
+</div><div class="slider-controls"><div class="slider-scrollbar">
+                <div class="slider-scrollbar-handle"></div>
+            </div><div class="slider-arrows">
+                <button type="button" aria-label="Previous" class="slider-arrow slider-arrow--prev">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+
+                <button type="button" aria-label="Next" class="slider-arrow slider-arrow--next">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div></div></div><div role="tabpanel" inert data-devices="all" class="tennis-centers-panel slider"><div class="slider-wrapper">
+    <ul class="slider-track"><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/05/59894839-52de-4fde-9307-e41e9710eb11-DasDrone001-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/05/59894839-52de-4fde-9307-e41e9710eb11-DasDrone001-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/05/59894839-52de-4fde-9307-e41e9710eb11-DasDrone001-918x918-c-center.webp 2x" alt="Aerial view of Mouratoglou Tennis Center Bodrum with outdoor tennis and padel courts overlooking the sea at Mandarin Oriental Bodrum." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS</li><li class="center-card-tag">&</li><li class="center-card-tag">PADEL</li></ul><h3 class="center-card-title h300">Bodrum, Turkey</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/bodrum/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/03/35a476c4-0e8b-49ad-9659-7f76e4c2abed-DJI09571-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/03/35a476c4-0e8b-49ad-9659-7f76e4c2abed-DJI09571-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/03/35a476c4-0e8b-49ad-9659-7f76e4c2abed-DJI09571-918x918-c-center.webp 2x" alt="Aerial view of Mouratoglou Tennis Center Calatrava in Spain." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&</li><li class="center-card-tag">PADEL</li></ul><h3 class="center-card-title h300">Calatrava, Spain</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/calatrava/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/cdba57f6-3afd-4601-aa36-e05405b4e5d2-CopiedeDJI01111-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/cdba57f6-3afd-4601-aa36-e05405b4e5d2-CopiedeDJI01111-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/cdba57f6-3afd-4601-aa36-e05405b4e5d2-CopiedeDJI01111-918x918-c-center.webp 2x" alt="Aerial view of tennis courts near the coastline surrounded by nature." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&</li><li class="center-card-tag">PADEL</li><li class="center-card-tag">&</li><li class="center-card-tag">PICKLEBALL</li></ul><h3 class="center-card-title h300">Costa Navarino, Greece</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/costa-navarino/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/03/48fa69f5-e09e-4c0d-bd00-b210a44deca1-TennisPadelfootbal-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/03/48fa69f5-e09e-4c0d-bd00-b210a44deca1-TennisPadelfootbal-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/03/48fa69f5-e09e-4c0d-bd00-b210a44deca1-TennisPadelfootbal-918x918-c-center.webp 2x" alt="Aerial view of tennis courts, padel courts and football field at Mouratoglou Tennis Center Cala di Volpe in Costa Smeralda, Sardinia." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS</li><li class="center-card-tag">&</li><li class="center-card-tag">PADEL</li></ul><h3 class="center-card-title h300">Sardinia, Italy</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/cala-di-volpe/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li></ul>
+</div><div class="slider-controls"><div class="slider-scrollbar">
+                <div class="slider-scrollbar-handle"></div>
+            </div><div class="slider-arrows">
+                <button type="button" aria-label="Previous" class="slider-arrow slider-arrow--prev">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+
+                <button type="button" aria-label="Next" class="slider-arrow slider-arrow--next">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div></div></div><div role="tabpanel" inert data-devices="all" class="tennis-centers-panel slider"><div class="slider-wrapper">
+    <ul class="slider-track"><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/01/39db52b3-4175-45eb-90cb-6e4f1f8faf0b-TennisCourt1-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/01/39db52b3-4175-45eb-90cb-6e4f1f8faf0b-TennisCourt1-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2025/01/39db52b3-4175-45eb-90cb-6e4f1f8faf0b-TennisCourt1-918x918-c-center.webp 2x" alt="Aerial view of multiple red clay tennis courts arranged in a grid layout" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li></ul><h3 class="center-card-title h300">Cairo, Egypt</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/egypt-cairo/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/01/64cd4520-3cdc-4beb-b98c-e65636856200-pexels-timo-volz-837240-3769312-scaled-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/01/64cd4520-3cdc-4beb-b98c-e65636856200-pexels-timo-volz-837240-3769312-scaled-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/01/64cd4520-3cdc-4beb-b98c-e65636856200-pexels-timo-volz-837240-3769312-scaled-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div><h3 class="center-card-title h300">Dubaï, UAE &#8211; Coming Soon</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/dubai-coming-soon/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/11/2ad24b44-131e-4325-8690-73950a77f6ba-MTC-LaunchShoot08x3a25242-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/11/2ad24b44-131e-4325-8690-73950a77f6ba-MTC-LaunchShoot08x3a25242-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2025/11/2ad24b44-131e-4325-8690-73950a77f6ba-MTC-LaunchShoot08x3a25242-918x918-c-center.webp 2x" alt="Mouratoglou Tennis Center Hudayriyat Island court overlooking the Arabian Gulf under the soft Abu Dhabi light." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li></ul><h3 class="center-card-title h300">Hudayriyat Island, UAE</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/hudayriyat-island/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li></ul>
+</div><div class="slider-controls"><div class="slider-scrollbar">
+                <div class="slider-scrollbar-handle"></div>
+            </div><div class="slider-arrows">
+                <button type="button" aria-label="Previous" class="slider-arrow slider-arrow--prev">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+
+                <button type="button" aria-label="Next" class="slider-arrow slider-arrow--next">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div></div></div><div role="tabpanel" inert data-devices="all" class="tennis-centers-panel slider"><div class="slider-wrapper">
+    <ul class="slider-track"><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/07/74093b6e-1995-420f-99f4-5d3f08434c14-DJI202504130128570009D-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/07/74093b6e-1995-420f-99f4-5d3f08434c14-DJI202504130128570009D-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2025/07/74093b6e-1995-420f-99f4-5d3f08434c14-DJI202504130128570009D-918x918-c-center.webp 2x" alt="Three Mouratoglou Tennis Center courts surrounded by palm trees and sunshine" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&</li><li class="center-card-tag">PICKLEBALL</li></ul><h3 class="center-card-title h300">Amelia Island, Florida</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/amelia-island-florida/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/12/3d03294b-99e5-428c-b889-7e95c0b816d2-WhatsAppImage2025-06-18at05.01.143-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/12/3d03294b-99e5-428c-b889-7e95c0b816d2-WhatsAppImage2025-06-18at05.01.143-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2025/12/3d03294b-99e5-428c-b889-7e95c0b816d2-WhatsAppImage2025-06-18at05.01.143-918x918-c-center.webp 2x" alt="Mouratoglou Academy Atlanta tennis courts with players training under professional coaching" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&amp;</li><li class="center-card-tag">SCHOOL</li></ul><h3 class="center-card-title h300">Atlanta, Georgia</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/atlanta/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/03/2e1b84f2-d8cb-41d3-b96f-9499c624613c-a79f759e-e6fc-4333-880a-f6d457a2b996-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/03/2e1b84f2-d8cb-41d3-b96f-9499c624613c-a79f759e-e6fc-4333-880a-f6d457a2b996-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/03/2e1b84f2-d8cb-41d3-b96f-9499c624613c-a79f759e-e6fc-4333-880a-f6d457a2b996-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li></ul><h3 class="center-card-title h300">Boca Raton, Florida</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/boca-raton-florida/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/02/e6de1fee-44a2-4c34-bce3-d9bfeafade9f-vlcsnap-2026-02-17-12h33m03s7741-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/02/e6de1fee-44a2-4c34-bce3-d9bfeafade9f-vlcsnap-2026-02-17-12h33m03s7741-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/02/e6de1fee-44a2-4c34-bce3-d9bfeafade9f-vlcsnap-2026-02-17-12h33m03s7741-918x918-c-center.webp 2x" alt="Aerial view of Mouratoglou Tennis Center Boston courts" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li></ul><h3 class="center-card-title h300">Boston, Massachusetts</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/boston/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/96cb5cfb-fc3a-4346-bfb2-0545257d6401-DJI202405302226020024D-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/96cb5cfb-fc3a-4346-bfb2-0545257d6401-DJI202405302226020024D-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/96cb5cfb-fc3a-4346-bfb2-0545257d6401-DJI202405302226020024D-918x918-c-center.webp 2x" alt="Aerial view of red clay tennis courts at Mouratoglou Tennis Center Horseshoe Bay." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&amp;</li><li class="center-card-tag">PICKLEBALL</li></ul><h3 class="center-card-title h300">Horseshoe Bay, Texas</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/horseshoe-bay/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/04/0e62de67-6b77-435b-b9a0-46f933cb28c7-jupiter-florida-usa-2026-01-09-06-28-56-utc11-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/04/0e62de67-6b77-435b-b9a0-46f933cb28c7-jupiter-florida-usa-2026-01-09-06-28-56-utc11-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/04/0e62de67-6b77-435b-b9a0-46f933cb28c7-jupiter-florida-usa-2026-01-09-06-28-56-utc11-918x918-c-center.webp 2x" alt="" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">Tennis camps</li></ul><h3 class="center-card-title h300">Jupiter, Florida</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/jupiter-florida/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/11/ce568dec-dd1a-4337-9904-a75d9c373ba9-DJI202407270039360238D-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/11/ce568dec-dd1a-4337-9904-a75d9c373ba9-DJI202407270039360238D-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2024/11/ce568dec-dd1a-4337-9904-a75d9c373ba9-DJI202407270039360238D-918x918-c-center.webp 2x" alt="Aerial view of outdoor clay tennis courts surrounded by palm trees at a resort" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li></ul><h3 class="center-card-title h300">Naples Tiburón, Florida</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/naples/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/04/7555e488-0ba0-4373-9ea5-e61f77bc10bc-COVERPHOTOofNoblesvilleSquare3-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/04/7555e488-0ba0-4373-9ea5-e61f77bc10bc-COVERPHOTOofNoblesvilleSquare3-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/04/7555e488-0ba0-4373-9ea5-e61f77bc10bc-COVERPHOTOofNoblesvilleSquare3-918x918-c-center.webp 2x" alt="Aerial view of Noblesville downtown square with historic courthouse, surrounding buildings, and tree-lined streets in Indiana." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&</li><li class="center-card-tag">PADEL</li></ul><h3 class="center-card-title h300">Noblesville, Indiana</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/noblesville-indiana/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/09/17e09748-68af-4688-8ea5-39d44a9f4b40-SanDomenico-campus-studyintheUS-scaled-1-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/09/17e09748-68af-4688-8ea5-39d44a9f4b40-SanDomenico-campus-studyintheUS-scaled-1-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2025/09/17e09748-68af-4688-8ea5-39d44a9f4b40-SanDomenico-campus-studyintheUS-scaled-1-918x918-c-center.webp 2x" alt="Aerial view of the San Domenico School campus in California, host site for the Mouratoglou Academy San Francisco Tennis &amp; School program." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMP</li><li class="center-card-tag">&</li><li class="center-card-tag">SCHOOL</li></ul><h3 class="center-card-title h300">San Francisco, California</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/san-francisco/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/09/ab5f9a22-bd40-4907-b45d-88b38db8227f-DJI0005a1-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/09/ab5f9a22-bd40-4907-b45d-88b38db8227f-DJI0005a1-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2025/09/ab5f9a22-bd40-4907-b45d-88b38db8227f-DJI0005a1-918x918-c-center.webp 2x" alt="Aerial view of outdoor tennis courts and swimming pool complex at Mouratoglou Tennis Center Templeton" width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&</li><li class="center-card-tag">PICKLEBALL</li></ul><h3 class="center-card-title h300">Templeton, California</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/templeton/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/07/a329c38d-2bf2-4952-abb1-a083bedbdd76-DJI202504142308160007D-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/07/a329c38d-2bf2-4952-abb1-a083bedbdd76-DJI202504142308160007D-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2025/07/a329c38d-2bf2-4952-abb1-a083bedbdd76-DJI202504142308160007D-918x918-c-center.webp 2x" alt="Aerial view of the tennis courts and sports facilities at Mouratoglou Academy Zephyrhills in Florida." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li><li class="center-card-tag">&amp;</li><li class="center-card-tag">SCHOOL</li><li class="center-card-tag">&amp;</li><li class="center-card-tag">PICKLEBALL</li><li class="center-card-tag">&</li><li class="center-card-tag">PADEL</li></ul><h3 class="center-card-title h300">Zephyrhills, Florida</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/zephyrhills/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li></ul>
+</div><div class="slider-controls"><div class="slider-scrollbar">
+                <div class="slider-scrollbar-handle"></div>
+            </div><div class="slider-arrows">
+                <button type="button" aria-label="Previous" class="slider-arrow slider-arrow--prev">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+
+                <button type="button" aria-label="Next" class="slider-arrow slider-arrow--next">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div></div></div><div role="tabpanel" inert data-devices="all" class="tennis-centers-panel slider"><div class="slider-wrapper">
+    <ul class="slider-track"><li class="slider-item">
+                                <article class="center-card"><div class="center-card-image media-cover">
+            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/04/2b4e8700-54a7-4725-85e7-41258c9d538b-DJI202602071025120015D1-459x459-c-center.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/04/2b4e8700-54a7-4725-85e7-41258c9d538b-DJI202602071025120015D1-459x459-c-center.webp, https://www.mouratoglou.com/wp-content/uploads/2026/04/2b4e8700-54a7-4725-85e7-41258c9d538b-DJI202602071025120015D1-918x918-c-center.webp 2x" alt="Aerial view of Mouratoglou Tennis Center Guadalajara with multiple tennis courts and a main stadium court." width="459" height="459" loading="lazy">
+        </div><ul class="center-card-tags"><li class="center-card-tag">TENNIS CAMPS</li></ul><h3 class="center-card-title h300">Guadalajara, Mexico</h3>
+
+    <a href="https://www.mouratoglou.com/en/international/guadalajara-mexico/" data-theme="light" class="secondary-button center-card-link"><span class="secondary-button-wrapper">
+        <span class="secondary-button-label">Discover</span>
+    
+        <i class="secondary-button-icon">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </i>
+    </span></a>
+
+</article>
+                            </li></ul>
+</div><div class="slider-controls"><div class="slider-scrollbar">
+                <div class="slider-scrollbar-handle"></div>
+            </div><div class="slider-arrows">
+                <button type="button" aria-label="Previous" class="slider-arrow slider-arrow--prev">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+
+                <button type="button" aria-label="Next" class="slider-arrow slider-arrow--next">
+                    <svg aria-hidden="true" class="icon" viewBox="0 0 16 16">
+    <path d="M3.33325 8.00002H12.6666M12.6666 8.00002L7.99992 3.33336M12.6666 8.00002L7.99992 12.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div></div></div>
+            </div></section><section data-theme="light" class="push section"><div class="container">
+                <div class="push-content">
+            <h2 class="push-title h300">Would you like to know more about the Mouratoglou Academy?</h2>
+
+            <div class="push-text cms cms--large"><p>Our team is available 7 days a week to answer your questions by e-mail, telephone or WhatsApp.</p>
+</div><div class="section-actions">
+                    <ul class="section-actions-list"><li class="section-actions-item">
+                                <a href="https://www.mouratoglou.com/en/academy/practical-info/" data-click-event="{&quot;event&quot;:&quot;click_contact&quot;,&quot;cta_location&quot;:&quot;homepage_content&quot;}" class="button button--fill section-actions-button"><span class="button-label">Contact</span></a>
+
+                            </li></ul>
+                </div></div>
+            </div></section>        </main>
+
+                <section class="partners section"><div class="container container--md">
+                <ul class="partners-list"><li class="partners-item">
+                    <a href="https://dunlopsports.com/en-gb/sports/tennis" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/08e3b7b1-42e9-478b-9c3f-6431cfe9c03d-DunlopI6a6a6a-350x175-1-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/08e3b7b1-42e9-478b-9c3f-6431cfe9c03d-DunlopI6a6a6a-350x175-1-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/08e3b7b1-42e9-478b-9c3f-6431cfe9c03d-DunlopI6a6a6a-350x175-1-350x0-c-default.webp 2x" alt="Dunlop" width="175" height="88" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://www.asics.com/gb/en-gb/tennis-gear/c/as40400000/" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/01/177fa910-6ec7-499b-abf3-69dd49fdf62a-AsicsI6a6a6a-350x175-1-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/01/177fa910-6ec7-499b-abf3-69dd49fdf62a-AsicsI6a6a6a-350x175-1-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/01/177fa910-6ec7-499b-abf3-69dd49fdf62a-AsicsI6a6a6a-350x175-1-350x0-c-default.webp 2x" alt="Asics" width="175" height="88" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://www.bymycar.mercedes-benz.fr/passengercars/startpage.html" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/01/721bd479-953f-48dc-bb72-d02916bf79ad-ByMyCarI6a6a6a-350x175-1-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/01/721bd479-953f-48dc-bb72-d02916bf79ad-ByMyCarI6a6a6a-350x175-1-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/01/721bd479-953f-48dc-bb72-d02916bf79ad-ByMyCarI6a6a6a-350x175-1-350x0-c-default.webp 2x" alt="Mercedes ByMyCar" width="175" height="88" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://www.waterdrop.com/" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/08/1563009a-3841-4e3b-af65-13f7eecbf391-14-removebg-preview-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/08/1563009a-3841-4e3b-af65-13f7eecbf391-14-removebg-preview-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/08/1563009a-3841-4e3b-af65-13f7eecbf391-14-removebg-preview-350x0-c-default.webp 2x" alt="Waterdrop" width="175" height="62" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://www.michaelzingraf.com/en" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/03/0476c780-bcf9-4099-9fa6-84e86092d54e-Designsanstitre41-removebg-preview1-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/03/0476c780-bcf9-4099-9fa6-84e86092d54e-Designsanstitre41-removebg-preview1-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/03/0476c780-bcf9-4099-9fa6-84e86092d54e-Designsanstitre41-removebg-preview1-350x0-c-default.webp 2x" alt="Michaël Zingraf" width="175" height="97" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://www.utrsports.net/" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/3a651270-e8a7-461b-9ea8-969a5c677132-UTRI6a6a6a-350x175-1-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/3a651270-e8a7-461b-9ea8-969a5c677132-UTRI6a6a6a-350x175-1-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/3a651270-e8a7-461b-9ea8-969a5c677132-UTRI6a6a6a-350x175-1-350x0-c-default.webp 2x" alt="UTR" width="175" height="88" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://www.tenniseurope.org/" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/10/fd87eed6-aa6b-4e10-9144-0575876d6266-TENNISEUROPE-removebg-preview-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/10/fd87eed6-aa6b-4e10-9144-0575876d6266-TENNISEUROPE-removebg-preview-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/10/fd87eed6-aa6b-4e10-9144-0575876d6266-TENNISEUROPE-removebg-preview-350x0-c-default.webp 2x" alt="Tennis Europe" width="175" height="63" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://www.mycoach.pro/" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/e78c72e2-64e9-4ea2-b019-0ea937ce88f7-MyCoachProI6a6a6a-350x175-1-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2024/12/e78c72e2-64e9-4ea2-b019-0ea937ce88f7-MyCoachProI6a6a6a-350x175-1-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2024/12/e78c72e2-64e9-4ea2-b019-0ea937ce88f7-MyCoachProI6a6a6a-350x175-1-350x0-c-default.webp 2x" alt="mycoach pro" width="175" height="88" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="http://zenniz.com" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/08/bf79a208-2bce-435c-8a6e-a1ef19a2282c-zenniz-removebg-preview-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/08/bf79a208-2bce-435c-8a6e-a1ef19a2282c-zenniz-removebg-preview-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/08/bf79a208-2bce-435c-8a6e-a1ef19a2282c-zenniz-removebg-preview-350x0-c-default.webp 2x" alt="zenniz" width="175" height="87" loading="lazy" class="partners-logo">
+                    </a>
+                </li><li class="partners-item">
+                    <a href="https://partners.laurelsprings.com/MouratoglouTennisAcademy" target="_blank" class="partners-link">
+                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2025/10/17501dac-eb33-4dee-8b2f-6dc81c661db8-laurelsprings-removebg-preview-175x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2025/10/17501dac-eb33-4dee-8b2f-6dc81c661db8-laurelsprings-removebg-preview-175x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2025/10/17501dac-eb33-4dee-8b2f-6dc81c661db8-laurelsprings-removebg-preview-350x0-c-default.webp 2x" alt="laurel springs" width="175" height="76" loading="lazy" class="partners-logo">
+                    </a>
+                </li></ul>
+            </div></section>
+                            <footer id="footer" role="contentinfo" data-theme="dark" class="footer"><div class="footer-top">
+            <div class="container container--md">
+                <div class="footer-form footer-form--newsletter">
+                    <div class="footer-form-header"><p class="footer-form-title h600">Subscribe to our newsletter</p><p class="footer-form-subtitle">Stay connected with the Academy's news and events, tips to improve, and exclusive offers.</p></div>
+
+                    <div class="footer-form-body">
+                            <form id="form-31" action="https://www.mouratoglou.com/wp-admin/admin-ajax.php?action=submit_form&amp;form=31" enctype="multipart/form-data" novalidate="" data-success-event="{&quot;event&quot;:&quot;newsletter_subscription&quot;,&quot;form_name&quot;:&quot;newsletter&quot;}" class="form-wrapper">
+    <div data-sitekey="0x4AAAAAAAyG5iN_g6WL6Ekb" class="cf-turnstile"></div>
+
+    <div class="form-group">
+                    <div data-key="1" class="form-item"><label for="form-31-field-1" class="form-label screen-reader-text">Adresse email<span class="form-required">*</span></label><input id="form-31-field-1" type="email" name="input_1" placeholder="Your e-mail address" required="" class="input"></div>
+
+
+                    <fieldset data-key="3" class="form-item form-item--12"><legend for="form-31-field-3" class="form-label screen-reader-text">RGPD<span class="form-required">*</span></legend><div class="checkbox"><input id="form-31-field-3" type="checkbox" name="input_3.1" required="" value="1" aria-describedby="form-31-field-3-description" class="checkbox-input"><label for="form-31-field-3" class="checkbox-label">I agree to receive the Mouratoglou Academy newsletter.</label>
+        </div><p id="form-31-field-3-description" class="form-description">I agree that the information collected from this form may be processed electronically for the purpose of subscribing to newsletters and providing the necessary elements for the conduct of commercial activities. You have Data Protection rights regarding your personal information. You can unsubscribe at any time by clicking on the link in our emails. To learn more about your rights and how to exercise them, please consult our Data Protection Policy.</p></fieldset>
+
+
+                    <fieldset data-key="4" class="form-item form-item--12"><legend for="form-31-field-4" class="form-label screen-reader-text">RGPD<span class="form-required">*</span></legend><div class="checkbox"><input id="form-31-field-4" type="checkbox" name="input_4.1" required="" value="1" aria-describedby="form-31-field-4-description" class="checkbox-input"><label for="form-31-field-4" class="checkbox-label">I agree that the information collected from this form may be processed electronically for commercial prospecting purposes.</label>
+        </div><p id="form-31-field-4-description" class="form-description">You have Data Protection rights regarding your personal information. You can unsubscribe at any time by clicking on the link in our emails. To learn more about your rights and how to exercise them, please consult our Data Protection Policy.</p></fieldset>
+
+
+            </div>
+
+    <div class="form-footer">
+        <button type="submit" class="button button--fill form-submit"><span class="button-label">REGISTER</span></button>
+
+    </div>
+</form>
+
+                        </div></div>
+            </div>
+        </div><div class="footer-middle">
+        <div class="container container--md"><a href="https://www.mouratoglou.com/en/" class="footer-logo">
+                    <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/02/f09ba860-ded8-4975-a924-335b80978360-Logo-30Years-Lockup-Mouratoglou-Light-Black-cropped1.svg" alt="" width="299" height="28" class="footer-logo-inner">
+                </a><div class="footer-cols"><div class="footer-collapsible">
+                            <button type="button" aria-expanded="false" class="footer-collapsible-header h600">
+                                Our programs
+
+                                <svg aria-hidden="true" class="footer-collapsible-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+
+                            <div inert class="footer-collapsible-wrapper">
+                                <div class="footer-collapsible-inner">
+                                    <div class="footer-collapsible-content">
+                                        <ul class="footer-nav"><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/types/adults/ " class="footer-nav-link">Adults Camps</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/types/junior/" class="footer-nav-link">Juniors Camps</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/types/baby-tennis/" target="_blank" class="footer-nav-link">Baby Tennis</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/tennis-and-school/" class="footer-nav-link">Tennis & School</a></li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="footer-collapsible">
+                            <button type="button" aria-expanded="false" class="footer-collapsible-header h600">
+                                Our values
+
+                                <svg aria-hidden="true" class="footer-collapsible-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+
+                            <div inert class="footer-collapsible-wrapper">
+                                <div class="footer-collapsible-inner">
+                                    <div class="footer-collapsible-content">
+                                        <ul class="footer-nav"><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academy/" class="footer-nav-link">Academy</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academy/patrick-mouratoglou/" class="footer-nav-link">Patrick Mouratoglou</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academy/methodology/" class="footer-nav-link">Methodology</a></li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="footer-collapsible">
+                            <button type="button" aria-expanded="false" class="footer-collapsible-header h600">
+                                High Performance
+
+                                <svg aria-hidden="true" class="footer-collapsible-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+
+                            <div inert class="footer-collapsible-wrapper">
+                                <div class="footer-collapsible-inner">
+                                    <div class="footer-collapsible-content">
+                                        <ul class="footer-nav"><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/professionnels/" class="footer-nav-link">Professionnals</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academy/mouratoglou-ambassadors/" class="footer-nav-link">Ambassadors</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academy/the-future-of-tennis/" class="footer-nav-link">Future of tennis</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academy/patrick-mouratoglou/professional-players-coached-by-patrick-mouratoglou/" class="footer-nav-link">Coached by Patrick Mouratoglou</a></li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="footer-collapsible">
+                            <button type="button" aria-expanded="false" class="footer-collapsible-header h600">
+                                International
+
+                                <svg aria-hidden="true" class="footer-collapsible-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+
+                            <div inert class="footer-collapsible-wrapper">
+                                <div class="footer-collapsible-inner">
+                                    <div class="footer-collapsible-content">
+                                        <ul class="footer-nav"><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/international/our-international-centres/" class="footer-nav-link">Our centers</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academy/practical-info/" class="footer-nav-link">Contact</a></li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="footer-collapsible">
+                            <button type="button" aria-expanded="false" class="footer-collapsible-header h600">
+                                The Blog
+
+                                <svg aria-hidden="true" class="footer-collapsible-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+
+                            <div inert class="footer-collapsible-wrapper">
+                                <div class="footer-collapsible-inner">
+                                    <div class="footer-collapsible-content">
+                                        <ul class="footer-nav"><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/" class="footer-nav-link">Coaching Tips</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/" class="footer-nav-link">Coaching Corner</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/tennis-technique/" class="footer-nav-link">Technique</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/physical-and-mental-preparation/" class="footer-nav-link">Physical and mental</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/conseils-coaching/coaching-corner/tennis-equipment/" class="footer-nav-link">Equipements</a></li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="footer-collapsible">
+                            <button type="button" aria-expanded="false" class="footer-collapsible-header h600">
+                                Useful links
+
+                                <svg aria-hidden="true" class="footer-collapsible-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+
+                            <div inert class="footer-collapsible-wrapper">
+                                <div class="footer-collapsible-inner">
+                                    <div class="footer-collapsible-content">
+                                        <ul class="footer-nav"><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/stages/" class="footer-nav-link">Tennis camps</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/academic-courses/" class="footer-nav-link">Academic Career </a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/tennis-training-centre-2/" class="footer-nav-link">Training center</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/mouratoglou-tennis-camps/" class="footer-nav-link">Camps</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou.com/en/tennis-coach/" class="footer-nav-link">Tennis coaching</a></li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="footer-collapsible">
+                            <button type="button" aria-expanded="false" class="footer-collapsible-header h600">
+                                Practical information
+
+                                <svg aria-hidden="true" class="footer-collapsible-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </button>
+
+                            <div inert class="footer-collapsible-wrapper">
+                                <div class="footer-collapsible-inner">
+                                    <div class="footer-collapsible-content">
+                                        <ul class="footer-nav"><li class="footer-nav-item"><a href="te:0483881430" class="footer-nav-link">TEL : +33 (0)4 83 88 14 30</a></li><li class="footer-nav-item"><a href="https://mouratoglou-gift.com/?lang=fr" target="_blank" class="footer-nav-link">Gift Card</a></li><li class="footer-nav-item"><a href="https://apps.apple.com/fr/app/my-mouratoglou/id1525905906" class="footer-nav-link">App My Mouratoglou</a></li><li class="footer-nav-item"><a href="https://www.mouratoglou-resort.com/fr/" class="footer-nav-link">Mouratoglou Resort****</a></li><li class="footer-nav-item"><a href="https://www.mouratogloucountryclub.com/" class="footer-nav-link">Le Country Club</a></li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="footer-collapsible">
+                            <p class="footer-collapsible-header h600">Stay connected</p>
+
+                            <div class="footer-collapsible-content">
+                                <ul class="footer-socials"><li class="footer-socials-item">
+                                            <a href="https://www.facebook.com/p/Mouratoglou-Tennis-Academy-100066674380105/?locale=fr_FR" target="_blank" aria-label="Facebook" data-click-event={"event":"click_social_network","social_network":"Facebook"} class="footer-socials-link">
+                                                <?xml version="1.0" encoding="UTF-8"?>
+<svg aria-hidden="true" class="icon" id="ELEMENTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path d="M500,250C500,111.93,388.07,0,250,0S0,111.93,0,250C0,374.78,91.42,478.21,210.94,496.96v-174.7h-63.48v-72.27h63.48v-55.08c0-62.65,37.32-97.27,94.43-97.27,27.35,0,55.96,4.88,55.96,4.88v61.52h-31.52c-31.06,0-40.74,19.27-40.74,39.04v46.9h69.34l-11.08,72.27h-58.25v174.7c119.52-18.75,210.94-122.18,210.94-246.96Z"/>
+  <path class="cls-1" d="M347.31,322.27l11.08-72.27h-69.34v-46.9c0-19.77,9.69-39.04,40.74-39.04h31.52v-61.52s-28.61-4.88-55.96-4.88c-57.1,0-94.43,34.61-94.43,97.27v55.08h-63.48v72.27h63.48v174.7c12.73,2,25.77,3.04,39.06,3.04s26.33-1.04,39.06-3.04v-174.7h58.25Z"/>
+</svg>
+                                            </a>
+                                        </li><li class="footer-socials-item">
+                                            <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmouratoglou_tennis_academy%2F&is_from_rle" target="_blank" aria-label="Instagram" data-click-event={"event":"click_social_network","social_network":"Instagram"} class="footer-socials-link">
+                                                <svg aria-hidden="true" class="icon" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 2.3569C10.1375 2.3569 10.3906 2.36627 11.2313 2.40378C12.0125 2.43815 12.4344 2.5694 12.7156 2.67878C13.0875 2.82252 13.3562 2.99752 13.6344 3.27565C13.9156 3.5569 14.0875 3.82252 14.2313 4.1944C14.3406 4.47565 14.4718 4.90065 14.5062 5.67878C14.5438 6.52252 14.5531 6.77565 14.5531 8.91C14.5531 11.0475 14.5438 11.3006 14.5062 12.1413C14.4718 12.9226 14.3406 13.3444 14.2313 13.6257C14.0875 13.9975 13.9125 14.2662 13.6344 14.5444C13.3531 14.8257 13.0875 14.9975 12.7156 15.1413C12.4344 15.2506 12.0094 15.3819 11.2313 15.4162C10.3875 15.4538 10.1344 15.4631 8 15.4631C5.86248 15.4631 5.60936 15.4538 4.76872 15.4162C3.98752 15.3819 3.5656 15.2506 3.2844 15.1413C2.91248 14.9975 2.64376 14.8226 2.3656 14.5444C2.0844 14.2631 1.91248 13.9975 1.76872 13.6257C1.65936 13.3444 1.52816 12.9194 1.49376 12.1413C1.45624 11.2975 1.44688 11.0444 1.44688 8.91C1.44688 6.77252 1.45624 6.5194 1.49376 5.67878C1.52816 4.89752 1.65936 4.47565 1.76872 4.1944C1.91248 3.82252 2.08752 3.55378 2.3656 3.27565C2.64688 2.9944 2.91248 2.82252 3.2844 2.67878C3.5656 2.5694 3.99064 2.43815 4.76872 2.40378C5.60936 2.36627 5.86248 2.3569 8 2.3569ZM8 0.916275C5.82816 0.916275 5.55624 0.92565 4.70312 0.96315C3.85312 1.00065 3.26872 1.13815 2.76248 1.33503C2.2344 1.54127 1.78752 1.81315 1.34376 2.26003C0.896879 2.70378 0.62496 3.15065 0.418719 3.67565C0.221839 4.18503 0.0844011 4.76627 0.0468811 5.61627C0.0093611 6.47252 0 6.7444 0 8.91624C0 11.0882 0.0093611 11.36 0.0468811 12.2131C0.0844011 13.0631 0.221839 13.6475 0.418719 14.1538C0.62496 14.6819 0.896879 15.1288 1.34376 15.5726C1.78752 16.0162 2.2344 16.2913 2.75936 16.4944C3.26872 16.6913 3.85 16.8288 4.7 16.8662C5.55312 16.9038 5.82496 16.9131 7.99688 16.9131C10.1687 16.9131 10.4406 16.9038 11.2938 16.8662C12.1438 16.8288 12.7282 16.6913 13.2344 16.4944C13.7594 16.2913 14.2062 16.0162 14.65 15.5726C15.0938 15.1288 15.3687 14.6819 15.5718 14.1569C15.7687 13.6475 15.9062 13.0662 15.9438 12.2162C15.9813 11.3631 15.9906 11.0913 15.9906 8.91936C15.9906 6.74752 15.9813 6.47565 15.9438 5.62252C15.9062 4.77252 15.7687 4.18815 15.5718 3.6819C15.375 3.15065 15.1031 2.70378 14.6562 2.26003C14.2125 1.81627 13.7656 1.54127 13.2406 1.33815C12.7313 1.14127 12.15 1.00378 11.3 0.966274C10.4438 0.92565 10.1718 0.916275 8 0.916275Z" fill="white"/>
+<path d="M7.99998 4.8069C5.73126 4.8069 3.89062 6.64752 3.89062 8.91624C3.89062 11.185 5.73126 13.0257 7.99998 13.0257C10.2687 13.0257 12.1093 11.185 12.1093 8.91624C12.1093 6.64752 10.2687 4.8069 7.99998 4.8069ZM7.99998 11.5819C6.52814 11.5819 5.33438 10.3882 5.33438 8.91624C5.33438 7.4444 6.52814 6.25065 7.99998 6.25065C9.47182 6.25065 10.6656 7.4444 10.6656 8.91624C10.6656 10.3882 9.47182 11.5819 7.99998 11.5819Z" fill="white"/>
+<path d="M13.2313 4.6444C13.2313 5.17565 12.8 5.60378 12.2719 5.60378C11.7407 5.60378 11.3125 5.17253 11.3125 4.6444C11.3125 4.11316 11.7438 3.68503 12.2719 3.68503C12.8 3.68503 13.2313 4.11628 13.2313 4.6444Z" fill="white"/>
+</svg>
+
+                                            </a>
+                                        </li><li class="footer-socials-item">
+                                            <a href="https://www.tiktok.com/@mouratoglou_academy?lang=fr" target="_blank" aria-label="TikTok" data-click-event={"event":"click_social_network","social_network":"TikTok"} class="footer-socials-link">
+                                                <?xml version="1.0" encoding="UTF-8"?>
+<svg aria-hidden="true" class="icon" id="ELEMENTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle cx="250" cy="250" r="250"/>
+  <path class="cls-1" d="M379.82,221.19c-2.56.25-5.12.38-7.69.39-28.18,0-54.46-14.2-69.9-37.78v128.64c0,52.51-42.57,95.08-95.07,95.08s-95.08-42.57-95.08-95.08,42.57-95.07,95.08-95.07h0c1.98,0,3.92.18,5.87.3v46.85c-1.95-.23-3.87-.59-5.87-.59-26.8,0-48.52,21.73-48.52,48.52s21.73,48.52,48.52,48.52,50.48-21.12,50.48-47.92l.47-218.47h44.82c4.23,40.19,36.64,71.59,76.95,74.54v52.07"/>
+</svg>
+                                            </a>
+                                        </li><li class="footer-socials-item">
+                                            <a href="https://www.youtube.com/@mouratogloutennisacademy" target="_blank" aria-label="Youtube" data-click-event={"event":"click_social_network","social_network":"Youtube"} class="footer-socials-link">
+                                                <?xml version="1.0" encoding="UTF-8"?>
+<svg aria-hidden="true" class="icon" id="ELEMENTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle cx="257.7" cy="250" r="250"/>
+  <path class="cls-1" d="M391.55,213.65c0-33.15-26.88-60.03-60.03-60.03h-153.51c-33.16,0-60.03,26.88-60.03,60.03v71.44c0,33.16,26.88,60.03,60.03,60.03h153.51c33.16,0,60.03-26.88,60.03-60.03v-71.44ZM301.27,254.72l-68.84,34.06c-2.7,1.46-11.87-.49-11.87-3.56v-69.91c0-3.11,9.24-5.06,11.94-3.52l65.89,35.85c2.76,1.57,5.66,5.57,2.87,7.08Z"/>
+</svg>
+                                            </a>
+                                        </li></ul>
+                            </div>
+                        </div></div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container container--md">
+            <div class="footer-info">
+                <div class="language-switcher footer-language-switcher"><button type="button" aria-haspopup="true" aria-expanded="false" class="language-switcher-toggle">
+            EN
+            <svg aria-hidden="true" class="language-switcher-arrow icon" viewBox="0 0 17 16">
+    <path d="M4.03088 5.60001L8.83088 10.4L13.6309 5.60001" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </button><ul class="language-switcher-list">
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/" class="language-switcher-link">FR</a>
+            </li>
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/it/" class="language-switcher-link">IT</a>
+            </li>
+                    <li class="language-switcher-item">
+                <a href="https://www.mouratoglou.com/de/" class="language-switcher-link">DE</a>
+            </li>
+            </ul>
+</div>
+    
+                <ul class="footer-legal"><li class="footer-legal-item">Copyright © 2024</li><li class="footer-legal-item"><a href="https://www.mouratoglou.com/en/privacy-policy/" class="footer-legal-link">Privacy policy</a></li><li class="footer-legal-item"><a href="https://www.mouratoglou.com/en/legal-information/" class="footer-legal-link">Legal information</a></li><li class="footer-legal-item"><a href="" class="footer-legal-link"></a></li><li class="footer-legal-item">
+                        <a href="javascript:openAxeptioCookies()" class="footer-legal-link">Cookies</a>
+                    </li>
+    
+                    <li class="footer-legal-item">
+                        Website created by <a href="https://www.adveris.fr" target="_blank" class="footer-legal-link">Adveris</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+                            <div id="booking" data-source="https://www.mouratoglou.com/wp-admin/admin-ajax.php?action=booking" inert class="country-guide">
+    <div class="country-guide-header">
+        <div class="container">
+            <div class="country-guide-header-wrapper">
+                <button type="button" disabled class="country-guide-back">
+                    <svg aria-hidden="true" class="country-guide-back-icon icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                    <span class="country-guide-back-label">Back</span>
+                </button>
+
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/02/f09ba860-ded8-4975-a924-335b80978360-Logo-30Years-Lockup-Mouratoglou-Light-Black-cropped1.svg" alt="" width="299" height="28" class="country-guide-logo">
+
+                <button type="button" data-close="booking" class="country-guide-close">
+                    <span class="country-guide-close-label">Close</span>
+                    <svg aria-hidden="true" class="country-guide-close-icon icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="country-guide-wrapper">
+        <div class="container">
+            <div class="country-guide-inner">
+                <div tabindex="-1" class="country-guide-panel">
+                    <p class="country-guide-title h300">Where would you like to go?</p><div class="country-guide-locations"><div class="country-guide-locations-featured">
+                                <div class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+
+                                        <p class="country-guide-location-name">France</p>
+
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><p class="country-guide-location-title">Mouratoglou Academy, Biot, French Riviera, France</p><button type="button" data-choice="France" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;france&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></div>
+                            </div><ul class="country-guide-locations-list"><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">NORTH AMERICA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="NORTH AMERICA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;north america&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">LATIN AMERICA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="LATIN AMERICA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;latin america&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">EUROPE</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="EUROPE" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;europe&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">ASIA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="ASIA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;asia&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">MIDDLE-EAST & AFRICA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="MIDDLE-EAST &amp; AFRICA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;middle-east &amp; africa&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact" data-source="https://www.mouratoglou.com/wp-admin/admin-ajax.php?action=contact" inert class="country-guide">
+    <div class="country-guide-header">
+        <div class="container">
+            <div class="country-guide-header-wrapper">
+                <button type="button" disabled class="country-guide-back">
+                    <svg aria-hidden="true" class="country-guide-back-icon icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                    <span class="country-guide-back-label">Back</span>
+                </button>
+
+                <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/02/f09ba860-ded8-4975-a924-335b80978360-Logo-30Years-Lockup-Mouratoglou-Light-Black-cropped1.svg" alt="" width="299" height="28" class="country-guide-logo">
+
+                <button type="button" data-close="contact" class="country-guide-close">
+                    <span class="country-guide-close-label">Close</span>
+                    <svg aria-hidden="true" class="country-guide-close-icon icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="country-guide-wrapper">
+        <div class="container">
+            <div class="country-guide-inner">
+                <div tabindex="-1" class="country-guide-panel">
+                    <p class="country-guide-title h300">Who would you like to contact?</p><div class="country-guide-locations"><div class="country-guide-locations-featured">
+                                <div class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        <img  src="https://www.mouratoglou.com/wp-content/uploads/2024/12/d2dbc884-816c-4640-9dde-940be636e31a-c16ace6f-2163-42bb-9204-d1acb4667b36-france.svg" alt="" width="28" height="21" loading="lazy" class="country-guide-location-flag">
+
+                                        <p class="country-guide-location-name">FRANCE</p>
+
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><p class="country-guide-location-title">Mouratoglou Academy, Biot, French Riviera, FRANCE</p><div class="country-guide-location-image media-cover">
+                                            <img  src="https://www.mouratoglou.com/wp-content/uploads/2026/03/76d0352a-a2b3-43bf-8e5e-bc309be8ab64-PHOTO3DRONEACADEMYSCREEN3-400x0-c-default.webp" srcset="https://www.mouratoglou.com/wp-content/uploads/2026/03/76d0352a-a2b3-43bf-8e5e-bc309be8ab64-PHOTO3DRONEACADEMYSCREEN3-400x0-c-default.webp, https://www.mouratoglou.com/wp-content/uploads/2026/03/76d0352a-a2b3-43bf-8e5e-bc309be8ab64-PHOTO3DRONEACADEMYSCREEN3-800x0-c-default.webp 2x" alt="" width="400" height="225" loading="lazy">
+                                        </div><button type="button" data-choice="FRANCE" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;france&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></div>
+                            </div><ul class="country-guide-locations-list"><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">NORTH AMERICA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="NORTH AMERICA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;north america&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">LATIN AMERICA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="LATIN AMERICA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;latin america&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">EUROPE</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="EUROPE" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;europe&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">ASIA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="ASIA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;asia&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li><li class="country-guide-location">
+                                    <div class="country-guide-location-header">
+                                        
+    
+                                        <p class="country-guide-location-name">MIDDLE EAST & AFRICA</p>
+    
+                                        <svg aria-hidden="true" class="country-guide-location-arrow icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                    </div><button type="button" data-choice="MIDDLE EAST &amp; AFRICA" data-click-event="{&quot;event&quot;:&quot;booking_journey&quot;,&quot;book_step&quot;:&quot;middle east &amp; africa&quot;,&quot;book_step_name&quot;:&quot;select&quot;,&quot;book_step_selection&quot;:&quot;step 1&quot;}" class="country-guide-location-link">View options</button></li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="guide" data-source="https://www.mouratoglou.com/wp-admin/admin-ajax.php?action=guide" inert class="guide">
+    <div class="container container--xs">
+        <div class="guide-controls">
+            <button disabled="" class="button button--fill guide-back" type="button"><svg aria-hidden="true" class="button-icon icon" viewBox="0 0 16 16">
+    <path d="M12.6665 7.99998L3.33314 7.99998M3.33314 7.99998L7.99983 12.6666M3.33314 7.99998L7.99983 3.33336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg><span class="button-label">Back</span></button>
+
+            
+            <button data-close="guide" class="button button--fill guide-close" type="button"><span class="button-label">Close</span><svg aria-hidden="true" class="button-icon icon" viewBox="0 0 16 16">
+    <path d="M12.8 3.2L8.00003 8M8.00003 8L12.8 12.8M8.00003 8L3.20001 12.8M8.00003 8L3.20001 3.2" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></button>
+
+        </div>
+
+        <div class="guide-wrapper">
+            <div class="guide-inner">
+                <div tabindex="-1" class="guide-panel"><p class="guide-title">What are you looking for?</p><div class="guide-content">
+            <ul class="guide-choices"><li class="guide-choices-item">
+                        <button type="button" data-choice="Tennis Camps" data-click-event="{&quot;event&quot;:&quot;search_journey&quot;,&quot;search_step&quot;:&quot;tennis camps&quot;,&quot;search_step_name&quot;:&quot;select&quot;,&quot;search_step_selection&quot;:&quot;step_1&quot;}" class="guide-choices-button">
+                            Tennis Camps
+                            <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                        </button>
+                    </li><li class="guide-choices-item">
+                        <button type="button" data-choice="Tennis &#038; School" data-click-event="{&quot;event&quot;:&quot;search_journey&quot;,&quot;search_step&quot;:&quot;tennis &#038; school&quot;,&quot;search_step_name&quot;:&quot;select&quot;,&quot;search_step_selection&quot;:&quot;step_1&quot;}" class="guide-choices-button">
+                            Tennis &#038; School
+                            <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                        </button>
+                    </li><li class="guide-choices-item">
+                        <button type="button" data-choice="Patrick Mouratoglou" data-click-event="{&quot;event&quot;:&quot;search_journey&quot;,&quot;search_step&quot;:&quot;patrick mouratoglou&quot;,&quot;search_step_name&quot;:&quot;select&quot;,&quot;search_step_selection&quot;:&quot;step_1&quot;}" class="guide-choices-button">
+                            Patrick Mouratoglou
+                            <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                        </button>
+                    </li><li class="guide-choices-item">
+                        <button type="button" data-choice="Other&#8230;" data-click-event="{&quot;event&quot;:&quot;search_journey&quot;,&quot;search_step&quot;:&quot;other&#8230;&quot;,&quot;search_step_name&quot;:&quot;select&quot;,&quot;search_step_selection&quot;:&quot;step_1&quot;}" class="guide-choices-button">
+                            Other&#8230;
+                            <svg aria-hidden="true" class="icon" viewBox="0 0 17 16">
+    <path d="M6.43085 12.8L11.2308 7.99997L6.43085 3.19997" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                        </button>
+                    </li></ul>
+        </div></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="ajax-modal" inert class="modal">
+    <div class="modal-inner"></div>
+</div>
+        
+                
+                        
+        <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/solanum\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/145793382.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+<script id="leadin-script-loader-js-js-extra">
+var leadin_wordpress = {"userRole":"visitor","pageType":"home","leadinPluginVersion":"11.3.21"};
+</script>
+<script src="https://js-eu1.hs-scripts.com/145793382.js?integration=WordPress&amp;ver=11.3.21" id="leadin-script-loader-js-js"></script>
+<script src="https://www.mouratoglou.com/wp-content/themes/solanum/public/build/frontend/js/app.js?ver=1779095558" id="app-js"></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?ver=6.8.3" id="turnstile-js"></script>
+</body>
+</html>

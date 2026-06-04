@@ -1,0 +1,463 @@
+{
+  "cookies": [
+    {
+      "name": "pll_language",
+      "value": "en",
+      "domain": "www.mouratoglou.com",
+      "path": "/",
+      "expires": 1811864108.778205,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "GessouYUNx8UETDDZOVxyYM.zPY0lkEnKhBOF_i3GfI-1780328108.5518956-1.0.1.1-5AQ8MX3c6CzrUVBMlm_.Lwoti22ntmlAMadbNUwcbIHozjbLL43POC_3FXSX520cDuud8zhfu_VSMfbzcnmnsn5zjhjMlcphMxcwqGA5q8ZB5HBc2MrZ4nWunx492Hxr",
+      "domain": ".hs-scripts.com",
+      "path": "/",
+      "expires": 1780329908.932286,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "cwdKX7sj1DaIuKRaqBR6CCdae_QWshVWFk8slx_oam0-1780328108.6549964-1.0.1.1-BLb0SJUZv_e5gQRF5Pmfb6Rgh3kYbhyuKL0NCZQzBkAXITsu8sUCDMfhcVHhfuXX7trIGDXxDyEqMvXXsn9cd7hkRN_PMcTWsGWcA7zpALVwPGf.1F1pOpnRPfLAQ5WO",
+      "domain": ".hs-analytics.net",
+      "path": "/",
+      "expires": 1780329909.033726,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "sStWMCN4K9hsxaproihvD1hMJbmHFp9p104ElrCe6AE-1780328108.7780385-1.0.1.1-5fCF1fCqN96FGhfAdBr.2myv65J.WAE3zWRInuVzxiJyFYL5vPgfBvxqUx0vKWPjuOjq5fCbZ0OajRQcQ3jEPBvHeA004u4H3NUyIuiKp8iaY5cSGa2TZskvAGfC9s1W",
+      "domain": ".hs-banner.com",
+      "path": "/",
+      "expires": 1780329909.153452,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "axeptio_cookies",
+      "value": "{%22$$completed%22:false%2C%22$$token%22:%22CnypStwdLOAkHJLOH8Brp9RfDf%22%2C%22$$date%22:%222026-06-01T15:35:09.977Z%22%2C%22$$cookiesVersion%22:{}}",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1811864109,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "axeptio_authorized_vendors",
+      "value": "%2C%2C",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1811864109,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "axeptio_all_vendors",
+      "value": "%2C%2C",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1811864109,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ym_uid",
+      "value": "1780328110315486106",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1811864110,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_d",
+      "value": "1780328110",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1811864110,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "2C46DBC5076C6EA83D0DCCAE06566F1D",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1814024110.129263,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ABTastySession",
+      "value": "mrasn=&lp=https%253A%252F%252Fwww.mouratoglou.com%252Fen%252F",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1780329910,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "6EOoYMNkxqJD81kdqNAXEqfHzh2pAz6aS7lKKs54QLc-1780328109.8941755-1.0.1.1-6aSegZuipbvekO7Mv4ZhD3SRf.Vnw__ZTaNpVjv4Pox2j2XTdcIofgkNbf.G_qjKpt9PqB7XqJ2.nPht_JsJGfItkUjKS6PV6QrZB7SiBhRrhNyr_a67vQYv5fXvpbge",
+      "domain": ".hsforms.com",
+      "path": "/",
+      "expires": 1780329910.322625,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ymex",
+      "value": "1811864109.yrts.1780328109#1811864109.yrtsi.1780328109",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1811864109,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bh",
+      "value": "EkEiQ2hyb21pdW0iO3Y9IjE0OCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDgiLCAiTm90L0EpQnJhbmQiO3Y9Ijk5IioCPzA6CSJXaW5kb3dzImCtzfbQBmoe3Mrh/wiS2KGxA5/P4eoD+/rw5w3r//32D6TUz4cI",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1814888110.35865,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yabs-sid",
+      "value": "1180787651780328109",
+      "domain": "mc.yandex.ru",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "i",
+      "value": "DkOAyQZgql7A8Ww8/oUlxFtT1yQvjqTSYmryjfobeRE/SrpB/DVzM6HgxaAFnudYDw9EkdW0qXeV4pnY5YcbIS/eWzY=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1814888110.355013,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "2527018631780328109",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1814888110.355051,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yuidss",
+      "value": "2527018631780328109",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1811864109,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.671239711.1780328110",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1788104110,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.72073159.1780328110",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1814888110.397764,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ym_isad",
+      "value": "2",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1780400110,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ABTasty",
+      "value": "uid=yfk96qj2w6gwhdsg&fst=1780328110293&pst=-1&cst=1780328110293&ns=1&pvt=1&pvis=1&th=1555074.1937819.1.1.1.1.1780328110452.1780328110452.0.1_1636147.2042453.1.1.1.1.1780328110466.1780328110466.0.1",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1814456110,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetsid",
+      "value": "799f05e05dcf11f1a627fd7eccca27ee|swt4w6|2|g6j|0|2343",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1780414510,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "799f25c05dcf11f18fa5bb12e3cddf27",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1814024110,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FPID",
+      "value": "FPID2.2.8h8aJQ%2F93nBV4VQe%2F8145eoxPV1M2lTJNMEQYiXsIng%3D.1780328110",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1814888111.091987,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FPLC",
+      "value": "rHqtLD%2FlI%2BpttIay8kiHjMa7%2B3FeGy9V5Bw%2B7zAAh3wXUDJsi9y7Ho83Qowgq74T5X8fjc1OEMhk8PTwIiw%2FNeCAVwXL4TnFq%2Bls%2B81eLAl1foEBT6eO1WTX39Fhog%3D%3D",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1780400110.547546,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FPAU",
+      "value": "1.1.671239711.1780328110",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1788104110.547595,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1780328110110.1983602927",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1788104110.547636,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FPGSID",
+      "value": "1.1780328110.1780328110.G-WY6KQ74L55.A5lwYaTcQ-IF5PTLZdU6cg",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1780329910.547673,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "sync_cookie_csrf",
+      "value": "1325910457fake",
+      "domain": ".mc.webvisor.org",
+      "path": "/",
+      "expires": 1780328710,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bh",
+      "value": "EkEiQ2hyb21pdW0iO3Y9IjE0OCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDgiLCAiTm90L0EpQnJhbmQiO3Y9Ijk5IioCPzA6CSJXaW5kb3dzImCuzfbQBmoe3Mrh/wiS2KGxA5/P4eoD+/rw5w3r//32D6TUz4cI",
+      "domain": ".webvisor.org",
+      "path": "/",
+      "expires": 1814888110,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sync_cookie_csrf",
+      "value": "4007921465fake",
+      "domain": ".mc.yandex.ru",
+      "path": "/",
+      "expires": 1780328710,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "2527018631780328109",
+      "domain": ".webvisor.org",
+      "path": "/",
+      "expires": 1814888110.988808,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yuidss",
+      "value": "2527018631780328109",
+      "domain": ".webvisor.org",
+      "path": "/",
+      "expires": 1814888110.988897,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "i",
+      "value": "DkOAyQZgql7A8Ww8/oUlxFtT1yQvjqTSYmryjfobeRE/SrpB/DVzM6HgxaAFnudYDw9EkdW0qXeV4pnY5YcbIS/eWzY=",
+      "domain": ".webvisor.org",
+      "path": "/",
+      "expires": 1814888110.988918,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sync_cookie_ok",
+      "value": "synced",
+      "domain": ".mc.webvisor.org",
+      "path": "/",
+      "expires": 1780414510,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_WY6KQ74L55",
+      "value": "GS2.1.s1780328109$o1$g0$t1780328117$j52$l0$h1304966862",
+      "domain": ".mouratoglou.com",
+      "path": "/",
+      "expires": 1814888117.321038,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.mouratoglou.com",
+      "localStorage": [
+        {
+          "name": "_ym_retryReqs",
+          "value": "{}"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Sat, 26 Jun 2027 15:35:10 GMT"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gtg_load_status\":{\"status\":2,\"expires\":1780414510369},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1780328110372},\"expires\":1788104110372}}"
+        },
+        {
+          "name": "_air360_session_id",
+          "value": "{\"\\u0000\":\"495cce05-a8e7-4399-a5ca-9fcbd179f3ed\",\"ttl\":1780329911508}"
+        },
+        {
+          "name": "_ym3_lsid",
+          "value": "1740333958082"
+        },
+        {
+          "name": "_uetsid",
+          "value": "799f05e05dcf11f1a627fd7eccca27ee|swt4w6|2|g6j|0|2343"
+        },
+        {
+          "name": "_ym3:0_reqNum",
+          "value": "1"
+        },
+        {
+          "name": "_ym_synced",
+          "value": "{\"mc.webvisor.org\":29672135}"
+        },
+        {
+          "name": "_ym_wasSynced",
+          "value": "{\"time\":1780328110507,\"params\":{\"sbp\":{\"a\":\"JvQSET0+99wrsTg101WE32He5CKc5Hxoml5IcP3Gd4JQcp0Rgg0WDhrl5btzhDpx\",\"b\":\"n3oFWcrSpler1kcEqv0q3KJM1J44JsqvI1OYHoJ2gdArz1Y/nasSHarRqvp0WneK\"},\"eu\":1,\"nss\":1,\"hittoken\":\"1780328110_aacc63db2a5ce7d776b9141e2767d8b33478e9efb2b381e6d54d9842daffbe96\",\"wstoken\":\"11049.OFYCPnGAairWyoFEUZC7qs2mYB4CWDIahD8wXRGIls6DJ753p0QMWivQBXSjU4kIPe2TUG4AoJO6wyTt8zKQtKHwcpA3sDCG-Hlpb6jKYQc,.6X5JHewhPYUE_k9RC7JMHinQFI8,\",\"ev\":{\"pvt\":1780328110},\"hidv2\":\"3004408818272829840\",\"ymclid\":\"3004408818272829840\"}}"
+        },
+        {
+          "name": "_ym55675267:0_reqNum",
+          "value": "1"
+        },
+        {
+          "name": "ABTastyData",
+          "value": "{\"VisitedPages\":[{\"url\":\"https://www.mouratoglou.com/en/\",\"visite\":1,\"time\":1780328110293,\"title\":\"Mouratoglou Tennis Academy - French Riviera, France\"}],\"ActionTracking\":[{\"name\":\"Popin image displayed\",\"value\":0,\"time\":1780328111002}]}"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Tue, 02 Jun 2026 15:35:10 GMT"
+        },
+        {
+          "name": "_ym55675267_lsid",
+          "value": "1252701835319"
+        },
+        {
+          "name": "_uetvid",
+          "value": "799f25c05dcf11f18fa5bb12e3cddf27"
+        },
+        {
+          "name": "_ym_uid",
+          "value": "\"1780328110315486106\""
+        },
+        {
+          "name": "_air360_sr",
+          "value": "{\"\\u0000\":\"0\",\"ttl\":1780329909982}"
+        }
+      ]
+    },
+    {
+      "origin": "https://challenges.cloudflare.com",
+      "localStorage": [
+        {
+          "name": "cf.turnstile.u",
+          "value": "KclfB2pFVXYFk6VAenzHZhebkZkala0eex3MSFwlti4-1780328109-1.3.1.1-s3xATb5TlbUcb.UzBnKfB5JGcCn_cLbAFTzS5IQhLZiV5Wknpn3l7qG9nzsgVyUblhqs6jerKLfi4uuzW6ag6Q"
+        }
+      ]
+    },
+    {
+      "origin": "https://try.abtasty.com",
+      "localStorage": [
+        {
+          "name": "873fcc38d401fba393b290bad4e29eb4",
+          "value": "{\"ABTasty\":\"uid=yfk96qj2w6gwhdsg&fst=1780328110293&pst=-1&cst=1780328110293&ns=1&pvt=1&pvis=1&th=1555074.1937819.1.1.1.1.1780328110452.1780328110452.0.1_1636147.2042453.1.1.1.1.1780328110466.1780328110466.0.1\"}"
+        }
+      ]
+    }
+  ]
+}
