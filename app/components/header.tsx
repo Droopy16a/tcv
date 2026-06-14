@@ -1,13 +1,19 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { navItems } from "../data";
+import Image from "next/image";
 
 type HeaderProps = {
   onGuideOpen?: () => void;
 };
 
 export function Header({ onGuideOpen }: HeaderProps) {
+  const pathname = usePathname();
+  const isMainPage = pathname === "/";
+
   const [bannerVisible, setBannerVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
@@ -26,7 +32,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
         <div className="info-banner" data-theme="orange">
           <div className="info-banner-content">
             <p>Inscription Ouverte</p>
-            <a href="#camps">S'INSCRIRE</a>
+            <Link href="/inscription">S'INSCRIRE</Link>
           </div>
           <button
             className="info-banner-close"
@@ -36,14 +42,14 @@ export function Header({ onGuideOpen }: HeaderProps) {
         </div>
       ) : null}
 
-      <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
+      <header className={`site-header ${(!isMainPage || scrolled) ? "is-scrolled" : ""}`}>
         <div className="header-wrapper">
           <a className="header-logo" href="#" aria-label="T.C. VERNOUILLET">
             <span className="logo-text">T.C. VERNOUILLET</span>
             {/* <Image
-              src="/assets/logo-30-years.svg"
-              alt="Mouratoglou 30 years"
-              width={299}
+              src="/images/logo.png"
+              alt="logo"
+              width={45}
               height={28}
               priority
             /> */}

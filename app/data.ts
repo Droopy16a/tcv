@@ -3,29 +3,29 @@ export const navItems = [
     label: "Le Club",
     href: "#camps",
     description:
-      "Tennis camps adapted to every age, every level, every week of the year.",
-    links: ["Our camps", "Adults camps", "Juniors camps"],
+      "",
+    links: [],
   },
   {
     label: "école de tennis",
     href: "#tennis-school",
     description:
-      "A high level of sports and academic training to combine tournaments and school courses.",
-    links: ["Admission", "Sports program", "Selection week", "Campus"],
+      "",
+    links: [],
   },
   { 
     label: "Compétition",
     href: "#academy",
     description:
-      "Discover Mouratoglou Academy infrastructures, sports facilities and wellness areas.",
-    links: ["Patrick Mouratoglou", "Methodology", "Campus", "Sports Medical Center"],
+      "",
+    links: [],
   },
   {
     label: "services",
     href: "#international",
     description:
-      "Mouratoglou Tennis Centers spread excellence and passion around the world.",
-    links: ["Bali", "Kuala Lumpur", "Bodrum", "Florida", "Abu Dhabi"],
+      "",
+    links: [],
   },
   // { label: "30 Years", href: "#anniversary", description: "", links: [] },
 ];

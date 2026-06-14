@@ -24,11 +24,11 @@ export default function Footer() {
             <ul className="space-y-4 text-sm font-light text-gray-300">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-accent shrink-0 mt-1" />
-                <span>83 Boulevard de l'Europe<br />78540 Vernouillet</span>
+                <span>1 allée Louis Dufau<br />78540 Vernouillet</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-accent shrink-0" />
-                <span>01 39 71 07 61</span>
+                <span>09 52 58 55 50</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-accent shrink-0" />

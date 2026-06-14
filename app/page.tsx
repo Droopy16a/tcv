@@ -24,12 +24,13 @@ export default function Home() {
   return (
     <>
       {/* 1. HERO SECTION */}
+
       <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=2000&auto=format&fit=crop"
+            src="/images/hero.jpg"
             alt="Courts de tennis"
-            fill
+            fill={true}
             className="object-cover"
             priority
           />
@@ -42,7 +43,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="font-heading font-black text-white text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-none mb-6"
+            className="font-display font-black text-white text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-none mb-6"
           >
             Tennis Club<br />Vernouillet
           </motion.h1>
@@ -61,13 +62,13 @@ export default function Home() {
             className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12"
           >
             <Link 
-              href="#inscription"
+              href="/inscription"
               className="bg-accent text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
             >
               Rejoindre le club
             </Link>
             <Link 
-              href="#reservation"
+              href="https://tenup.fft.fr/club/57780425"
               className="bg-transparent border border-white text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
             >
               Réserver un court
@@ -94,19 +95,19 @@ export default function Home() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-200 pt-12">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
-              <div className="font-heading font-black text-5xl text-accent mb-2">50</div>
+              <div className="font-heading font-black text-5xl text-accent mb-2">50+</div>
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Ans d'histoire</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.1 }}>
-              <div className="font-heading font-black text-5xl text-accent mb-2">480+</div>
+              <div className="font-heading font-black text-5xl text-accent mb-2">517</div>
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Joueurs</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }}>
-              <div className="font-heading font-black text-5xl text-accent mb-2">7</div>
+              <div className="font-heading font-black text-5xl text-accent mb-2">8</div>
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Courts</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.3 }}>
-              <div className="font-heading font-black text-5xl text-accent mb-2">20</div>
+              <div className="font-heading font-black text-5xl text-accent mb-2">26</div>
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Équipes</div>
             </motion.div>
           </div>
@@ -129,7 +130,7 @@ export default function Home() {
           >
             {/* Jeunes */}
             <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-              <Image src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+              <Image src="/images/hero.jpg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 w-full">
                 <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">École de Tennis</div>
@@ -142,7 +143,7 @@ export default function Home() {
 
             {/* Adultes */}
             <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-              <Image src="https://images.unsplash.com/photo-1622279457486-69d73ce88701?q=80&w=800&auto=format&fit=crop" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+              <Image src="/images/hero.jpg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 w-full">
                 <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Cours & Loisir</div>
@@ -170,7 +171,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="col-span-1 md:col-span-2 relative h-[500px] group cursor-pointer overflow-hidden">
-              <Image src="https://images.unsplash.com/photo-1589487391730-58f20eb2c308?q=80&w=1200&auto=format&fit=crop" alt="Extérieur" fill className="object-cover group-hover:scale-105 transition-transform duration-1000" />
+              <Image src="/images/hero.jpg" alt="Extérieur" fill className="object-cover group-hover:scale-105 transition-transform duration-1000" />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
               <div className="absolute bottom-8 left-8">
                 <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">5 Terrains Extérieurs</h3>
@@ -178,9 +179,9 @@ export default function Home() {
             </motion.div>
             
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }} className="col-span-1 relative h-[500px] group cursor-pointer overflow-hidden bg-black">
-              <Image src="https://images.unsplash.com/photo-1530915365347-23087af369d7?q=80&w=800&auto=format&fit=crop" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
+              <Image src="/images/hero.jpg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
               <div className="absolute bottom-8 left-8">
-                <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">2 Terrains Couverts</h3>
+                <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">3 Terrains Couverts</h3>
               </div>
             </motion.div>
           </div>
