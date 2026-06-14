@@ -44,7 +44,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
 
       <header className={`site-header ${(!isMainPage || scrolled) ? "is-scrolled" : ""}`}>
         <div className="header-wrapper">
-          <a className="header-logo" href="#" aria-label="T.C. VERNOUILLET">
+          <a className="header-logo" href="/" aria-label="T.C. VERNOUILLET">
             <span className="logo-text">T.C. VERNOUILLET</span>
             {/* <Image
               src="/images/logo.png"
@@ -89,10 +89,10 @@ export function Header({ onGuideOpen }: HeaderProps) {
             {/* <button className="gift-button" aria-label="Gift card" onClick={onGuideOpen}>
               <GiftIcon />
             </button> */}
-            <a className="button button--accent" href="#fil-infos">
-              Fil Infos
+            <a className="button button--accent" href="/calendrier">
+              Calendrier
             </a>
-            <a className="button button--fill" href="#contact">
+            <a className="button button--fill" href="mailto:tcvernouillet@gmail.com">
               Contact
             </a>
             <button
@@ -116,8 +116,8 @@ export function Header({ onGuideOpen }: HeaderProps) {
             </a>
           ))}
           <div className="mobile-menu-footer">
-            <a href="#camps">Book a camp</a>
-            <a href="#contact">Contact the academy</a>
+            <a href="/calendrier">Calendrier</a>
+            <a href="mailto:tcvernouillet@gmail.com">Contact</a>
           </div>
         </div>
       </header>
