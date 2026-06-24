@@ -1,11 +1,27 @@
 "use client";
 
+import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 export default function Home() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handleMouseEnter = () => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play().catch((err) => console.log("Video playback error: ", err));
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }
+  };
+
   const fadeIn: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
@@ -170,8 +186,24 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="col-span-1 md:col-span-2 relative h-[500px] group cursor-pointer overflow-hidden">
-              <Image src="/images/hero.png" alt="Extérieur" fill className="object-cover group-hover:scale-105 transition-transform duration-1000" />
+            <motion.div 
+              initial="hidden" 
+              whileInView="visible" 
+              viewport={{ once: true }} 
+              variants={fadeIn} 
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              className="col-span-1 md:col-span-2 relative h-[500px] group cursor-pointer overflow-hidden"
+            >
+              <Image src="/images/terrains_haut.png" alt="Extérieur" fill className="object-cover group-hover:scale-105 transition-transform duration-1000" />
+              <video 
+                ref={videoRef}
+                src="/images/trailling_terrains.mp4" 
+                loop 
+                muted 
+                playsInline 
+                className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+              />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
               <div className="absolute bottom-8 left-8">
                 <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">5 Terrains Extérieurs</h3>
@@ -205,8 +237,8 @@ export default function Home() {
           </motion.p>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }}>
             <Link 
-              href="#contact"
-              className="inline-block bg-black text-white font-bold uppercase tracking-widest text-sm px-14 py-6 hover:bg-secondary hover:text-black transition-colors"
+              href="mailto:tcvernouillet@gmail.com"
+              className="button button--accent"
             >
               Contactez-nous
             </Link>

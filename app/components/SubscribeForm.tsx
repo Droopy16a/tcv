@@ -133,7 +133,11 @@ function EnfantsForm() {
     setIsSubmitting(false);
     
     if (result.success) {
-      setSuccessMessage("Votre inscription a bien été enregistrée !");
+      if (result.checkoutUrl) {
+        window.location.href = result.checkoutUrl;
+      } else {
+        setSuccessMessage("Votre inscription a bien été enregistrée !");
+      }
     } else {
       setErrorMessage(result.error || "Une erreur s'est produite lors de l'inscription.");
     }
@@ -463,7 +467,11 @@ function AdultesForm() {
     setIsSubmitting(false);
     
     if (result.success) {
-      setSuccessMessage("Votre inscription a bien été enregistrée !");
+      if (result.checkoutUrl) {
+        window.location.href = result.checkoutUrl;
+      } else {
+        setSuccessMessage("Votre inscription a bien été enregistrée !");
+      }
     } else {
       setErrorMessage(result.error || "Une erreur s'est produite lors de l'inscription.");
     }
