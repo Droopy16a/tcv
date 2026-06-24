@@ -18,12 +18,20 @@ export function Header({ onGuideOpen }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const stored = localStorage.getItem("bannerVisible");
     if (stored === "false") {
       setBannerVisible(false);
     }
+  }, []);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize();
+    window.addEventListener("resize", handleResize, { passive: true });
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
@@ -59,7 +67,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
               height={28}
               priority
             />
-            <span className="logo-text">T.C. VERNOUILLET</span>
+            <span className="logo-text">{!isMobile ? "T.C. VERNOUILLET" : "T.C.V"}</span>
           </a>
 
           <nav className="desktop-menu" aria-label="Main menu">
