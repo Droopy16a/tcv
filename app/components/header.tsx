@@ -51,15 +51,15 @@ export function Header({ onGuideOpen }: HeaderProps) {
 
       <header className={`site-header ${(!isMainPage || scrolled) ? "is-scrolled" : ""}`}>
         <div className="header-wrapper">
-          <a className="header-logo" href="/" aria-label="T.C. VERNOUILLET">
-            <span className="logo-text">T.C. VERNOUILLET</span>
-            {/* <Image
+          <a className="header-logo" href="/" aria-label="T.C. VERNOUILLET" style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+            <Image
               src="/images/logo.png"
               alt="logo"
               width={45}
               height={28}
               priority
-            /> */}
+            />
+            <span className="logo-text">T.C. VERNOUILLET</span>
           </a>
 
           <nav className="desktop-menu" aria-label="Main menu">

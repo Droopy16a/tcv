@@ -44,7 +44,7 @@ export default function Home() {
       <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/images/hero.png"
+            src="/images/hero.jpg"
             alt="Courts de tennis"
             fill={true}
             className="object-cover"
@@ -148,7 +148,7 @@ export default function Home() {
           >
             {/* Jeunes */}
             <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-              <Image src="/images/hero.png" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+              <Image src="/images/hero.jpg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 w-full">
                 <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">École de Tennis</div>
@@ -161,7 +161,7 @@ export default function Home() {
 
             {/* Adultes */}
             <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-              <Image src="/images/hero.png" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+              <Image src="/images/hero.jpg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 w-full">
                 <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Cours & Loisir</div>
@@ -213,7 +213,7 @@ export default function Home() {
             </motion.div>
             
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }} className="col-span-1 relative h-[500px] group cursor-pointer overflow-hidden bg-black">
-              <Image src="/images/hero.png" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
+              <Image src="/images/hero.jpg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
               <div className="absolute bottom-8 left-8">
                 <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">3 Terrains Couverts</h3>
               </div>

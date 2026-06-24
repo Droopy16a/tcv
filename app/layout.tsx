@@ -13,6 +13,10 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "TC Vernouillet",
   description: "Tennis Club de Vernouillet",
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/images/logo.png',
+  },
 };
 
 export default function RootLayout({

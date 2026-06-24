@@ -338,14 +338,15 @@ video {
 }
 
 .header-logo {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   margin-right: 1rem;
-  filter: invert(1);
   text-decoration: none;
 }
 
-.site-header.is-scrolled .header-logo {
-  filter: none;
+.site-header.is-scrolled .logo-text {
+  filter: invert(0);
 }
 
 .logo-text {
@@ -356,6 +357,7 @@ video {
   white-space: nowrap;
   color: #000;
   display: inline-block;
+  filter: invert(1);
 }
 
 .desktop-menu {
@@ -1278,8 +1280,14 @@ video {
   }
 
   .header-logo {
-    width: 9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: auto;
     margin-right: auto;
+  }
+
+  .logo-text {
     filter: none;
   }
 
