@@ -20,6 +20,13 @@ export function Header({ onGuideOpen }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    const stored = localStorage.getItem("bannerVisible");
+    if (stored === "false") {
+      setBannerVisible(false);
+    }
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 24);
     handleScroll();
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -37,7 +44,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
           <button
             className="info-banner-close"
             aria-label="Close announcement"
-            onClick={() => setBannerVisible(false)}
+            onClick={() => {localStorage.setItem("bannerVisible", "false"); setBannerVisible(false);}}
           />
         </div>
       ) : null}

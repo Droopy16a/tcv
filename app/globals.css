@@ -1550,3 +1550,46 @@ video {
     animation-duration: 0.001ms !important;
   }
 }
+
+/* Touch ripple and tactile feedback */
+button, .button, [role="button"] {
+  position: relative;
+  overflow: hidden;
+  /* Fix Safari overflow clipping bug for border-radius */
+  transform: translate3d(0, 0, 0);
+}
+
+.touch-ripple-wave {
+  position: absolute;
+  border-radius: 50%;
+  background-color: currentColor;
+  pointer-events: none;
+  transform: scale(0);
+  opacity: 0.16;
+  transition: transform 0.35s cubic-bezier(0.1, 0.8, 0.3, 1), opacity 0.25s ease-out;
+  z-index: 9999;
+}
+
+.touch-ripple-wave.ripple-active {
+  transform: scale(1);
+}
+
+.touch-ripple-wave.ripple-out {
+  opacity: 0;
+}
+
+/* iOS-like tactile shrink feedback */
+.button-press-active {
+  transform: scale(0.965) !important;
+  transition: transform 0.12s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .touch-ripple-wave {
+    transition: none !important;
+  }
+  .button-press-active {
+    transform: none !important;
+    transition: none !important;
+  }
+}

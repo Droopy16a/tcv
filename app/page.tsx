@@ -79,12 +79,14 @@ export default function Home() {
           >
             <Link 
               href="/inscription"
+              role="button"
               className="bg-accent text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
             >
               Rejoindre le club
             </Link>
             <Link 
               href="https://tenup.fft.fr/club/57780425"
+              role="button"
               className="bg-transparent border border-white text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
             >
               Réserver un court

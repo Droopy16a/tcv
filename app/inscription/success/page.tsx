@@ -17,7 +17,7 @@ export default function InscriptionSuccessPage() {
           Vous recevrez prochainement un email de confirmation.
         </p>
         <div className="pt-8">
-          <Link href="/" className="font-bold uppercase tracking-widest text-sm px-12 py-5 transition-all border inline-block bg-black text-white border-black hover:bg-[#DF6436] hover:border-[#DF6436]">
+          <Link href="/" role="button" className="font-bold uppercase tracking-widest text-sm px-12 py-5 transition-all border inline-block bg-black text-white border-black hover:bg-[#DF6436] hover:border-[#DF6436]">
             Retour à l'accueil
           </Link>
         </div>
