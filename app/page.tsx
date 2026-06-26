@@ -80,14 +80,14 @@ export default function Home() {
             <Link 
               href="/inscription"
               role="button"
-              className="bg-accent text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
+              className="bg-transparent border border-white text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
             >
               Rejoindre le club
             </Link>
             <Link 
               href="https://tenup.fft.fr/club/57780425"
               role="button"
-              className="bg-transparent border border-white text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
+              className="bg-accent text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
             >
               Réserver un court
             </Link>
@@ -175,14 +175,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. INFRASTRUCTURES (MINIMALIST) */}
+      {/* 4. INFRASTRUCTURES */}
       <section className="py-24 md:py-32 bg-gray-50">
         <div className="container mx-auto px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div className="max-w-2xl">
               <h2 className="font-heading font-black text-4xl md:text-6xl uppercase tracking-tighter text-black mb-4">Infrastructures</h2>
               <p className="text-gray-600 text-xl font-light">
-                Le campus dispose d'un complexe exceptionnel doté d'installations de pointe pour vous permettre de jouer toute l'année.
+                Le club dispose d'un complexe exceptionnel doté d'installations de pointe pour vous permettre de jouer toute l'année.
               </p>
             </div>
           </motion.div>
@@ -198,14 +198,14 @@ export default function Home() {
               className="col-span-1 md:col-span-2 relative h-[500px] group cursor-pointer overflow-hidden"
             >
               <Image src="/images/terrains_haut.png" alt="Extérieur" fill className="object-cover group-hover:scale-105 transition-transform duration-1000" />
-              <video 
+              {/* <video 
                 ref={videoRef}
                 src="/images/trailling_terrains.mp4" 
                 loop 
                 muted 
                 playsInline 
                 className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-              />
+              /> */}
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
               <div className="absolute bottom-8 left-8">
                 <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">5 Terrains Extérieurs</h3>
@@ -213,7 +213,7 @@ export default function Home() {
             </motion.div>
             
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }} className="col-span-1 relative h-[500px] group cursor-pointer overflow-hidden bg-black">
-              <Image src="/images/hero.jpg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
+              <Image src="/images/terrains_couverts.jpeg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
               <div className="absolute bottom-8 left-8">
                 <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">3 Terrains Couverts</h3>
               </div>

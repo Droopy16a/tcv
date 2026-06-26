@@ -59,6 +59,32 @@ export default function SubscribeForm() {
               Adultes
             </button>
           </motion.div>
+
+          <motion.div 
+            initial="hidden" animate="visible" variants={fadeIn} transition={{ delay: 0.3 }}
+            className="mt-12 bg-gray-50 border border-gray-200 p-8 text-left max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8"
+          >
+            <div className="flex-1">
+              <h3 className="font-heading font-black text-2xl uppercase tracking-tight text-black mb-2">Inscription Papier</h3>
+              <p className="font-light text-gray-600 text-lg">
+                Si vous préférez compléter votre dossier manuellement, vous pouvez télécharger les formulaires d'inscription ainsi que notre grille tarifaire ci-dessous.
+              </p>
+            </div>
+            <div className="flex flex-col gap-3 w-full md:w-auto shrink-0">
+              <a href="/pdf/formulaire_enfants.pdf" target="_blank" rel="noopener noreferrer" className="text-xs font-bold uppercase tracking-widest px-6 py-3 border border-gray-300 hover:border-[#DF6436] hover:text-[#DF6436] transition-colors text-center bg-white flex items-center justify-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                Formulaire Enfants
+              </a>
+              <a href="/pdf/formulaire_adultes.pdf" target="_blank" rel="noopener noreferrer" className="text-xs font-bold uppercase tracking-widest px-6 py-3 border border-gray-300 hover:border-[#DF6436] hover:text-[#DF6436] transition-colors text-center bg-white flex items-center justify-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                Formulaire Adultes
+              </a>
+              <a href="/pdf/tarifs.pdf" target="_blank" rel="noopener noreferrer" className="text-xs font-bold uppercase tracking-widest px-6 py-3 border border-gray-300 hover:border-[#DF6436] hover:text-[#DF6436] transition-colors text-center bg-white flex items-center justify-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                Grille Tarifaire
+              </a>
+            </div>
+          </motion.div>
         </div>
 
         <motion.div
