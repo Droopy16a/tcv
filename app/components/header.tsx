@@ -22,7 +22,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
 
   useEffect(() => {
     const stored = localStorage.getItem("bannerVisible");
-    if (stored === "false") {
+    if (stored === "false" && Date.now() - parseInt(localStorage.getItem("bannerVisibleTimestamp") || "0") < 24 * 60 * 60 * 1000) {
       setBannerVisible(false);
     }
   }, []);
@@ -52,7 +52,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
           <button
             className="info-banner-close"
             aria-label="Close announcement"
-            onClick={() => {localStorage.setItem("bannerVisible", "false"); setBannerVisible(false);}}
+            onClick={() => {localStorage.setItem("bannerVisible", `{false, ${Date.now()}}`); setBannerVisible(false);}}
           />
         </div>
       ) : null}

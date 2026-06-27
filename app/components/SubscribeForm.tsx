@@ -243,7 +243,7 @@ function EnfantsForm() {
             </div>
           </div>
           
-          <input type="date" name="dateNaissance" value={form.dateNaissance} onChange={handleChange} className={inputClass} />
+          <input type="date" name="dateNaissance" value={form.dateNaissance} onChange={handleChange} className={inputClass} required />
           <input name="adresse" placeholder="Adresse" value={form.adresse} onChange={handleChange} className={`${inputClass} md:col-span-2`} />
           <input name="codePostal" placeholder="Code postal" value={form.codePostal} onChange={handleChange} className={inputClass} />
           <input name="ville" placeholder="Ville (Tapez Vernouillet pour le tarif résident)" value={form.ville} onChange={handleChange} required className={inputClass} />
@@ -566,7 +566,7 @@ function AdultesForm() {
             </div>
           </div>
           
-          <input type="date" name="dateNaissance" value={form.dateNaissance} onChange={handleChange} className={inputClass} />
+          <input type="date" name="dateNaissance" value={form.dateNaissance} onChange={handleChange} className={inputClass} required />
           <input name="adresse" placeholder="Adresse" value={form.adresse} onChange={handleChange} className={`${inputClass} md:col-span-2`} />
           <input name="codePostal" placeholder="Code postal" value={form.codePostal} onChange={handleChange} className={inputClass} />
           <input name="ville" placeholder="Ville (Tapez Vernouillet pour le tarif résident)" value={form.ville} onChange={handleChange} required className={inputClass} />
