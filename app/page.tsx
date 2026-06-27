@@ -133,7 +133,7 @@ export default function Home() {
       </section>
 
       {/* 3. NOS ACTIVITÉS (DARK SECTION) */}
-      <section className="bg-[#111] py-24 md:py-32 text-white">
+      <section id="programs" className="bg-[#111] py-24 md:py-32 text-white">
         <div className="container mx-auto px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="mb-16">
             <h2 className="font-heading font-black text-4xl md:text-6xl uppercase tracking-tighter mb-4">Nos programmes</h2>
@@ -176,7 +176,7 @@ export default function Home() {
       </section>
 
       {/* 4. INFRASTRUCTURES */}
-      <section className="py-24 md:py-32 bg-gray-50">
+      <section id="infrastructures" className="py-24 md:py-32 bg-gray-50">
         <div className="container mx-auto px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div className="max-w-2xl">
@@ -188,36 +188,40 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <motion.div 
-              initial="hidden" 
-              whileInView="visible" 
-              viewport={{ once: true }} 
-              variants={fadeIn} 
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              className="col-span-1 md:col-span-2 relative h-[500px] group cursor-pointer overflow-hidden"
-            >
-              <Image src="/images/terrains_haut.png" alt="Extérieur" fill className="object-cover group-hover:scale-105 transition-transform duration-1000" />
-              {/* <video 
-                ref={videoRef}
-                src="/images/trailling_terrains.mp4" 
-                loop 
-                muted 
-                playsInline 
-                className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-              /> */}
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
-              <div className="absolute bottom-8 left-8">
-                <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">5 Terrains Extérieurs</h3>
-              </div>
-            </motion.div>
+            <Link href="/terrains#exterieurs" className="col-span-1 md:col-span-2 block">
+              <motion.div 
+                initial="hidden" 
+                whileInView="visible" 
+                viewport={{ once: true }} 
+                variants={fadeIn} 
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                className="relative h-[500px] group cursor-pointer overflow-hidden"
+              >
+                <Image src="/images/terrains_haut.png" alt="Extérieur" fill className="object-cover group-hover:scale-105 transition-transform duration-1000" />
+                {/* <video 
+                  ref={videoRef}
+                  src="/images/trailling_terrains.mp4" 
+                  loop 
+                  muted 
+                  playsInline 
+                  className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                /> */}
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
+                <div className="absolute bottom-8 left-8">
+                  <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">5 Terrains Extérieurs</h3>
+                </div>
+              </motion.div>
+            </Link>
             
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }} className="col-span-1 relative h-[500px] group cursor-pointer overflow-hidden bg-black">
-              <Image src="/images/terrains_couverts.jpeg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
-              <div className="absolute bottom-8 left-8">
-                <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">3 Terrains Couverts</h3>
-              </div>
-            </motion.div>
+            <Link href="/terrains#couverts" className="col-span-1 block">
+              <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }} className="relative h-[500px] group cursor-pointer overflow-hidden bg-black">
+                <Image src="/images/terrains_couverts.jpeg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
+                <div className="absolute bottom-8 left-8">
+                  <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">3 Terrains Couverts</h3>
+                </div>
+              </motion.div>
+            </Link>
           </div>
         </div>
       </section>

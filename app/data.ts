@@ -1,14 +1,14 @@
 export const navItems = [
   {
     label: "Le Club",
-    href: "#camps",
+    href: "/#infrastructures",
     description:
       "",
     links: [],
   },
   {
     label: "école de tennis",
-    href: "#tennis-school",
+    href: "/#programs",
     description:
       "",
     links: [],
