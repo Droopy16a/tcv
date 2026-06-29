@@ -1,28 +1,28 @@
 export const navItems = [
   {
     label: "Le Club",
-    href: "/#infrastructures",
+    href: "/#club",
     description:
       "",
     links: [],
   },
   {
-    label: "école de tennis",
+    label: "programmes",
     href: "/#programs",
     description:
       "",
     links: [],
   },
   { 
-    label: "Compétition",
-    href: "#academy",
+    label: "infrastructures",
+    href: "/#infrastructures",
     description:
       "",
     links: [],
   },
   {
-    label: "services",
-    href: "#international",
+    label: "nos équipes",
+    href: "/#teams",
     description:
       "",
     links: [],

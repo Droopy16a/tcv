@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import TeamSlider from "./components/TeamSlider";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -96,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* 2. TAGLINE & INTRO */}
-      <section className="bg-white py-24 md:py-32">
+      <section id="club" className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6 max-w-4xl text-center">
           <motion.h2 
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeIn}
@@ -147,33 +148,38 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-2 gap-6"
           >
             {/* Jeunes */}
-            <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-              <Image src="/images/hero.jpg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 p-8 w-full">
-                <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">École de Tennis</div>
-                <h3 className="font-heading font-black text-4xl uppercase tracking-tight text-white mb-4">Jeunes</h3>
-                <div className="flex items-center text-white text-sm font-bold uppercase tracking-wider group-hover:text-accent transition-colors">
-                  Découvrir le programme <ArrowRight size={16} className="ml-2 transform group-hover:translate-x-2 transition-transform" />
+            <Link href="/ecole-de-tennis#jeunes" className="block">
+              <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
+                <Image src="/images/hero.jpg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 p-8 w-full">
+                  <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">École de Tennis</div>
+                  <h3 className="font-heading font-black text-4xl uppercase tracking-tight text-white mb-4">Jeunes</h3>
+                  <div className="flex items-center text-white text-sm font-bold uppercase tracking-wider group-hover:text-accent transition-colors">
+                    Découvrir le programme <ArrowRight size={16} className="ml-2 transform group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </Link>
 
             {/* Adultes */}
-            <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-              <Image src="/images/hero.jpg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 p-8 w-full">
-                <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Cours & Loisir</div>
-                <h3 className="font-heading font-black text-4xl uppercase tracking-tight text-white mb-4">Adultes</h3>
-                <div className="flex items-center text-white text-sm font-bold uppercase tracking-wider group-hover:text-accent transition-colors">
-                  Découvrir le programme <ArrowRight size={16} className="ml-2 transform group-hover:translate-x-2 transition-transform" />
+            <Link href="/ecole-de-tennis#adultes" className="block">
+              <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
+                <Image src="/images/hero.jpg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 p-8 w-full">
+                  <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Cours & Loisir</div>
+                  <h3 className="font-heading font-black text-4xl uppercase tracking-tight text-white mb-4">Adultes</h3>
+                  <div className="flex items-center text-white text-sm font-bold uppercase tracking-wider group-hover:text-accent transition-colors">
+                    Découvrir le programme <ArrowRight size={16} className="ml-2 transform group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </Link>
           </motion.div>
         </div>
       </section>
+
 
       {/* 4. INFRASTRUCTURES */}
       <section id="infrastructures" className="py-24 md:py-32 bg-gray-50">
@@ -225,6 +231,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* NOTRE ÉQUIPE */}
+      <TeamSlider />
 
       {/* 5. CTA PUSH */}
       <section className="bg-accent py-24">
