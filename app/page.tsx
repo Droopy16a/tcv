@@ -6,6 +6,7 @@ import Link from "next/link";
 import { motion, Variants } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import TeamSlider from "./components/TeamSlider";
+import SponsorTicker from "./components/SponsorTicker";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -131,6 +132,9 @@ export default function Home() {
             </motion.div>
           </div>
         </div>
+
+        {/* Full-width sponsor ticker — outside the constrained container */}
+        <SponsorTicker />
       </section>
 
       {/* 3. NOS ACTIVITÉS (DARK SECTION) */}
@@ -222,7 +226,7 @@ export default function Home() {
             
             <Link href="/terrains#couverts" className="col-span-1 block">
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }} className="relative h-[500px] group cursor-pointer overflow-hidden bg-black">
-                <Image src="/images/terrains_couverts.jpeg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
+                <Image src="/images/terrains_couverts_0.jpg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
                 <div className="absolute bottom-8 left-8">
                   <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">3 Terrains Couverts</h3>
                 </div>
