@@ -153,34 +153,14 @@ function EnfantsForm() {
     setErrorMessage("");
     setSuccessMessage("");
     
-    const actions = await import("../actions");
-    const result = cost > 0
-      ? await actions.createEnfantCheckout({
-          nom: form.nom,
-          prenom: form.prenom,
-          emailMere: form.emailMere,
-          emailPere: form.emailPere,
-        }, cost)
-      : await actions.finalizePendingInscription({ kind: "enfant", data: form, cost });
+    const { submitEnfant } = await import("../actions");
+    const result = await submitEnfant(form, cost);
     
     setIsSubmitting(false);
     
     if (result.success) {
       if (result.checkoutUrl) {
-        try {
-          window.sessionStorage.setItem("tcv_pending_inscription", JSON.stringify({
-            kind: "enfant",
-            data: form,
-            cost,
-            checkoutIntentId: result.checkoutIntentId,
-            createdAt: new Date().toISOString(),
-          }));
-        } catch {
-          setErrorMessage("Impossible de conserver temporairement votre inscription avant le paiement. Veuillez réessayer.");
-          setIsSubmitting(false);
-          return;
-        }
-        window.location.assign(result.checkoutUrl);
+        window.location.href = result.checkoutUrl;
       } else {
         setSuccessMessage("Votre inscription a bien été enregistrée !");
       }
@@ -507,34 +487,14 @@ function AdultesForm() {
     setErrorMessage("");
     setSuccessMessage("");
     
-    const pendingData = { ...form, selectedCourses };
-    const actions = await import("../actions");
-    const result = cost > 0
-      ? await actions.createAdulteCheckout({
-          nom: form.nom,
-          prenom: form.prenom,
-          email: form.email,
-        }, cost)
-      : await actions.finalizePendingInscription({ kind: "adulte", data: pendingData, cost });
+    const { submitAdulte } = await import("../actions");
+    const result = await submitAdulte({ ...form, selectedCourses }, cost);
     
     setIsSubmitting(false);
     
     if (result.success) {
       if (result.checkoutUrl) {
-        try {
-          window.sessionStorage.setItem("tcv_pending_inscription", JSON.stringify({
-            kind: "adulte",
-            data: pendingData,
-            cost,
-            checkoutIntentId: result.checkoutIntentId,
-            createdAt: new Date().toISOString(),
-          }));
-        } catch {
-          setErrorMessage("Impossible de conserver temporairement votre inscription avant le paiement. Veuillez réessayer.");
-          setIsSubmitting(false);
-          return;
-        }
-        window.location.assign(result.checkoutUrl);
+        window.location.href = result.checkoutUrl;
       } else {
         setSuccessMessage("Votre inscription a bien été enregistrée !");
       }
