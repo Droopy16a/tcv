@@ -13,6 +13,7 @@ type HeaderProps = {
 export function Header({ onGuideOpen }: HeaderProps) {
   const pathname = usePathname();
   const isMainPage = pathname === "/";
+  const contactEmail = "tcvernouillet@gmail.com";
 
   const [bannerVisible, setBannerVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -107,7 +108,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
             <a className="button button--accent" href="/calendrier">
               Calendrier
             </a>
-            <a className="button button--fill" href="mailto:tcvernouillet@gmail.com">
+            <a className="button button--fill" href={`mailto:${contactEmail}`}>
               Contact
             </a>
             <button
@@ -132,7 +133,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
           ))}
           <div className="mobile-menu-footer">
             <a href="/calendrier">Calendrier</a>
-            <a href="mailto:tcvernouillet@gmail.com">Contact</a>
+            <a href={`mailto:${contactEmail}`}>Contact</a>
           </div>
         </div>
       </header>

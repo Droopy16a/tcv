@@ -2,7 +2,9 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
-import { calendarEvents, EventCategory } from "./data";
+import { PublicEvent } from "./page";
+
+type EventCategory = "Tous" | "Stages" | "Événements" | "Tournois" | "Interclubs" | "Informations" | string;
 
 const fadeIn: Variants = {
   hidden: { opacity: 0, y: 30 },
@@ -24,13 +26,13 @@ const monthNames: Record<number, string> = {
   12: "Août 2027",
 };
 
-export default function CalendrierPage() {
+export default function CalendrierClient({ events }: { events: PublicEvent[] }) {
   const [activeFilter, setActiveFilter] = useState<EventCategory | "Tous">("Tous");
 
   const filters: (EventCategory | "Tous")[] = ["Tous", "Stages", "Événements", "Tournois", "Interclubs", "Informations"];
 
   // Filtrer et trier les événements
-  const filteredEvents = calendarEvents
+  const filteredEvents = events
     .filter((event) => activeFilter === "Tous" || event.category === activeFilter)
     .sort((a, b) => a.sortOrder - b.sortOrder);
 
@@ -41,7 +43,7 @@ export default function CalendrierPage() {
     }
     acc[event.sortOrder].push(event);
     return acc;
-  }, {} as Record<number, typeof calendarEvents>);
+  }, {} as Record<number, PublicEvent[]>);
 
   // Couleurs par catégorie
   const getCategoryColor = (category: string) => {

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import { Header } from "./components/header";
-import Footer from "./components/footer";
 import TouchRipple from "./components/TouchRipple";
 
 const montserrat = Montserrat({
@@ -28,11 +26,7 @@ export default function RootLayout({
     <html lang="fr" className={`${montserrat.variable} antialiased`} data-theme="light">
       <body className="min-h-full flex flex-col font-sans">
         <TouchRipple />
-        <Header />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+        {children}
       </body>
     </html>
   );

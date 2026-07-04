@@ -10,37 +10,37 @@ const teamMembers = [
     id: 1,
     name: "Nom prénom",
     role: "Directeur Sportif",
-    image: "/images/hero.jpg",
+    image: "/images/unk.png",
   },
   {
     id: 1,
     name: "Nom prénom",
     role: "Directeur Sportif",
-    image: "/images/hero.jpg",
+    image: "/images/unk.png",
   },
   {
     id: 1,
     name: "Nom prénom",
     role: "Directeur Sportif",
-    image: "/images/hero.jpg",
+    image: "/images/unk.png",
   },
   {
     id: 1,
     name: "Nom prénom",
     role: "Directeur Sportif",
-    image: "/images/hero.jpg",
+    image: "/images/unk.png",
   },
   {
     id: 1,
     name: "Nom prénom",
     role: "Directeur Sportif",
-    image: "/images/hero.jpg",
+    image: "/images/unk.png",
   },
   {
     id: 1,
     name: "Nom prénom",
     role: "Directeur Sportif",
-    image: "/images/hero.jpg",
+    image: "/images/unk.png",
   },
 ];
 

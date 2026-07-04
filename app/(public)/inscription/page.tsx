@@ -1,4 +1,4 @@
-import SubscribeForm from "../components/SubscribeForm";
+import SubscribeForm from "@/app/components/SubscribeForm";
 
 export default function InscriptionPage() {
   return (

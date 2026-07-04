@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import TeamSlider from "./components/TeamSlider";
-import SponsorTicker from "./components/SponsorTicker";
+import TeamSlider from "@/app/components/TeamSlider";
+import SponsorTicker from "@/app/components/SponsorTicker";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);

@@ -1,17 +1,21 @@
 import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
-
 export default function Footer() {
+  const address = "1 allée Louis Dufau\n78540 Vernouillet";
+  const phone = "09 52 58 55 50";
+  const email = "tcvernouillet@gmail.com";
+  const siteName = "T.C. Vernouillet";
+  const seoDesc = "Depuis 1974, un club de tennis de référence au cœur des Yvelines. Des infrastructures de pointe et une école de tennis pour tous.";
+
   return (
     <footer className="bg-black text-white pt-16 pb-8 border-t border-gray-800">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="font-heading font-black text-2xl uppercase tracking-tighter mb-6">T.C. Vernouillet</h3>
-            <p className="text-gray-400 mb-6 font-light max-w-sm">
-              Depuis 1974, un club de tennis de référence au cœur des Yvelines.
-              Des infrastructures de pointe et une école de tennis pour tous.
+            <h3 className="font-heading font-black text-2xl uppercase tracking-tighter mb-6">{siteName}</h3>
+            <p className="text-gray-400 mb-6 font-light max-w-sm whitespace-pre-wrap">
+              {seoDesc}
             </p>
             <div className="flex gap-4">
               {/* Social icons removed for build compatibility */}
@@ -24,15 +28,15 @@ export default function Footer() {
             <ul className="space-y-4 text-sm font-light text-gray-300">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-accent shrink-0 mt-1" />
-                <span>1 allée Louis Dufau<br />78540 Vernouillet</span>
+                <span className="whitespace-pre-wrap">{address}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-accent shrink-0" />
-                <span>09 52 58 55 50</span>
+                <span>{phone}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-accent shrink-0" />
-                <a href="mailto:tcvernouillet@gmail.com" className="hover:text-white transition-colors">tcvernouillet@gmail.com</a>
+                <a href={`mailto:${email}`} className="hover:text-white transition-colors">{email}</a>
               </li>
             </ul>
           </div>
@@ -49,7 +53,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-gray-500">&copy; {new Date().getFullYear()} Tennis Club Vernouillet. Tous droits réservés.</p>
+          <p className="text-xs text-gray-500">&copy; {new Date().getFullYear()} {siteName}. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
