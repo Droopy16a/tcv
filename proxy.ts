@@ -1,8 +1,14 @@
-import { type NextRequest } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { updateSession } from "@/utils/supabase/middleware";
 
-export async function middleware(request: NextRequest) {
-  return await updateSession(request);
+export async function proxy(request: NextRequest) {
+  try {
+    return await updateSession(request);
+  } catch (error) {
+    console.error("Proxy error during updateSession:", error);
+    // Return a normal response to prevent the 500 error from taking down the app
+    return NextResponse.next({ request });
+  }
 }
 
 export const config = {
