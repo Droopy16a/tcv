@@ -1,7 +1,9 @@
-import { createClient } from "@/utils/supabase/server";
+import { getSupabaseAdminClient } from "@/lib/supabase";
 import CalendrierClient from "./CalendrierClient";
 import { format, parseISO, getMonth, getYear } from "date-fns";
 import { fr } from "date-fns/locale";
+
+export const dynamic = "force-dynamic";
 
 export type PublicEvent = {
   id: string;
@@ -13,7 +15,7 @@ export type PublicEvent = {
 };
 
 export default async function CalendrierPage() {
-  const supabase = await createClient();
+  const supabase = getSupabaseAdminClient();
   const { data: dbEvents } = await supabase
     .from("events")
     .select("*")
