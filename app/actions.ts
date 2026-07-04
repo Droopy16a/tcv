@@ -1,6 +1,7 @@
 "use server";
 
 import { getSupabaseAdminClient } from "../lib/supabase";
+import { cookies } from "next/headers";
 
 async function getHelloAssoToken() {
   const clientId = process.env.HELLO_ASSO_CLIENT;
@@ -44,8 +45,8 @@ async function createCheckoutIntent(cost: number, payerInfo: any) {
     totalAmount: cost * 100, // Amount in cents
     initialAmount: cost * 100,
     itemName: "Inscription TC Vernouillet",
-    backUrl: `${baseUrl}/inscription/success`,
-    errorUrl: `${baseUrl}/inscription`,
+    backUrl: `${baseUrl}/inscription`,
+    errorUrl: `${baseUrl}/inscription/error`,
     returnUrl: `${baseUrl}/inscription/success`,
     containsDonation: false,
     payer: {
@@ -74,8 +75,40 @@ async function createCheckoutIntent(cost: number, payerInfo: any) {
   return data.redirectUrl;
 }
 
+export async function getHelloAssoCheckoutIntent(checkoutIntentId: string) {
+  const token = await getHelloAssoToken();
+  const apiUrl = process.env.HELLO_ASSO_API_URL || "https://api.helloasso-sandbox.com";
+  const orgSlug = "tc-vernouillet";
+
+  const response = await fetch(`${apiUrl}/v5/organizations/${orgSlug}/checkout-intents/${checkoutIntentId}`, {
+    method: "GET",
+    headers: {
+      "Authorization": `Bearer ${token}`,
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch checkout intent");
+  }
+
+  return response.json();
+}
+
 export async function submitEnfant(data: any, cost: number) {
   try {
+    if (cost > 0) {
+      const checkoutUrl = await createCheckoutIntent(cost, {
+        prenom: data.prenom,
+        nom: data.nom,
+        email: data.emailMere || data.emailPere || "contact@tcvernouillet.fr",
+      });
+      
+      const cookieStore = await cookies();
+      cookieStore.set("pending_inscription", JSON.stringify({ type: "enfant", data, cost }), { maxAge: 3600 });
+      
+      return { success: true, checkoutUrl };
+    }
+
     const supabase = getSupabaseAdminClient();
 
     const { error } = await supabase.from("inscriptions_enfants").insert({
@@ -108,15 +141,6 @@ export async function submitEnfant(data: any, cost: number) {
       return { success: false, error: error.message };
     }
 
-    if (cost > 0) {
-      const checkoutUrl = await createCheckoutIntent(cost, {
-        prenom: data.prenom,
-        nom: data.nom,
-        email: data.emailMere || data.emailPere || "contact@tcvernouillet.fr",
-      });
-      return { success: true, checkoutUrl };
-    }
-
     return { success: true };
   } catch (err: any) {
     return { success: false, error: err.message };
@@ -125,6 +149,19 @@ export async function submitEnfant(data: any, cost: number) {
 
 export async function submitAdulte(data: any, cost: number) {
   try {
+    if (cost > 0) {
+      const checkoutUrl = await createCheckoutIntent(cost, {
+        prenom: data.prenom,
+        nom: data.nom,
+        email: data.email,
+      });
+      
+      const cookieStore = await cookies();
+      cookieStore.set("pending_inscription", JSON.stringify({ type: "adulte", data, cost }), { maxAge: 3600 });
+      
+      return { success: true, checkoutUrl };
+    }
+
     const supabase = getSupabaseAdminClient();
 
     const { error } = await supabase.from("inscriptions_adultes").insert({
@@ -156,17 +193,101 @@ export async function submitAdulte(data: any, cost: number) {
       return { success: false, error: error.message };
     }
 
-    if (cost > 0) {
-      const checkoutUrl = await createCheckoutIntent(cost, {
-        prenom: data.prenom,
-        nom: data.nom,
-        email: data.email,
-      });
-      return { success: true, checkoutUrl };
-    }
-
     return { success: true };
   } catch (err: any) {
+    return { success: false, error: err.message };
+  }
+}
+
+export async function finalizeInscription(checkoutIntentId: string | null) {
+  try {
+    const cookieStore = await cookies();
+    const pendingDataStr = cookieStore.get("pending_inscription")?.value;
+    
+    if (!pendingDataStr) {
+      return { success: false, error: "Aucune inscription en attente trouvée. Le délai a peut-être expiré." };
+    }
+
+    const pendingData = JSON.parse(pendingDataStr);
+    
+    if (checkoutIntentId) {
+      try {
+        const intent = await getHelloAssoCheckoutIntent(checkoutIntentId);
+        if (!intent.order) {
+          return { success: false, error: "Le paiement n'a pas encore été validé par HelloAsso." };
+        }
+      } catch (e: any) {
+        console.error("Error verifying HelloAsso intent:", e);
+        return { success: false, error: "Erreur lors de la vérification du paiement." };
+      }
+    } else if (pendingData.cost > 0) {
+      return { success: false, error: "Paiement non vérifiable (ID manquant)." };
+    }
+
+    const supabase = getSupabaseAdminClient();
+    const { type, data, cost } = pendingData;
+    
+    let result;
+    if (type === "enfant") {
+      result = await supabase.from("inscriptions_enfants").insert({
+        nom: data.nom.toLowerCase(),
+        prenom: data.prenom.toLowerCase(),
+        sexe: data.sexe,
+        date_naissance: data.dateNaissance || null,
+        adresse: data.adresse.toLowerCase(),
+        code_postal: data.codePostal,
+        ville: data.ville.toLowerCase(),
+        telephone_mere: data.telephoneMere,
+        email_mere: data.emailMere?.toLowerCase() || "",
+        telephone_pere: data.telephonePere,
+        email_pere: data.emailPere?.toLowerCase() || "",
+        formule: data.formule,
+        creneau_baby_mini: data.creneauBabyMini,
+        niveau: data.niveau,
+        galaxie_couleur: data.galaxieCouleur,
+        classement: data.classement,
+        annees_pratique: data.anneesPratique,
+        dispos_jours: data.disposJours,
+        position_famille: data.positionFamille,
+        autorisation_mail: data.autorisationMail,
+        observations: data.observations,
+        calculated_cost: cost,
+      });
+    } else {
+      result = await supabase.from("inscriptions_adultes").insert({
+        nom: data.nom.toLowerCase(),
+        prenom: data.prenom.toLowerCase(),
+        sexe: data.sexe,
+        date_naissance: data.dateNaissance || null,
+        adresse: data.adresse.toLowerCase(),
+        code_postal: data.codePostal,
+        ville: data.ville.toLowerCase(),
+        telephone: data.telephone,
+        email: data.email?.toLowerCase() || "",
+        est_etudiant: data.estEtudiant,
+        position_famille: data.positionFamille,
+        cours_collectifs: data.coursCollectifs,
+        duree_cours: data.dureeCours,
+        entrainement_equipe: data.entrainementEquipe,
+        niveau: data.niveau,
+        classement: data.classement,
+        annees_pratique: data.anneesPratique,
+        selected_courses: data.selectedCourses,
+        autorisation_mail: data.autorisationMail,
+        observations: data.observations,
+        calculated_cost: cost,
+      });
+    }
+
+    if (result.error) {
+      console.error("Supabase Error during finalize:", result.error);
+      return { success: false, error: result.error.message };
+    }
+
+    cookieStore.delete("pending_inscription");
+    return { success: true };
+  } catch (err: any) {
+    console.error("Finalize Error:", err);
     return { success: false, error: err.message };
   }
 }
