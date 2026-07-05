@@ -108,11 +108,25 @@ export default function Home() {
           </motion.h2>
           <motion.p 
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeIn}
-            className="font-heading font-light text-3xl md:text-5xl leading-tight text-black mb-12"
+            className="font-heading font-light text-3xl md:text-5xl leading-tight text-black mb-10"
           >
             Reconnu depuis sa création en 1974, le TC Vernouillet incarne l'excellence sportive dans un cadre convivial.
           </motion.p>
           
+          <motion.div 
+            initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeIn}
+            className="flex items-center justify-center gap-4 mb-12 bg-gray-50 border border-gray-100 py-4 px-8 rounded-full max-w-fit mx-auto"
+          >
+            {/* Placeholder for FFT Logo */}
+            <div className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center shrink-0">
+              <Image src="/images/fft_en.avif" alt="FFT Logo" width={24*10} height={24*10} />
+            </div>
+            <div className="text-left">
+              <div className="text-gray-500 font-medium uppercase tracking-widest text-[10px] leading-none mb-1">Club labellisé</div>
+              <div className="text-black font-black uppercase tracking-tight text-sm leading-none">FFT Club Engagé</div>
+            </div>
+          </motion.div>
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-200 pt-12">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
               <div className="font-heading font-black text-5xl text-accent mb-2">50+</div>
