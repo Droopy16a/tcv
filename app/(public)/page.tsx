@@ -154,7 +154,7 @@ export default function Home() {
             {/* Jeunes */}
             <Link href="/ecole-de-tennis#jeunes" className="block">
               <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-                <Image src="/images/hero.jpg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+                <Image src="/images/jeunes.jpeg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-8 w-full">
                   <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">École de Tennis</div>
@@ -169,7 +169,7 @@ export default function Home() {
             {/* Adultes */}
             <Link href="/ecole-de-tennis#adultes" className="block">
               <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-                <Image src="/images/hero.jpg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+                <Image src="/images/adultes.jpeg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-8 w-full">
                   <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Cours & Loisir</div>

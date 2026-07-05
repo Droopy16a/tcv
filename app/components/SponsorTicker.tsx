@@ -10,10 +10,11 @@ const sponsors = [
   { name: "EcoSport", logo: "images/ecosport.png" },
   { name: "New Protech", logo: "images/protect.png" },
   { name: "ACS Plus", logo: "images/acs.png" },
+  { name: "FFT", logo: "images/fft.png" },
+  { name: "Yvelines", logo: "images/comite.png" },
 ];
 
 export default function SponsorTicker() {
-  // Duplicate list for seamless loop
   const items = [...sponsors, ...sponsors];
 
   return (
@@ -28,13 +29,13 @@ export default function SponsorTicker() {
 
         {/* Scrolling track */}
         <div
-          className="flex gap-16 items-center animate-ticker whitespace-nowrap"
+          className="flex w-max pr-16 gap-16 items-center animate-ticker whitespace-nowrap"
           style={{ willChange: "transform" }}
         >
           {items.map((sponsor, i) => (
             <div
               key={i}
-              className="flex items-center gap-2 shrink-0 opacity-30 hover:opacity-60 transition-opacity duration-300"
+              className="flex items-center gap-2 shrink-0 opacity-30 hover:opacity-60 transition-opacity duration-500"
             >
               {sponsor.logo ? (
                 // eslint-disable-next-line @next/next/no-img-element

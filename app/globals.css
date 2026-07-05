@@ -66,11 +66,16 @@
 
 @keyframes ticker {
   0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  100% { transform: translateX(-100%); }
 }
 
 .animate-ticker {
   animation: ticker 28s linear infinite;
+}
+@media (max-width: 768px) {
+  .animate-ticker {
+    animation: ticker 10s linear infinite;
+  }
 }
 .animate-ticker:hover {
   animation-play-state: paused;

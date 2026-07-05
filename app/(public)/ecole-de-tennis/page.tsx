@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
+import ImageSlideshow from "@/app/components/ImageSlideshow";
 
 export default function EcoleDeTennisPage() {
   const fadeIn: Variants = {
@@ -57,9 +58,17 @@ export default function EcoleDeTennisPage() {
             
             {/* Baby & Mini Tennis */}
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer} className="flex flex-col h-full">
-              <motion.div variants={fadeIn} className="relative h-64 w-full mb-8 overflow-hidden">
-                <Image src="/images/hero.jpg" alt="Baby et Mini Tennis" fill className="object-cover opacity-100 hover:opacity-100 hover:scale-105 transition-all duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent"></div>
+              <motion.div variants={fadeIn} className="w-full mb-8">
+                <ImageSlideshow
+                  heightClass="h-64"
+                  interval={4000}
+                  dark={false}
+                  images={[
+                    { src: "/images/hero.jpg", alt: "Baby et Mini Tennis 1" },
+                    { src: "/images/terrain_exter_1.jpg", alt: "Baby et Mini Tennis 2" },
+                    { src: "/images/terrain_exter_2.jpg", alt: "Baby et Mini Tennis 3" },
+                  ]}
+                />
               </motion.div>
               <motion.div variants={fadeIn} className="flex-1">
                 <h3 className="font-heading font-black text-3xl uppercase tracking-tight text-black mb-2">Baby & Mini Tennis</h3>
@@ -77,9 +86,17 @@ export default function EcoleDeTennisPage() {
 
             {/* École de Tennis */}
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer} className="flex flex-col h-full">
-              <motion.div variants={fadeIn} className="relative h-64 w-full mb-8 overflow-hidden">
-                <Image src="/images/hero.jpg" alt="École de Tennis" fill className="object-cover opacity-100 hover:opacity-100 hover:scale-105 transition-all duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent"></div>
+              <motion.div variants={fadeIn} className="w-full mb-8">
+                <ImageSlideshow
+                  heightClass="h-64"
+                  interval={4000}
+                  dark={false}
+                  images={[
+                    { src: "/images/hero.jpg", alt: "École de Tennis 1" },
+                    { src: "/images/terrain_exter_1.jpg", alt: "École de Tennis 2" },
+                    { src: "/images/terrain_exter_2.jpg", alt: "École de Tennis 3" },
+                  ]}
+                />
               </motion.div>
               <motion.div variants={fadeIn} className="flex-1">
                 <h3 className="font-heading font-black text-3xl uppercase tracking-tight text-black mb-2">École de Tennis</h3>
@@ -97,9 +114,17 @@ export default function EcoleDeTennisPage() {
 
             {/* Pôle Compétition */}
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer} className="flex flex-col h-full">
-              <motion.div variants={fadeIn} className="relative h-64 w-full mb-8 overflow-hidden">
-                <Image src="/images/hero.jpg" alt="Pôle Compétition" fill className="object-cover opacity-100 hover:opacity-100 hover:scale-105 transition-all duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent"></div>
+              <motion.div variants={fadeIn} className="w-full mb-8">
+                <ImageSlideshow
+                  heightClass="h-64"
+                  interval={4000}
+                  dark={false}
+                  images={[
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+                    { src: "/images/terrain_exter_1.jpg", alt: "Pôle Compétition 2" },
+                    { src: "/images/terrain_exter_2.jpg", alt: "Pôle Compétition 3" },
+                  ]}
+                />
               </motion.div>
               <motion.div variants={fadeIn} className="flex-1">
                 <h3 className="font-heading font-black text-3xl uppercase tracking-tight text-black mb-2">Pôle Compétition</h3>
@@ -143,9 +168,17 @@ export default function EcoleDeTennisPage() {
             
             {/* Cours Collectifs */}
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer} className="flex flex-col h-full">
-              <motion.div variants={fadeIn} className="relative h-64 w-full mb-8 overflow-hidden">
-                <Image src="/images/hero.jpg" alt="Cours collectifs adultes" fill className="object-cover opacity-100 hover:opacity-100 hover:scale-105 transition-all duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#111] to-transparent"></div>
+              <motion.div variants={fadeIn} className="w-full mb-8">
+                <ImageSlideshow
+                  heightClass="h-64"
+                  interval={5000}
+                  dark={true}
+                  images={[
+                    { src: "/images/hero.jpg", alt: "Cours collectifs adultes 1" },
+                    { src: "/images/terrains_couverts_1.jpg", alt: "Cours collectifs adultes 2" },
+                    { src: "/images/terrains_couverts_2.jpg", alt: "Cours collectifs adultes 3" },
+                  ]}
+                />
               </motion.div>
               <motion.div variants={fadeIn} className="flex-1">
                 <h3 className="font-heading font-black text-3xl uppercase tracking-tight mb-2">Cours Collectifs</h3>
@@ -163,9 +196,17 @@ export default function EcoleDeTennisPage() {
 
             {/* Équipes */}
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer} className="flex flex-col h-full">
-              <motion.div variants={fadeIn} className="relative h-64 w-full mb-8 overflow-hidden">
-                <Image src="/images/hero.jpg" alt="Entraînements Équipes" fill className="object-cover opacity-100 hover:opacity-100 hover:scale-105 transition-all duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#111] to-transparent"></div>
+              <motion.div variants={fadeIn} className="w-full mb-8">
+                <ImageSlideshow
+                  heightClass="h-64"
+                  interval={5000}
+                  dark={true}
+                  images={[
+                    { src: "/images/hero.jpg", alt: "Entraînements Équipes 1" },
+                    { src: "/images/terrains_couverts_1.jpg", alt: "Entraînements Équipes 2" },
+                    { src: "/images/terrains_couverts_2.jpg", alt: "Entraînements Équipes 3" },
+                  ]}
+                />
               </motion.div>
               <motion.div variants={fadeIn} className="flex-1">
                 <h3 className="font-heading font-black text-3xl uppercase tracking-tight mb-2">Entraînements Équipe</h3>
