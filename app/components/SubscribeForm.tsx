@@ -149,6 +149,12 @@ function EnfantsForm() {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+
+    if (form.formule !== "baby" && form.formule !== "mini" && form.disposJours.length === 0) {
+      setErrorMessage("Veuillez sélectionner au moins une disponibilité (jour souhaité).");
+      return;
+    }
+
     setIsSubmitting(true);
     setErrorMessage("");
     setSuccessMessage("");
@@ -391,7 +397,7 @@ function EnfantsForm() {
               {form.autorisationMail && <svg className="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>}
             </div>
           </div>
-          <input type="checkbox" name="autorisationMail" checked={form.autorisationMail} onChange={handleChange} className="sr-only" />
+          <input type="checkbox" name="autorisationMail" checked={form.autorisationMail} onChange={handleChange} className="sr-only" required/>
           <span className="font-light text-lg text-gray-600">J'autorise le TC Vernouillet à utiliser mon adresse mail pour l'envoi d'informations et mon image sur les réseaux sociaux.</span>
         </label>
       </section>
@@ -483,6 +489,12 @@ function AdultesForm() {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+
+    if (form.coursCollectifs && selectedCourses.length === 0) {
+      setErrorMessage("Veuillez sélectionner au moins un créneau proposé pour les cours collectifs.");
+      return;
+    }
+
     setIsSubmitting(true);
     setErrorMessage("");
     setSuccessMessage("");
@@ -705,7 +717,7 @@ function AdultesForm() {
               {form.autorisationMail && <svg className="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>}
             </div>
           </div>
-          <input type="checkbox" name="autorisationMail" checked={form.autorisationMail} onChange={handleChange} className="sr-only" />
+          <input type="checkbox" name="autorisationMail" checked={form.autorisationMail} onChange={handleChange} className="sr-only" required />
           <span className="font-light text-lg text-gray-600">J'autorise le TC Vernouillet à utiliser mon adresse mail pour l'envoi d'informations et mon image sur les réseaux sociaux.</span>
         </label>
       </section>
