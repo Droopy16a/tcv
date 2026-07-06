@@ -87,7 +87,7 @@ export default function Home() {
               Rejoindre le club
             </Link>
             <Link 
-              href="https://tenup.fft.fr/club/57780425"
+              href="/reservation"
               role="button"
               className="bg-accent text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
             >
