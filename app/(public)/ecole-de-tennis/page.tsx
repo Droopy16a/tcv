@@ -79,7 +79,7 @@ export default function EcoleDeTennisPage() {
                 <ul className="text-gray-500 font-light space-y-3">
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Ateliers ludiques & sportifs</li>
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Balles mousses et balles rouges</li>
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Max 6 enfants par terrain</li>
+                  {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Max 6 enfants par terrain</li> */}
                 </ul>
               </motion.div>
             </motion.div>
@@ -135,7 +135,7 @@ export default function EcoleDeTennisPage() {
                 <ul className="text-gray-500 font-light space-y-3">
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Entraînements intensifs et physique</li>
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Suivi personnalisé en tournois</li>
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Intégration aux équipes du club</li>
+                  {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Intégration aux équipes du club</li> */}
                 </ul>
               </motion.div>
             </motion.div>
@@ -188,7 +188,7 @@ export default function EcoleDeTennisPage() {
                 </p>
                 <ul className="text-gray-400 font-light space-y-3">
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Créneaux en soirée (semaine) ou le samedi</li>
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Groupes de 4 à 6 joueurs max</li>
+                  {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Groupes de 4 à 6 joueurs max</li> */}
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Axes techniques et situations de jeu tactiques</li>
                 </ul>
               </motion.div>
@@ -217,7 +217,7 @@ export default function EcoleDeTennisPage() {
                 <ul className="text-gray-400 font-light space-y-3">
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Réservé aux joueurs compétiteurs</li>
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Travail spécifique (double, schémas de jeu)</li>
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Cohésion de groupe avant les rencontres</li>
+                  {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Cohésion de groupe avant les rencontres</li> */}
                 </ul>
               </motion.div>
             </motion.div>
