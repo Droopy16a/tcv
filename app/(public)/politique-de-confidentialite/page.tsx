@@ -204,8 +204,8 @@ export default function PolitiqueConfidentialitePage() {
               <div className="bg-black text-white p-6 mt-4">
                 <p className="font-light">
                   Pour exercer ces droits, contactez-nous à :{' '}
-                  <a href="mailto:contact@tcvernouillet.com" className="text-[#DF6436] hover:underline font-medium">
-                    contact@tcvernouillet.com
+                  <a href="mailto:tcvernouillet@gmail.com" className="text-[#DF6436] hover:underline font-medium">
+                    tcvernouillet@gmail.com
                   </a>
                   <br />
                   Vous pouvez également introduire une réclamation auprès de la{' '}
