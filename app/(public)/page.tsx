@@ -186,7 +186,7 @@ export default function Home() {
                 <Image src="/images/adultes.jpeg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-8 w-full">
-                  <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Cours & Loisir</div>
+                  <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Adhésion et Cours Collectif</div>
                   <h3 className="font-heading font-black text-4xl uppercase tracking-tight text-white mb-4">Adultes</h3>
                   <div className="flex items-center text-white text-sm font-bold uppercase tracking-wider group-hover:text-accent transition-colors">
                     Découvrir le programme <ArrowRight size={16} className="ml-2 transform group-hover:translate-x-2 transition-transform" />

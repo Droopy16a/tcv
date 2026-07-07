@@ -182,14 +182,14 @@ export default function EcoleDeTennisPage() {
               </motion.div>
               <motion.div variants={fadeIn} className="flex-1">
                 <h3 className="font-heading font-black text-3xl uppercase tracking-tight mb-2">Cours Collectifs</h3>
-                <p className="text-sm font-bold text-[#DF6436] mb-4 uppercase tracking-wider">Loisir & Perfectionnement • 1H à 2H / semaine</p>
+                <p className="text-sm font-bold text-[#DF6436] mb-4 uppercase tracking-wider">Débutant, Loisir & Intermédaire • 1H à 2H / semaine</p>
                 <p className="text-gray-400 font-light text-lg mb-6 leading-relaxed">
                   L'apprentissage dans la convivialité. Nos cours collectifs regroupent des joueurs de même niveau, du grand débutant au joueur confirmé. Parfait pour se dépenser après le travail et rencontrer de nouveaux partenaires !
                 </p>
                 <ul className="text-gray-400 font-light space-y-3">
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Créneaux en soirée (semaine) ou le samedi</li>
+                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Créneaux en soirée/journée (semaine) ou le samedi</li>
                   {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Groupes de 4 à 6 joueurs max</li> */}
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Axes techniques et situations de jeu tactiques</li>
+                  {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Axes techniques et situations de jeu tactiques</li> */}
                 </ul>
               </motion.div>
             </motion.div>
@@ -215,8 +215,8 @@ export default function EcoleDeTennisPage() {
                   Représentez le club lors des championnats ! Ces entraînements sont dédiés aux joueurs classés engagés dans les équipes du TC Vernouillet. Exigence, tactique de match et esprit d'équipe sont au rendez-vous.
                 </p>
                 <ul className="text-gray-400 font-light space-y-3">
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Réservé aux joueurs compétiteurs</li>
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Travail spécifique (double, schémas de jeu)</li>
+                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div>Programmation suivie tout au long de l'année</li>
+                  {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Travail spécifique (double, schémas de jeu)</li> */}
                   {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Cohésion de groupe avant les rencontres</li> */}
                 </ul>
               </motion.div>
