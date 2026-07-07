@@ -79,7 +79,7 @@ export default function CGVPage() {
                 en ligne et disponibles via la grille tarifaire téléchargeable. Les tarifs distinguent :
               </p>
               <ul className="space-y-2 list-disc list-inside">
-                <li>Le tarif <strong className="text-black">résident</strong> : pour les personnes domiciliées à Vernouillet (28500)</li>
+                <li>Le tarif <strong className="text-black">résident</strong> : pour les personnes domiciliées à Vernouillet (78540)</li>
                 <li>Le tarif <strong className="text-black">extérieur</strong> : pour les personnes résidant dans une autre commune</li>
               </ul>
               <p>
