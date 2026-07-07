@@ -133,7 +133,7 @@ export default function Home() {
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Ans d'histoire</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.1 }}>
-              <div className="font-heading font-black text-5xl text-accent mb-2">517</div>
+              <div className="font-heading font-black text-5xl text-accent mb-2">524</div>
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Joueurs</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }}>
