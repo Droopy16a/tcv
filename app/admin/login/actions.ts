@@ -5,22 +5,32 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/utils/supabase/server";
 
 export async function login(formData: FormData) {
-  const supabase = await createClient();
+  let loginError = false;
 
-  const email = formData.get("email") as string;
-  const password = formData.get("password") as string;
+  try {
+    const supabase = await createClient();
+    const email = formData.get("email") as string;
+    const password = formData.get("password") as string;
 
-  const { error } = await supabase.auth.signInWithPassword({
-    email,
-    password,
-  });
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
 
-  if (error) {
-    // Ideally redirect to login with an error message
+    if (error) {
+      loginError = true;
+    } else {
+      revalidatePath("/", "layout");
+    }
+  } catch (err) {
+    console.error("Login error (likely missing env vars):", err);
+    loginError = true;
+  }
+  
+  if (loginError) {
     redirect("/admin/login?error=true");
   }
-
-  revalidatePath("/", "layout");
+  
   redirect("/admin");
 }
 
