@@ -87,26 +87,26 @@ export default function TerrainsPage() {
                     <svg className="w-4 h-4 text-[#DF6436]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg text-black">Surface</h4>
-                    <p className="font-light text-gray-500">Un rebond franc et régulier, avec un revêtement permettant de jouer très rapidement après la pluie.</p>
+                    <h4 className="font-bold text-lg text-black">Surfaces</h4>
+                    <p className="font-light text-gray-500">4 Quick éclairés et 1 Terre Battue.</p>
                   </div>
                 </motion.li>
-                <motion.li variants={fadeIn} className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center shrink-0 mt-1">
+                {/* <motion.li variants={fadeIn} className="flex items-start gap-4"> */}
+                  {/* <div className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center shrink-0 mt-1">
                     <svg className="w-4 h-4 text-[#DF6436]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                  </div>
-                  <div>
+                  </div> */}
+                  {/* <div>
                     <h4 className="font-bold text-lg text-black">Éclairage de pointe</h4>
                     <p className="font-light text-gray-500">Jouez jusqu'à 23h avec une visibilité parfaite et sans éblouissement grâce à notre système d'éclérage.</p>
-                  </div>
-                </motion.li>
+                  </div> */}
+                {/* </motion.li> */}
                 <motion.li variants={fadeIn} className="flex items-start gap-4">
                   <div className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center shrink-0 mt-1">
                     <svg className="w-4 h-4 text-[#DF6436]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   </div>
                   <div>
                     <h4 className="font-bold text-lg text-black">Cadre Verdoyant</h4>
-                    <p className="font-light text-gray-500">Des espaces arborés autour des courts pour des moments de détente uniques après le match.</p>
+                    <p className="font-light text-gray-500">Des espaces arborés autour des courts pour des moments de détente après le match.</p>
                   </div>
                 </motion.li>
               </motion.ul>
