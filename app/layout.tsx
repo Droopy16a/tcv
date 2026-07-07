@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: '%s | TC Vernouillet',
   },
   description:
-    'Le Tennis Club de Vernouillet (TC Vernouillet) vous accueille en Eure-et-Loir (28). Cours de tennis pour adultes et enfants, école de tennis, compétitions et inscriptions en ligne.',
+    'Le Tennis Club de Vernouillet (TC Vernouillet) vous accueille en Yvelines (78). Cours de tennis pour adultes et enfants, école de tennis, compétitions et inscriptions en ligne.',
   keywords: [
     'TC Vernouillet',
     'Tennis Club Vernouillet',
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     'club de tennis Vernouillet',
     'école de tennis Vernouillet',
     'cours de tennis Vernouillet',
-    'tennis 28',
-    'tennis Eure-et-Loir',
+    'tennis 78',
+    'tennis Yvelines',
     'inscription tennis Vernouillet',
     'compétition tennis Vernouillet',
   ],
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'TC Vernouillet',
     title: 'TC Vernouillet | Tennis Club de Vernouillet',
     description:
-      'Le Tennis Club de Vernouillet vous accueille en Eure-et-Loir. Cours de tennis, école de tennis, compétitions et inscriptions en ligne.',
+      'Le Tennis Club de Vernouillet vous accueille en Yvelines. Cours de tennis, école de tennis, compétitions et inscriptions en ligne.',
     images: [
       {
         url: '/images/hero.jpg',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'TC Vernouillet | Tennis Club de Vernouillet',
     description:
-      'Le Tennis Club de Vernouillet vous accueille en Eure-et-Loir. Cours, école de tennis et compétitions.',
+      'Le Tennis Club de Vernouillet vous accueille en Yvelines. Cours, école de tennis et compétitions.',
     images: ['/images/hero.jpg'],
   },
   robots: {
@@ -70,7 +70,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
     apple: '/images/logo.png',
   },
 };
@@ -88,8 +89,8 @@ const jsonLd = {
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Vernouillet',
-    addressRegion: 'Eure-et-Loir',
-    postalCode: '28500',
+    addressRegion: 'Yvelines',
+    postalCode: '78540',
     addressCountry: 'FR',
   },
   sport: 'Tennis',

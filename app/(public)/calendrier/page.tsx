@@ -7,12 +7,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: 'Calendrier & Événements',
   description:
-    'Retrouvez le calendrier des tournois, événements et compétitions du Tennis Club de Vernouillet (TC Vernouillet). Restez informé des prochaines dates en Eure-et-Loir (28).',
+    'Retrouvez le calendrier des tournois, événements et compétitions du Tennis Club de Vernouillet (TC Vernouillet). Restez informé des prochaines dates en Yvelines (78).',
   keywords: [
     'calendrier tennis Vernouillet',
     'tournoi tennis Vernouillet',
     'événements TC Vernouillet',
-    'compétitions tennis 28',
+    'compétitions tennis 78',
     'planning tennis Vernouillet',
   ],
   alternates: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Calendrier & Événements | TC Vernouillet',
     description:
-      'Tournois, événements et compétitions du TC Vernouillet à Vernouillet (28). Consultez le planning de la saison.',
+      'Tournois, événements et compétitions du TC Vernouillet à Vernouillet (78). Consultez le planning de la saison.',
     url: 'https://www.tcvernouillet.com/calendrier',
   },
 };

@@ -4,12 +4,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: 'Inscription au Club',
   description:
-    'Inscrivez-vous au Tennis Club de Vernouillet (TC Vernouillet). Formulaire d’adhésion en ligne pour rejoindre le club de tennis à Vernouillet, Eure-et-Loir (28).',
+    'Inscrivez-vous au Tennis Club de Vernouillet (TC Vernouillet). Formulaire d’adhésion en ligne pour rejoindre le club de tennis à Vernouillet, Yvelines (78).',
   keywords: [
     'inscription tennis Vernouillet',
     'adhésion TC Vernouillet',
     'rejoindre club tennis Vernouillet',
-    'cotisation tennis 28',
+    'cotisation tennis 78',
     's’inscrire tennis Vernouillet',
   ],
   alternates: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Inscription au Club | TC Vernouillet',
     description:
-      'Rejoignez le TC Vernouillet ! Remplissez le formulaire d’inscription en ligne pour adhérer au club de tennis à Vernouillet (28).',
+      'Rejoignez le TC Vernouillet ! Remplissez le formulaire d’inscription en ligne pour adhérer au club de tennis à Vernouillet (78).',
     url: 'https://www.tcvernouillet.com/inscription',
   },
 };
