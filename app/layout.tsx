@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     'tennis Yvelines',
     'inscription tennis Vernouillet',
     'compétition tennis Vernouillet',
+    "TCV"
   ],
   authors: [{ name: 'TC Vernouillet', url: 'https://www.tcvernouillet.com' }],
   creator: 'TC Vernouillet',
