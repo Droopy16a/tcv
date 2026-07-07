@@ -7,6 +7,7 @@ import { motion, Variants } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import TeamSlider from "@/app/components/TeamSlider";
 import SponsorTicker from "@/app/components/SponsorTicker";
+import ImageSlideshow from "@/app/components/ImageSlideshow";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -168,8 +169,27 @@ export default function Home() {
             {/* Jeunes */}
             <Link href="/ecole-de-tennis#jeunes" className="block">
               <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-                <Image src="/images/jeunes.jpeg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                <div className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100">
+                <ImageSlideshow
+                  heightClass="h-[500px]"
+                  interval={5000}
+                  dark={true}
+                  btn={false}
+                  images={[
+                    { src: "/images/jeunes_0.jpeg", alt: "Cours Jeunes 0" },
+                    { src: "/images/jeunes_1.jpeg", alt: "Cours Jeunes 1" },
+                    { src: "/images/jeunes_2.jpeg", alt: "Cours Jeunes 2" },
+                    { src: "/images/jeunes_3.jpeg", alt: "Cours Jeunes 3" },
+                    { src: "/images/jeunes_4.jpeg", alt: "Cours Jeunes 4" },
+                    { src: "/images/jeunes_5.jpeg", alt: "Cours Jeunes 5" },
+                    { src: "/images/jeunes_6.jpeg", alt: "Cours Jeunes 6" },
+                    { src: "/images/jeunes_7.jpeg", alt: "Cours Jeunes 7" },
+                    { src: "/images/jeunes_8.jpeg", alt: "Cours Jeunes 8" },
+                  ]}
+                  />
+                </div>
+                {/* <Image src="/images/jeunes.jpeg" alt="Jeunes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" /> */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-8 w-full">
                   <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">École de Tennis</div>
                   <h3 className="font-heading font-black text-4xl uppercase tracking-tight text-white mb-4">Jeunes</h3>

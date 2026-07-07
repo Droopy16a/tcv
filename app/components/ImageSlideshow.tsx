@@ -12,6 +12,7 @@ interface ImageSlideshowProps {
   interval?: number;
   /** Accent color for dots and controls */
   dark?: boolean;
+  btn?: boolean;
 }
 
 const slideVariants = {
@@ -36,6 +37,7 @@ export default function ImageSlideshow({
   heightClass = "h-[600px]",
   interval = 4000,
   dark = false,
+  btn = true,
 }: ImageSlideshowProps) {
   const [[current, direction], setCurrent] = useState([0, 0]);
 
@@ -109,7 +111,7 @@ export default function ImageSlideshow({
       <div className={`absolute inset-0 bg-gradient-to-t ${dark ? "from-[#111]/60" : "from-white/30"} to-transparent pointer-events-none`} />
 
       {/* Arrow controls – visible on hover */}
-      {images.length > 1 && (
+      {images.length > 1 && btn && (
         <>
           <button
             onClick={prev}
@@ -129,7 +131,7 @@ export default function ImageSlideshow({
       )}
 
       {/* Dot indicators */}
-      {images.length > 1 && (
+      {images.length > 1 && btn && (
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
           {images.map((_, i) => (
             <button
