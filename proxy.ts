@@ -6,7 +6,15 @@ export async function proxy(request: NextRequest) {
     return await updateSession(request);
   } catch (error) {
     console.error("Proxy error during updateSession:", error);
-    // Return a normal response to prevent the 500 error from taking down the app
+    
+    // Fail-closed mechanism for admin routes
+    if (request.nextUrl.pathname.startsWith("/admin") && !request.nextUrl.pathname.startsWith("/admin/login")) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/admin/login";
+      return NextResponse.redirect(url);
+    }
+    
+    // Return a normal response to prevent the 500 error from taking down public parts of the app
     return NextResponse.next({ request });
   }
 }

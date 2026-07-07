@@ -78,7 +78,7 @@ export default function EcoleDeTennisPage() {
                 </p>
                 <ul className="text-gray-500 font-light space-y-3">
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Ateliers ludiques & sportifs</li>
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Balles mousses et balles rouges</li>
+                  {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Balles mousses et balles rouges</li> */}
                   {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Max 6 enfants par terrain</li> */}
                 </ul>
               </motion.div>
@@ -105,9 +105,10 @@ export default function EcoleDeTennisPage() {
                   Le cœur de la formation. Apprentissage technique, tactique et matchs encadrés. Les groupes sont formés par âge et par niveau (balles oranges, vertes, dures).
                 </p>
                 <ul className="text-gray-500 font-light space-y-3">
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Groupes homogènes de niveau</li>
+                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Groupes de niveau</li>
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Formules 1h, 1h30 ou 2h</li>
-                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Évaluation continue (Galaxie)</li>
+                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> OGT (Optimisation Galaxie Tennis)</li>
+                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Evaluation continue (Galaxie Tennis)</li>
                 </ul>
               </motion.div>
             </motion.div>
@@ -135,6 +136,7 @@ export default function EcoleDeTennisPage() {
                 <ul className="text-gray-500 font-light space-y-3">
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Entraînements intensifs et physique</li>
                   <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Suivi personnalisé en tournois</li>
+                  <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div>Programmation suivie tout au long de l'année</li>
                   {/* <li className="flex items-center gap-3"><div className="w-1.5 h-1.5 bg-[#DF6436] rounded-full"></div> Intégration aux équipes du club</li> */}
                 </ul>
               </motion.div>

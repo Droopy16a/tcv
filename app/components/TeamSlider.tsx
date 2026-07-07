@@ -78,6 +78,12 @@ const teamMembers = [
     role: "CQP",
     image: "/images/unk.png",
   },
+  {
+    id: 13,
+    name: "Sébastien ROYON",
+    role: "Membre",
+    image: "/images/unk.png",
+  },
 ];
 
 export default function TeamSlider() {
