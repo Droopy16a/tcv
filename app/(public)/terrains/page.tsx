@@ -61,6 +61,12 @@ export default function TerrainsPage() {
                   { src: "/images/terrains_haut.png", alt: "Vue aérienne des terrains extérieurs" },
                   { src: "/images/hero.jpg", alt: "Terrain extérieur en action" },
                   { src: "/images/terrain_exter_2.jpg", alt: "Courts extérieurs du TC Vernouillet" },
+                  { src: "/images/terrain_exter_3.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  { src: "/images/terrain_exter_4.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  { src: "/images/terrain_exter_5.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  { src: "/images/terrain_exter_6.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  { src: "/images/terrain_exter_7.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  { src: "/images/terrain_exter_8.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
                 ]}
               />
             </motion.div>

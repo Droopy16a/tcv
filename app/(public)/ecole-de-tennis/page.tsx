@@ -64,9 +64,8 @@ export default function EcoleDeTennisPage() {
                   interval={4000}
                   dark={false}
                   images={[
-                    { src: "/images/hero.jpg", alt: "Baby et Mini Tennis 1" },
-                    { src: "/images/terrain_exter_1.jpg", alt: "Baby et Mini Tennis 2" },
-                    { src: "/images/terrain_exter_2.jpg", alt: "Baby et Mini Tennis 3" },
+                    { src: "/images/jeunes_1.jpeg", alt: "Baby et Mini Tennis 1" },
+                    { src: "/images/jeunes_6.jpeg", alt: "Baby et Mini Tennis 1" },
                   ]}
                 />
               </motion.div>
@@ -92,9 +91,10 @@ export default function EcoleDeTennisPage() {
                   interval={4000}
                   dark={false}
                   images={[
-                    { src: "/images/hero.jpg", alt: "École de Tennis 1" },
-                    { src: "/images/terrain_exter_1.jpg", alt: "École de Tennis 2" },
-                    { src: "/images/terrain_exter_2.jpg", alt: "École de Tennis 3" },
+                    { src: "/images/jeunes_0.jpeg", alt: "École de Tennis 1" },
+                    { src: "/images/jeunes_2.jpeg", alt: "École de Tennis 2" },
+                    { src: "/images/jeunes_3.jpeg", alt: "École de Tennis 3" },
+                    { src: "/images/jeunes_4.jpeg", alt: "École de Tennis 4" },
                   ]}
                 />
               </motion.div>
@@ -121,9 +121,14 @@ export default function EcoleDeTennisPage() {
                   interval={4000}
                   dark={false}
                   images={[
-                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
-                    { src: "/images/terrain_exter_1.jpg", alt: "Pôle Compétition 2" },
-                    { src: "/images/terrain_exter_2.jpg", alt: "Pôle Compétition 3" },
+                    { src: "/images/jeunes_5.jpeg", alt: "Pôle Compétition 1" },
+                    { src: "/images/jeunes_7.jpeg", alt: "Pôle Compétition 2" },
+                    { src: "/images/jeunes_8.jpeg", alt: "Pôle Compétition 3" },
+                    { src: "/images/jeunes_9.jpeg", alt: "Pôle Compétition 4" },
+                    { src: "/images/jeunes_10.jpeg", alt: "Pôle Compétition 5" },
+                    { src: "/images/jeunes_11.jpeg", alt: "Pôle Compétition 6" },
+                    { src: "/images/jeunes_12.jpeg", alt: "Pôle Compétition 7" },
+                    { src: "/images/jeunes_13.jpeg", alt: "Pôle Compétition 8" },
                   ]}
                 />
               </motion.div>
@@ -176,9 +181,10 @@ export default function EcoleDeTennisPage() {
                   interval={5000}
                   dark={true}
                   images={[
-                    { src: "/images/hero.jpg", alt: "Cours collectifs adultes 1" },
-                    { src: "/images/terrains_couverts_1.jpg", alt: "Cours collectifs adultes 2" },
-                    { src: "/images/terrains_couverts_2.jpg", alt: "Cours collectifs adultes 3" },
+                    { src: "/images/adultes_9.jpeg", alt: "Entraînements Équipes 9" },
+                    { src: "/images/adultes_10.jpeg", alt: "Entraînements Équipes 10" },
+                    { src: "/images/adultes_11.jpeg", alt: "Entraînements Équipes 11" },
+                    { src: "/images/adultes_12.jpeg", alt: "Entraînements Équipes 12" },
                   ]}
                 />
               </motion.div>
@@ -204,9 +210,18 @@ export default function EcoleDeTennisPage() {
                   interval={5000}
                   dark={true}
                   images={[
-                    { src: "/images/hero.jpg", alt: "Entraînements Équipes 1" },
-                    { src: "/images/terrains_couverts_1.jpg", alt: "Entraînements Équipes 2" },
-                    { src: "/images/terrains_couverts_2.jpg", alt: "Entraînements Équipes 3" },
+                    { src: "/images/adultes_1.jpeg", alt: "Entraînements Équipes 1" },
+                    { src: "/images/adultes_2.jpeg", alt: "Entraînements Équipes 2" },
+                    { src: "/images/adultes_3.jpeg", alt: "Entraînements Équipes 3" },
+                    { src: "/images/adultes_4.jpeg", alt: "Entraînements Équipes 4" },
+                    { src: "/images/adultes_5.jpeg", alt: "Entraînements Équipes 5" },
+                    { src: "/images/adultes_6.jpeg", alt: "Entraînements Équipes 6" },
+                    { src: "/images/adultes_7.jpeg", alt: "Entraînements Équipes 7" },
+                    { src: "/images/adultes_8.jpeg", alt: "Entraînements Équipes 8" },
+                    { src: "/images/adultes_9.jpeg", alt: "Entraînements Équipes 9" },
+                    { src: "/images/adultes_10.jpeg", alt: "Entraînements Équipes 10" },
+                    { src: "/images/adultes_11.jpeg", alt: "Entraînements Équipes 11" },
+                    { src: "/images/adultes_12.jpeg", alt: "Entraînements Équipes 12" },
                   ]}
                 />
               </motion.div>

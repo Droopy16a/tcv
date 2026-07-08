@@ -135,7 +135,7 @@ export default function Home() {
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.1 }}>
               <div className="font-heading font-black text-5xl text-accent mb-2">524</div>
-              <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Joueurs</div>
+              <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Licenciés</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }}>
               <div className="font-heading font-black text-5xl text-accent mb-2">8</div>
@@ -185,6 +185,11 @@ export default function Home() {
                     { src: "/images/jeunes_6.jpeg", alt: "Cours Jeunes 6" },
                     { src: "/images/jeunes_7.jpeg", alt: "Cours Jeunes 7" },
                     { src: "/images/jeunes_8.jpeg", alt: "Cours Jeunes 8" },
+                    { src: "/images/jeunes_9.jpeg", alt: "Cours Jeunes 9" },
+                    { src: "/images/jeunes_10.jpeg", alt: "Cours Jeunes 10" },
+                    { src: "/images/jeunes_11.jpeg", alt: "Cours Jeunes 11" },
+                    { src: "/images/jeunes_12.jpeg", alt: "Cours Jeunes 12" },
+                    { src: "/images/jeunes_13.jpeg", alt: "Cours Jeunes 13" },
                   ]}
                   />
                 </div>
@@ -203,7 +208,30 @@ export default function Home() {
             {/* Adultes */}
             <Link href="/ecole-de-tennis#adultes" className="block">
               <motion.div variants={fadeIn} className="group relative overflow-hidden h-[500px] cursor-pointer">
-                <Image src="/images/adultes.jpeg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" />
+                {/* <Image src="/images/adultes.jpeg" alt="Adultes" fill className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100" /> */}
+                <div className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out opacity-80 group-hover:opacity-100">
+                <ImageSlideshow
+                  heightClass="h-[500px]"
+                  interval={5000}
+                  dark={true}
+                  btn={false}
+                  images={[
+                    { src: "/images/adultes_0.jpeg", alt: "Cours adultes 0" },
+                    // { src: "/images/adultes_1.jpeg", alt: "Cours adultes 1" },
+                    { src: "/images/adultes_2.jpeg", alt: "Cours adultes 2" },
+                    { src: "/images/adultes_3.jpeg", alt: "Cours adultes 3" },
+                    { src: "/images/adultes_4.jpeg", alt: "Cours adultes 4" },
+                    { src: "/images/adultes_5.jpeg", alt: "Cours adultes 5" },
+                    { src: "/images/adultes_6.jpeg", alt: "Cours adultes 6" },
+                    { src: "/images/adultes_7.jpeg", alt: "Cours adultes 7" },
+                    { src: "/images/adultes_8.jpeg", alt: "Cours adultes 8" },
+                    { src: "/images/adultes_9.jpeg", alt: "Cours adultes 9" },
+                    { src: "/images/adultes_10.jpeg", alt: "Cours adultes 10" },
+                    { src: "/images/adultes_11.jpeg", alt: "Cours adultes 11" },
+                    { src: "/images/adultes_12.jpeg", alt: "Cours adultes 12" },
+                  ]}
+                  />
+                </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-8 w-full">
                   <div className="text-accent font-bold text-xs uppercase tracking-widest mb-3">Adhésion et Cours Collectif</div>

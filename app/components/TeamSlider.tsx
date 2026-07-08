@@ -45,7 +45,7 @@ const teamMembers = [
   {
     id: 7,
     name: "Alice LEDUC",
-    role: "Directrice Sportif",
+    role: "Directrice Sportive",
     image: "/images/unk.png",
   },
   {
@@ -69,13 +69,13 @@ const teamMembers = [
   {
     id: 11,
     name: "Kaïs LEBLOND",
-    role: "CQP",
+    role: "CQP ET",
     image: "/images/unk.png",
   },
   {
     id: 12,
     name: "François Sébastien OCZKOWSKI",
-    role: "CQP",
+    role: "CQP ET",
     image: "/images/unk.png",
   },
   {
