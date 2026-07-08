@@ -289,7 +289,7 @@ export default function Home() {
             
             <Link href="/terrains#couverts" className="col-span-1 block">
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }} className="relative h-[500px] group cursor-pointer overflow-hidden bg-black">
-                <Image src="/images/terrain_couverts_l_0.jpeg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
+                <Image src="/images/terrain_couvert_l_0.jpeg" alt="Intérieur" fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
                 <div className="absolute bottom-8 left-8">
                   <h3 className="font-heading font-black text-3xl uppercase text-white tracking-tight">3 Terrains Couverts</h3>
                 </div>
