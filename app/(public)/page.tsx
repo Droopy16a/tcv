@@ -176,20 +176,21 @@ export default function Home() {
                   dark={true}
                   btn={false}
                   images={[
-                    { src: "/images/jeunes_0.jpeg", alt: "Cours Jeunes 0" },
-                    { src: "/images/jeunes_1.jpeg", alt: "Cours Jeunes 1" },
-                    { src: "/images/jeunes_2.jpeg", alt: "Cours Jeunes 2" },
-                    { src: "/images/jeunes_3.jpeg", alt: "Cours Jeunes 3" },
-                    { src: "/images/jeunes_4.jpeg", alt: "Cours Jeunes 4" },
-                    { src: "/images/jeunes_5.jpeg", alt: "Cours Jeunes 5" },
-                    { src: "/images/jeunes_6.jpeg", alt: "Cours Jeunes 6" },
-                    { src: "/images/jeunes_7.jpeg", alt: "Cours Jeunes 7" },
-                    { src: "/images/jeunes_8.jpeg", alt: "Cours Jeunes 8" },
-                    { src: "/images/jeunes_9.jpeg", alt: "Cours Jeunes 9" },
-                    { src: "/images/jeunes_10.jpeg", alt: "Cours Jeunes 10" },
-                    { src: "/images/jeunes_11.jpeg", alt: "Cours Jeunes 11" },
-                    { src: "/images/jeunes_12.jpeg", alt: "Cours Jeunes 12" },
-                    { src: "/images/jeunes_13.jpeg", alt: "Cours Jeunes 13" },
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+                    // { src: "/images/jeunes_0.jpeg", alt: "Cours Jeunes 0" },
+                    // { src: "/images/jeunes_1.jpeg", alt: "Cours Jeunes 1" },
+                    // { src: "/images/jeunes_2.jpeg", alt: "Cours Jeunes 2" },
+                    // { src: "/images/jeunes_3.jpeg", alt: "Cours Jeunes 3" },
+                    // { src: "/images/jeunes_4.jpeg", alt: "Cours Jeunes 4" },
+                    // { src: "/images/jeunes_5.jpeg", alt: "Cours Jeunes 5" },
+                    // { src: "/images/jeunes_6.jpeg", alt: "Cours Jeunes 6" },
+                    // { src: "/images/jeunes_7.jpeg", alt: "Cours Jeunes 7" },
+                    // { src: "/images/jeunes_8.jpeg", alt: "Cours Jeunes 8" },
+                    // { src: "/images/jeunes_9.jpeg", alt: "Cours Jeunes 9" },
+                    // { src: "/images/jeunes_10.jpeg", alt: "Cours Jeunes 10" },
+                    // { src: "/images/jeunes_11.jpeg", alt: "Cours Jeunes 11" },
+                    // { src: "/images/jeunes_12.jpeg", alt: "Cours Jeunes 12" },
+                    // { src: "/images/jeunes_13.jpeg", alt: "Cours Jeunes 13" },
                   ]}
                   />
                 </div>

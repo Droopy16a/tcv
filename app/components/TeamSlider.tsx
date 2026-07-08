@@ -45,7 +45,7 @@ const teamMembers = [
   {
     id: 7,
     name: "Alice LEDUC",
-    role: "Directrice Sportive",
+    role: "DE JEPS \n Directrice sportive \n Enseignante compétition & loisir école de tennis et adultes",
     image: "/images/unk.png",
   },
   {

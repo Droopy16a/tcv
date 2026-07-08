@@ -64,8 +64,9 @@ export default function EcoleDeTennisPage() {
                   interval={4000}
                   dark={false}
                   images={[
-                    { src: "/images/jeunes_1.jpeg", alt: "Baby et Mini Tennis 1" },
-                    { src: "/images/jeunes_6.jpeg", alt: "Baby et Mini Tennis 1" },
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+                    // { src: "/images/jeunes_1.jpeg", alt: "Baby et Mini Tennis 1" },
+                    // { src: "/images/jeunes_6.jpeg", alt: "Baby et Mini Tennis 1" },
                   ]}
                 />
               </motion.div>
@@ -91,10 +92,11 @@ export default function EcoleDeTennisPage() {
                   interval={4000}
                   dark={false}
                   images={[
-                    { src: "/images/jeunes_0.jpeg", alt: "École de Tennis 1" },
-                    { src: "/images/jeunes_2.jpeg", alt: "École de Tennis 2" },
-                    { src: "/images/jeunes_3.jpeg", alt: "École de Tennis 3" },
-                    { src: "/images/jeunes_4.jpeg", alt: "École de Tennis 4" },
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+                    // { src: "/images/jeunes_0.jpeg", alt: "École de Tennis 1" },
+                    // { src: "/images/jeunes_2.jpeg", alt: "École de Tennis 2" },
+                    // { src: "/images/jeunes_3.jpeg", alt: "École de Tennis 3" },
+                    // { src: "/images/jeunes_4.jpeg", alt: "École de Tennis 4" },
                   ]}
                 />
               </motion.div>
@@ -121,14 +123,16 @@ export default function EcoleDeTennisPage() {
                   interval={4000}
                   dark={false}
                   images={[
-                    { src: "/images/jeunes_5.jpeg", alt: "Pôle Compétition 1" },
-                    { src: "/images/jeunes_7.jpeg", alt: "Pôle Compétition 2" },
-                    { src: "/images/jeunes_8.jpeg", alt: "Pôle Compétition 3" },
-                    { src: "/images/jeunes_9.jpeg", alt: "Pôle Compétition 4" },
-                    { src: "/images/jeunes_10.jpeg", alt: "Pôle Compétition 5" },
-                    { src: "/images/jeunes_11.jpeg", alt: "Pôle Compétition 6" },
-                    { src: "/images/jeunes_12.jpeg", alt: "Pôle Compétition 7" },
-                    { src: "/images/jeunes_13.jpeg", alt: "Pôle Compétition 8" },
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+                    
+                    // { src: "/images/jeunes_5.jpeg", alt: "Pôle Compétition 1" },
+                    // { src: "/images/jeunes_7.jpeg", alt: "Pôle Compétition 2" },
+                    // { src: "/images/jeunes_8.jpeg", alt: "Pôle Compétition 3" },
+                    // { src: "/images/jeunes_9.jpeg", alt: "Pôle Compétition 4" },
+                    // { src: "/images/jeunes_10.jpeg", alt: "Pôle Compétition 5" },
+                    // { src: "/images/jeunes_11.jpeg", alt: "Pôle Compétition 6" },
+                    // { src: "/images/jeunes_12.jpeg", alt: "Pôle Compétition 7" },
+                    // { src: "/images/jeunes_13.jpeg", alt: "Pôle Compétition 8" },
                   ]}
                 />
               </motion.div>
