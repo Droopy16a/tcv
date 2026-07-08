@@ -214,7 +214,7 @@ export default function EcoleDeTennisPage() {
                   interval={5000}
                   dark={true}
                   images={[
-                    { src: "/images/adultes_1.jpeg", alt: "Entraînements Équipes 1" },
+                    // { src: "/images/adultes_1.jpeg", alt: "Entraînements Équipes 1" },
                     { src: "/images/adultes_2.jpeg", alt: "Entraînements Équipes 2" },
                     { src: "/images/adultes_3.jpeg", alt: "Entraînements Équipes 3" },
                     { src: "/images/adultes_4.jpeg", alt: "Entraînements Équipes 4" },

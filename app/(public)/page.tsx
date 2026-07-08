@@ -217,7 +217,7 @@ export default function Home() {
                   dark={true}
                   btn={false}
                   images={[
-                    { src: "/images/adultes_0.jpeg", alt: "Cours adultes 0" },
+                    // { src: "/images/adultes_0.jpeg", alt: "Cours adultes 0" },
                     // { src: "/images/adultes_1.jpeg", alt: "Cours adultes 1" },
                     { src: "/images/adultes_2.jpeg", alt: "Cours adultes 2" },
                     { src: "/images/adultes_3.jpeg", alt: "Cours adultes 3" },
