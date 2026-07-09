@@ -185,9 +185,9 @@ export default function TerrainsPage() {
                 images={[
                   { src: "/images/terrain_couvert_l_0.jpeg", alt: "Hall couvert TC Vernouillet" },
                   { src: "/images/terrain_couvert_l_1.jpeg", alt: "Hall couvert TC Vernouillet" },
-                  { src: "/images/terrain_couvert_l_2.jpeg", alt: "Hall couvert TC Vernouillet" },
-                  { src: "/images/terrain_couvert_l_3.jpeg", alt: "Hall couvert TC Vernouillet" },
-                  { src: "/images/terrain_couvert_l_4.jpeg", alt: "Hall couvert TC Vernouillet" },
+                  // { src: "/images/terrain_couvert_l_2.jpeg", alt: "Hall couvert TC Vernouillet" },
+                  // { src: "/images/terrain_couvert_l_3.jpeg", alt: "Hall couvert TC Vernouillet" },
+                  // { src: "/images/terrain_couvert_l_4.jpeg", alt: "Hall couvert TC Vernouillet" },
                   { src: "/images/terrain_couvert_l_5.jpeg", alt: "Hall couvert TC Vernouillet" },
                   // { src: "/images/terrains_couverts_0.jpg", alt: "Hall couvert TC Vernouillet" },
                   // { src: "/images/terrains_couverts_1.jpg", alt: "Terrains couverts en soirée" },
