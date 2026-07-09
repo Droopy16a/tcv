@@ -13,7 +13,8 @@ import {
   LogOut,
   Menu,
   X,
-  ExternalLink
+  ExternalLink,
+  Banknote
 } from "lucide-react";
 import { useState } from "react";
 import { logout } from "../login/actions";
@@ -23,6 +24,7 @@ const navigation = [
   { name: "Tableau de bord", href: "/admin", icon: LayoutDashboard },
   { name: "Inscriptions", href: "/admin/inscriptions", icon: Users },
   { name: "Calendrier", href: "/admin/calendar", icon: Calendar },
+  { name: "Paiements", href: "/admin/paiements", icon: Banknote },
   { name: "Médias", href: "/admin/media", icon: ImageIcon },
 ];
 

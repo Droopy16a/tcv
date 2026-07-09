@@ -291,3 +291,123 @@ export async function finalizeInscription(checkoutIntentId: string | null) {
     return { success: false, error: err.message };
   }
 }
+
+export async function createPaymentCheckout(data: {
+  montant: number;
+  nom: string;
+  prenom: string;
+  email: string;
+  telephone: string;
+  motif: string;
+  motifDetails: string;
+  beneficiaires: { nom: string; prenom: string }[];
+}) {
+  try {
+    const token = await getHelloAssoToken();
+    const apiUrl = process.env.HELLO_ASSO_API_URL || "https://api.helloasso-sandbox.com";
+    const orgSlug = "tc-vernouillet";
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+
+    const beneficiairesStr = data.beneficiaires
+      .map((b) => `${b.prenom} ${b.nom}`)
+      .join(", ");
+    const itemName = beneficiairesStr
+      ? `Paiement libre : ${data.motif === "Autre" ? data.motifDetails : data.motif} pour ${beneficiairesStr}`
+      : `Paiement libre : ${data.motif === "Autre" ? data.motifDetails : data.motif}`;
+
+    const payload = {
+      totalAmount: data.montant * 100, // Amount in cents
+      initialAmount: data.montant * 100,
+      itemName: itemName.substring(0, 255), // HelloAsso limit
+      backUrl: `${baseUrl}/paiement`,
+      errorUrl: `${baseUrl}/paiement?error=true`,
+      returnUrl: `${baseUrl}/paiement/success`,
+      containsDonation: false,
+      payer: {
+        firstName: data.prenom,
+        lastName: data.nom,
+        email: data.email,
+      },
+    };
+
+    const response = await fetch(`${apiUrl}/v5/organizations/${orgSlug}/checkout-intents`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error("HelloAsso Checkout Error:", errorText);
+      throw new Error("Erreur lors de la création du lien de paiement HelloAsso.");
+    }
+
+    const json = await response.json();
+    const checkoutIntentId = json.id; 
+
+    // Save to cookies for validation upon return
+    const cookieStore = await cookies();
+    cookieStore.set("pending_paiement_libre", JSON.stringify(data), { maxAge: 60 * 30 }); // 30 minutes
+
+    return { success: true, redirectUrl: json.redirectUrl };
+  } catch (err: any) {
+    console.error("Payment Checkout Error:", err);
+    return { success: false, error: err.message };
+  }
+}
+
+export async function finalizePaiementLibre(checkoutIntentId: string | null) {
+  try {
+    const cookieStore = await cookies();
+    const pendingDataStr = cookieStore.get("pending_paiement_libre")?.value;
+    
+    if (!pendingDataStr) {
+      return { success: false, error: "Aucun paiement en attente trouvé. Le délai a peut-être expiré." };
+    }
+
+    const pendingData = JSON.parse(pendingDataStr);
+    
+    if (checkoutIntentId) {
+      try {
+        const intent = await getHelloAssoCheckoutIntent(checkoutIntentId);
+        if (!intent.order) {
+          return { success: false, error: "Le paiement n'a pas encore été validé par HelloAsso." };
+        }
+      } catch (e: any) {
+        console.error("Error verifying HelloAsso intent:", e);
+        return { success: false, error: "Erreur lors de la vérification du paiement." };
+      }
+    } else {
+      return { success: false, error: "Paiement non vérifiable (ID manquant)." };
+    }
+
+    const supabase = getSupabaseAdminClient();
+    
+    const { error: dbError } = await supabase.from("paiements_libres").insert({
+      montant: pendingData.montant,
+      nom: pendingData.nom,
+      prenom: pendingData.prenom,
+      email: pendingData.email,
+      telephone: pendingData.telephone,
+      beneficiaires: pendingData.beneficiaires,
+      motif: pendingData.motif,
+      motif_details: pendingData.motifDetails,
+      checkout_intent_id: checkoutIntentId,
+      status: "validated",
+    });
+
+    if (dbError) {
+      console.error("Supabase Error during finalizePaiementLibre:", dbError);
+      return { success: false, error: dbError.message };
+    }
+
+    cookieStore.delete("pending_paiement_libre");
+    return { success: true };
+  } catch (err: any) {
+    console.error("Finalize Paiement Error:", err);
+    return { success: false, error: err.message };
+  }
+}
