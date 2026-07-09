@@ -20,15 +20,21 @@ const equipeDirigeante: TeamMember[] = [
     image: "/images/unk.png",
   },
   {
-    id: 2,
-    name: "Annick LEDUC",
-    role: "Secrétaire Générale Trésorière Générale Adjointe",
-    image: "/images/unk.png",
-  },
-  {
     id: 3,
     name: "Cecile GADREY",
     role: "Trésorière Générale",
+    image: "/images/unk.png",
+  },
+  {
+    id: 2,
+    name: "Annick LEDUC",
+    role: "Secrétaire Générale\nTrésorière Adjointe",
+    image: "/images/unk.png",
+  },
+  {
+    id: 6,
+    name: "Eric TEYSSANDIER",
+    role: "Président d'Honneur",
     image: "/images/unk.png",
   },
   {
@@ -41,12 +47,6 @@ const equipeDirigeante: TeamMember[] = [
     id: 5,
     name: "Gilles HOUDART",
     role: "Membre",
-    image: "/images/unk.png",
-  },
-  {
-    id: 6,
-    name: "Eric TEYSSANDIER",
-    role: "Président d'Honneur",
     image: "/images/unk.png",
   },
   {
@@ -71,15 +71,15 @@ const equipePedagogique: TeamMember[] = [
     image: "/images/unk.png",
   },
   {
-    id: 9,
-    name: "Jeremy PHILIPPE",
-    role: "Initiateur 1\nEnseignant loisir adultes",
-    image: "/images/unk.png",
-  },
-  {
     id: 10,
     name: "Naomy CHALA",
     role: "Stagiaire DE JEPS",
+    image: "/images/unk.png",
+  },
+  {
+    id: 9,
+    name: "Jeremy PHILIPPE",
+    role: "Initiateur 1\nEnseignant loisir adultes",
     image: "/images/unk.png",
   },
   {
@@ -100,6 +100,63 @@ const equipePedagogique: TeamMember[] = [
     role: "Stagiaire CQP ET",
     image: "/images/unk.png",
   }
+];
+
+const coachMini: TeamMember[] = [
+  {
+    id: 14,
+    name: "Matteo",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 15,
+    name: "Louis",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 16,
+    name: "Gabin",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 17,
+    name: "Noah",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 18,
+    name: "Eloan",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 19,
+    name: "Antonin",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 20,
+    name: "Arthur",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 21,
+    name: "Quentin",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
+  {
+    id: 22,
+    name: "Jules",
+    role: "Coach Junior",
+    image: "/images/unk.png",
+  },
 ];
 
 function SliderCarousel({ title, members }: { title: string; members: TeamMember[] }) {
@@ -251,6 +308,7 @@ export default function TeamSlider() {
 
       <SliderCarousel title="Notre équipe dirigeante" members={equipeDirigeante} />
       <SliderCarousel title="Notre équipe pédagogique" members={equipePedagogique} />
+      <SliderCarousel title="Nos Minis Coachs" members={coachMini} />
     </section>
   );
 }
