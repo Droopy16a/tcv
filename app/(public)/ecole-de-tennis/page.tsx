@@ -185,10 +185,12 @@ export default function EcoleDeTennisPage() {
                   interval={5000}
                   dark={true}
                   images={[
-                    { src: "/images/adultes_9.jpeg", alt: "Entraînements Équipes 9" },
-                    { src: "/images/adultes_10.jpeg", alt: "Entraînements Équipes 10" },
-                    { src: "/images/adultes_11.jpeg", alt: "Entraînements Équipes 11" },
-                    { src: "/images/adultes_12.jpeg", alt: "Entraînements Équipes 12" },
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+
+                    // { src: "/images/adultes_9.jpeg", alt: "Entraînements Équipes 9" },
+                    // { src: "/images/adultes_10.jpeg", alt: "Entraînements Équipes 10" },
+                    // { src: "/images/adultes_11.jpeg", alt: "Entraînements Équipes 11" },
+                    // { src: "/images/adultes_12.jpeg", alt: "Entraînements Équipes 12" },
                   ]}
                 />
               </motion.div>
@@ -214,18 +216,20 @@ export default function EcoleDeTennisPage() {
                   interval={5000}
                   dark={true}
                   images={[
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+
                     // { src: "/images/adultes_1.jpeg", alt: "Entraînements Équipes 1" },
-                    { src: "/images/adultes_2.jpeg", alt: "Entraînements Équipes 2" },
-                    { src: "/images/adultes_3.jpeg", alt: "Entraînements Équipes 3" },
-                    { src: "/images/adultes_4.jpeg", alt: "Entraînements Équipes 4" },
-                    { src: "/images/adultes_5.jpeg", alt: "Entraînements Équipes 5" },
-                    { src: "/images/adultes_6.jpeg", alt: "Entraînements Équipes 6" },
-                    { src: "/images/adultes_7.jpeg", alt: "Entraînements Équipes 7" },
-                    { src: "/images/adultes_8.jpeg", alt: "Entraînements Équipes 8" },
-                    { src: "/images/adultes_9.jpeg", alt: "Entraînements Équipes 9" },
-                    { src: "/images/adultes_10.jpeg", alt: "Entraînements Équipes 10" },
-                    { src: "/images/adultes_11.jpeg", alt: "Entraînements Équipes 11" },
-                    { src: "/images/adultes_12.jpeg", alt: "Entraînements Équipes 12" },
+                    // { src: "/images/adultes_2.jpeg", alt: "Entraînements Équipes 2" },
+                    // { src: "/images/adultes_3.jpeg", alt: "Entraînements Équipes 3" },
+                    // { src: "/images/adultes_4.jpeg", alt: "Entraînements Équipes 4" },
+                    // { src: "/images/adultes_5.jpeg", alt: "Entraînements Équipes 5" },
+                    // { src: "/images/adultes_6.jpeg", alt: "Entraînements Équipes 6" },
+                    // { src: "/images/adultes_7.jpeg", alt: "Entraînements Équipes 7" },
+                    // { src: "/images/adultes_8.jpeg", alt: "Entraînements Équipes 8" },
+                    // { src: "/images/adultes_9.jpeg", alt: "Entraînements Équipes 9" },
+                    // { src: "/images/adultes_10.jpeg", alt: "Entraînements Équipes 10" },
+                    // { src: "/images/adultes_11.jpeg", alt: "Entraînements Équipes 11" },
+                    // { src: "/images/adultes_12.jpeg", alt: "Entraînements Équipes 12" },
                   ]}
                 />
               </motion.div>

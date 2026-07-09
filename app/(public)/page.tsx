@@ -217,19 +217,20 @@ export default function Home() {
                   dark={true}
                   btn={false}
                   images={[
+                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
                     // { src: "/images/adultes_0.jpeg", alt: "Cours adultes 0" },
                     // { src: "/images/adultes_1.jpeg", alt: "Cours adultes 1" },
-                    { src: "/images/adultes_2.jpeg", alt: "Cours adultes 2" },
-                    { src: "/images/adultes_3.jpeg", alt: "Cours adultes 3" },
-                    { src: "/images/adultes_4.jpeg", alt: "Cours adultes 4" },
-                    { src: "/images/adultes_5.jpeg", alt: "Cours adultes 5" },
-                    { src: "/images/adultes_6.jpeg", alt: "Cours adultes 6" },
-                    { src: "/images/adultes_7.jpeg", alt: "Cours adultes 7" },
-                    { src: "/images/adultes_8.jpeg", alt: "Cours adultes 8" },
-                    { src: "/images/adultes_9.jpeg", alt: "Cours adultes 9" },
-                    { src: "/images/adultes_10.jpeg", alt: "Cours adultes 10" },
-                    { src: "/images/adultes_11.jpeg", alt: "Cours adultes 11" },
-                    { src: "/images/adultes_12.jpeg", alt: "Cours adultes 12" },
+                    // { src: "/images/adultes_2.jpeg", alt: "Cours adultes 2" },
+                    // { src: "/images/adultes_3.jpeg", alt: "Cours adultes 3" },
+                    // { src: "/images/adultes_4.jpeg", alt: "Cours adultes 4" },
+                    // { src: "/images/adultes_5.jpeg", alt: "Cours adultes 5" },
+                    // { src: "/images/adultes_6.jpeg", alt: "Cours adultes 6" },
+                    // { src: "/images/adultes_7.jpeg", alt: "Cours adultes 7" },
+                    // { src: "/images/adultes_8.jpeg", alt: "Cours adultes 8" },
+                    // { src: "/images/adultes_9.jpeg", alt: "Cours adultes 9" },
+                    // { src: "/images/adultes_10.jpeg", alt: "Cours adultes 10" },
+                    // { src: "/images/adultes_11.jpeg", alt: "Cours adultes 11" },
+                    // { src: "/images/adultes_12.jpeg", alt: "Cours adultes 12" },
                   ]}
                   />
                 </div>
