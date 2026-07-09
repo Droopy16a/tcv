@@ -1,5 +1,9 @@
 import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
+
+const INSTAGRAM_URL = "https://www.instagram.com/tcvernouillet";
+const FACEBOOK_URL = "https://www.facebook.com/tcvernouillet";
+
 export default function Footer() {
   const address = "1 allée Louis Dufau\n78540 Vernouillet";
   const phone = "09 52 58 55 50";
@@ -17,8 +21,34 @@ export default function Footer() {
             <p className="text-gray-400 mb-6 font-light max-w-sm whitespace-pre-wrap">
               {seoDesc}
             </p>
-            <div className="flex gap-4">
-              {/* Social icons removed for build compatibility */}
+            {/* Réseaux sociaux */}
+            <div className="flex gap-3">
+              <a
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram du T.C. Vernouillet"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-800 text-gray-400 hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-500 hover:to-orange-400 hover:text-white transition-all duration-300"
+              >
+                {/* Instagram SVG */}
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <circle cx="12" cy="12" r="4"/>
+                  <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+                </svg>
+              </a>
+              <a
+                href={FACEBOOK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook du T.C. Vernouillet"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-800 text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-300"
+              >
+                {/* Facebook SVG */}
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+              </a>
             </div>
           </div>
 
