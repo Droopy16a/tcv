@@ -63,10 +63,10 @@ export default function TerrainsPage() {
                   { src: "/images/terrain_exter_2.jpg", alt: "Courts extérieurs du TC Vernouillet" },
                   { src: "/images/terrain_exter_3.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
                   { src: "/images/terrain_exter_4.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
-                  { src: "/images/terrain_exter_5.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
-                  { src: "/images/terrain_exter_6.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
-                  { src: "/images/terrain_exter_7.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
-                  { src: "/images/terrain_exter_8.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  // { src: "/images/terrain_exter_5.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  // { src: "/images/terrain_exter_6.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  // { src: "/images/terrain_exter_7.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
+                  // { src: "/images/terrain_exter_8.jpeg", alt: "Courts extérieurs du TC Vernouillet" },
                 ]}
               />
             </motion.div>
@@ -189,9 +189,9 @@ export default function TerrainsPage() {
                   { src: "/images/terrain_couvert_l_3.jpeg", alt: "Hall couvert TC Vernouillet" },
                   { src: "/images/terrain_couvert_l_4.jpeg", alt: "Hall couvert TC Vernouillet" },
                   { src: "/images/terrain_couvert_l_5.jpeg", alt: "Hall couvert TC Vernouillet" },
-                  { src: "/images/terrains_couverts_0.jpg", alt: "Hall couvert TC Vernouillet" },
-                  { src: "/images/terrains_couverts_1.jpg", alt: "Terrains couverts en soirée" },
-                  { src: "/images/terrains_couverts_2.jpg", alt: "Terrains couverts en soirée" },
+                  // { src: "/images/terrains_couverts_0.jpg", alt: "Hall couvert TC Vernouillet" },
+                  // { src: "/images/terrains_couverts_1.jpg", alt: "Terrains couverts en soirée" },
+                  // { src: "/images/terrains_couverts_2.jpg", alt: "Terrains couverts en soirée" },
                 ]}
               />
             </motion.div>
