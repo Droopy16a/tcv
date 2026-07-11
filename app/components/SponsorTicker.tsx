@@ -21,7 +21,7 @@ export default function SponsorTicker() {
   return (
     <div className="pt-10 mt-12 overflow-hidden w-full">
       <p className="text-center text-xs font-bold uppercase tracking-widest text-gray-300 mb-6">
-        Nos Partenaires
+        Nos Partenaires/Sponsors
       </p>
       <div className="relative flex w-full">
         {/* Fade masks on edges */}
