@@ -12,6 +12,7 @@ const sponsors = [
   { name: "ACS Plus", logo: "images/acs.png" },
   { name: "FFT", logo: "images/fft.png" },
   { name: "Yvelines", logo: "images/comite.png" },
+  { name: "Wilson", logo: "images/wilson.jpg" },
 ];
 
 export default function SponsorTicker() {

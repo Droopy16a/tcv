@@ -176,7 +176,7 @@ export default function Home() {
                   dark={true}
                   btn={false}
                   images={[
-                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+                    { src: "/images/jeunes_14.jpeg", alt: "Pôle Compétition 1" },
                     // { src: "/images/jeunes_0.jpeg", alt: "Cours Jeunes 0" },
                     // { src: "/images/jeunes_1.jpeg", alt: "Cours Jeunes 1" },
                     // { src: "/images/jeunes_2.jpeg", alt: "Cours Jeunes 2" },
@@ -217,7 +217,7 @@ export default function Home() {
                   dark={true}
                   btn={false}
                   images={[
-                    { src: "/images/hero.jpg", alt: "Pôle Compétition 1" },
+                    { src: "/images/adultes_14.jpeg", alt: "Pôle Compétition 1" },
                     // { src: "/images/adultes_0.jpeg", alt: "Cours adultes 0" },
                     // { src: "/images/adultes_1.jpeg", alt: "Cours adultes 1" },
                     // { src: "/images/adultes_2.jpeg", alt: "Cours adultes 2" },
