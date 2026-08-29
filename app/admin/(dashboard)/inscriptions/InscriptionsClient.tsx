@@ -21,58 +21,15 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
   const [selectedEnfant, setSelectedEnfant] = useState<Enfant | null>(null);
 
   const printCurrentTable = () => {
-    const isAdultTab = activeTab === "Adultes";
-    const rows = isAdultTab
-      ? adultes.map((item) => ({
-          Date: item.created_at ? format(new Date(item.created_at), "dd/MM/yyyy") : "",
-          Nom: item.nom,
-          Prénom: item.prenom,
-          Sexe: item.sexe,
-          "Date de naissance": item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
-          Adresse: item.adresse,
-          "Code postal": item.code_postal,
-          Ville: item.ville,
-          Email: item.email,
-          Téléphone: item.telephone,
-          Étudiant: item.est_etudiant ? "Oui" : "Non",
-          "Position famille": item.position_famille,
-          "Cours collectifs": item.cours_collectifs ? "Oui" : "Non",
-          "Durée cours": item.duree_cours,
-          "Entraînement équipe": item.entrainement_equipe ? "Oui" : "Non",
-          Niveau: item.niveau,
-          Classement: item.classement,
-          "Années de pratique": item.annees_pratique,
-          Formule: item.cours_collectifs ? `Cours ${item.duree_cours}` : "Adhésion seule",
-          Observations: item.observations || "",
-          "Prix calculé": item.calculated_cost ? `${item.calculated_cost} €` : "",
-        }))
-      : enfants.map((item) => ({
-          Date: item.created_at ? format(new Date(item.created_at), "dd/MM/yyyy") : "",
-          Nom: item.nom,
-          Prénom: item.prenom,
-          Sexe: item.sexe,
-          "Date de naissance": item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
-          Adresse: item.adresse,
-          "Code postal": item.code_postal,
-          Ville: item.ville,
-          "Email mère": item.email_mere,
-          "Téléphone mère": item.telephone_mere,
-          "Email père": item.email_pere,
-          "Téléphone père": item.telephone_pere,
-          "Position famille": item.position_famille,
-          Formule: item.formule,
-          "Créneau Baby/Mini": item.creneau_baby_mini,
-          Niveau: item.niveau,
-          "Galaxie / Couleur": item.galaxie_couleur,
-          Classement: item.classement,
-          "Années de pratique": item.annees_pratique,
-          "Disponibilités": (item.dispos_jours || []).join(", "),
-          Observations: item.observations || "",
-          "Prix calculé": item.calculated_cost ? `${item.calculated_cost} €` : "",
-        }));
+    const tableId = activeTab === "Adultes" ? "adultes-table" : "enfants-table";
+    const table = document.getElementById(tableId);
 
-    const headers = Object.keys(rows[0] || {});
-    const printWindow = window.open("", "_blank", "width=1200,height=900");
+    if (!table) {
+      window.print();
+      return;
+    }
+
+    const printWindow = window.open("", "_blank", "width=900,height=700");
 
     if (!printWindow) {
       window.print();
@@ -86,31 +43,14 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
           <style>
             body { font-family: Arial, sans-serif; padding: 24px; color: #111827; }
             h1 { margin-bottom: 20px; font-size: 24px; }
-            table { width: 100%; border-collapse: collapse; font-size: 11px; }
-            th, td { border: 1px solid #d1d5db; padding: 6px 8px; text-align: left; vertical-align: top; }
-            th { background: #f3f4f6; font-weight: 700; }
-            tr:nth-child(even) td { background: #fafafa; }
+            table { width: 100%; border-collapse: collapse; font-size: 12px; }
+            th, td { border: 1px solid #d1d5db; padding: 8px 10px; text-align: left; vertical-align: top; }
+            th { background: #f3f4f6; }
           </style>
         </head>
         <body>
           <h1>Inscriptions ${activeTab}</h1>
-          <table>
-            <thead>
-              <tr>
-                ${headers.map((header) => `<th>${header}</th>`).join("")}
-              </tr>
-            </thead>
-            <tbody>
-              ${rows
-                .map(
-                  (row) =>
-                    `<tr>${headers
-                      .map((header) => `<td>${String(row[header as keyof typeof row] ?? "")}</td>`)
-                      .join("")}</tr>`
-                )
-                .join("")}
-            </tbody>
-          </table>
+          ${table.outerHTML}
         </body>
       </html>
     `);
