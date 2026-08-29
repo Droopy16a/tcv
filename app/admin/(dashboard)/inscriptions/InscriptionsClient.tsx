@@ -83,6 +83,7 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
         <head>
           <title>Inscriptions ${activeTab}</title>
           <style>
+            @page { size: A4 landscape; margin: 12mm; }
             body { font-family: Arial, sans-serif; padding: 24px; color: #111827; }
             h1 { margin-bottom: 20px; font-size: 24px; }
             table { width: 100%; border-collapse: collapse; font-size: 11px; }
