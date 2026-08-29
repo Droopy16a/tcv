@@ -20,6 +20,11 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
   const [selectedAdulte, setSelectedAdulte] = useState<Adulte | null>(null);
   const [selectedEnfant, setSelectedEnfant] = useState<Enfant | null>(null);
 
+  const formatFullAddress = (adresse: string, codePostal: string, ville: string) => {
+    const parts = [adresse, ville, codePostal].filter(Boolean);
+    return parts.join(", ");
+  };
+
   const printCurrentTable = () => {
     const isAdultTab = activeTab === "Adultes";
     const rows = isAdultTab
@@ -29,9 +34,7 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
           Prénom: item.prenom,
           Sexe: item.sexe,
           "Date de naissance": item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
-          Adresse: item.adresse,
-          "Code postal": item.code_postal,
-          Ville: item.ville,
+          Adresse: formatFullAddress(item.adresse, item.code_postal, item.ville),
           Email: item.email,
           Téléphone: item.telephone,
           Étudiant: item.est_etudiant ? "Oui" : "Non",
@@ -52,13 +55,9 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
           Prénom: item.prenom,
           Sexe: item.sexe,
           "Date de naissance": item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
-          Adresse: item.adresse,
-          "Code postal": item.code_postal,
-          Ville: item.ville,
-          "Email mère": item.email_mere,
-          "Téléphone mère": item.telephone_mere,
-          "Email père": item.email_pere,
-          "Téléphone père": item.telephone_pere,
+          Adresse: formatFullAddress(item.adresse, item.code_postal, item.ville),
+          "Email parents": [item.email_mere, item.email_pere].filter(Boolean).join(" / "),
+          "Téléphone parents": [item.telephone_mere, item.telephone_pere].filter(Boolean).join(" / "),
           "Position famille": item.position_famille,
           Formule: item.formule,
           "Créneau Baby/Mini": item.creneau_baby_mini,
@@ -129,6 +128,7 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
             "Joueur",
             "Sexe",
             "Date de naissance",
+            "Adresse",
             "Email",
             "Téléphone",
             "Formule",
@@ -144,10 +144,9 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
             "Enfant",
             "Sexe",
             "Date de naissance",
-            "Email mère",
-            "Téléphone mère",
-            "Email père",
-            "Téléphone père",
+            "Adresse",
+            "Email parents",
+            "Téléphone parents",
             "Formule",
             "Créneau Baby/Mini",
             "Niveau",
@@ -164,6 +163,7 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
             `${item.nom} ${item.prenom}`,
             item.sexe,
             item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
+            formatFullAddress(item.adresse, item.code_postal, item.ville),
             item.email,
             item.telephone,
             item.cours_collectifs ? `Cours ${item.duree_cours}` : "Adhésion seule",
@@ -179,10 +179,9 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
             `${item.nom} ${item.prenom}`,
             item.sexe,
             item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
-            item.email_mere,
-            item.telephone_mere,
-            item.email_pere,
-            item.telephone_pere,
+            formatFullAddress(item.adresse, item.code_postal, item.ville),
+            [item.email_mere, item.email_pere].filter(Boolean).join(" / "),
+            [item.telephone_mere, item.telephone_pere].filter(Boolean).join(" / "),
             item.formule,
             item.creneau_baby_mini,
             item.niveau,
