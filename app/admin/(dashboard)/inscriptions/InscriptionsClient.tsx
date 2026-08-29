@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { X, Search } from "lucide-react";
+import { Download, Printer, X } from "lucide-react";
 import { format } from "date-fns";
 import { fr } from "date-fns/locale";
+import * as XLSX from "xlsx";
 
 type Adulte = {
   id: string; created_at: string; nom: string; prenom: string; sexe: string; date_naissance: string; adresse: string; code_postal: string; ville: string; telephone: string; email: string; est_etudiant: boolean; position_famille: string; cours_collectifs: boolean; duree_cours: string; entrainement_equipe: boolean; niveau: string; classement: string; annees_pratique: string; selected_courses: any[]; autorisation_mail: boolean; observations: string; calculated_cost: string;
@@ -19,12 +20,149 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
   const [selectedAdulte, setSelectedAdulte] = useState<Adulte | null>(null);
   const [selectedEnfant, setSelectedEnfant] = useState<Enfant | null>(null);
 
+  const printCurrentTable = () => {
+    const tableId = activeTab === "Adultes" ? "adultes-table" : "enfants-table";
+    const table = document.getElementById(tableId);
+
+    if (!table) {
+      window.print();
+      return;
+    }
+
+    const printWindow = window.open("", "_blank", "width=900,height=700");
+
+    if (!printWindow) {
+      window.print();
+      return;
+    }
+
+    printWindow.document.write(`
+      <html>
+        <head>
+          <title>Inscriptions ${activeTab}</title>
+          <style>
+            body { font-family: Arial, sans-serif; padding: 24px; color: #111827; }
+            h1 { margin-bottom: 20px; font-size: 24px; }
+            table { width: 100%; border-collapse: collapse; font-size: 12px; }
+            th, td { border: 1px solid #d1d5db; padding: 8px 10px; text-align: left; vertical-align: top; }
+            th { background: #f3f4f6; }
+          </style>
+        </head>
+        <body>
+          <h1>Inscriptions ${activeTab}</h1>
+          ${table.outerHTML}
+        </body>
+      </html>
+    `);
+
+    printWindow.document.close();
+    printWindow.focus();
+    printWindow.print();
+    printWindow.close();
+  };
+
+  const exportCurrentTable = () => {
+    const headers =
+      activeTab === "Adultes"
+        ? [
+            "Date",
+            "Joueur",
+            "Sexe",
+            "Date de naissance",
+            "Email",
+            "Téléphone",
+            "Formule",
+            "Entraînement équipe",
+            "Niveau",
+            "Classement",
+            "Prix",
+            "Position famille",
+            "Observations",
+          ]
+        : [
+            "Date",
+            "Enfant",
+            "Sexe",
+            "Date de naissance",
+            "Email mère",
+            "Téléphone mère",
+            "Email père",
+            "Téléphone père",
+            "Formule",
+            "Créneau Baby/Mini",
+            "Niveau",
+            "Galaxie",
+            "Prix",
+            "Position famille",
+            "Observations",
+          ];
+
+    const rows =
+      activeTab === "Adultes"
+        ? adultes.map((item) => [
+            item.created_at ? format(new Date(item.created_at), "dd/MM/yyyy") : "",
+            `${item.nom} ${item.prenom}`,
+            item.sexe,
+            item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
+            item.email,
+            item.telephone,
+            item.cours_collectifs ? `Cours ${item.duree_cours}` : "Adhésion seule",
+            item.entrainement_equipe ? "Oui" : "Non",
+            item.niveau,
+            item.classement,
+            item.calculated_cost,
+            item.position_famille,
+            item.observations,
+          ])
+        : enfants.map((item) => [
+            item.created_at ? format(new Date(item.created_at), "dd/MM/yyyy") : "",
+            `${item.nom} ${item.prenom}`,
+            item.sexe,
+            item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
+            item.email_mere,
+            item.telephone_mere,
+            item.email_pere,
+            item.telephone_pere,
+            item.formule,
+            item.creneau_baby_mini,
+            item.niveau,
+            item.galaxie_couleur,
+            item.calculated_cost,
+            item.position_famille,
+            item.observations,
+          ]);
+
+    const worksheet = XLSX.utils.aoa_to_sheet([headers, ...rows]);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, activeTab);
+    XLSX.writeFile(workbook, `inscriptions-${activeTab.toLowerCase()}.xlsx`);
+  };
+
   return (
     <div>
-      <div className="mb-6 flex justify-between items-center">
+      <div className="mb-6 flex justify-between items-center gap-4">
         <div>
           <h1 className="text-3xl font-heading font-bold text-gray-900">Inscriptions</h1>
           <p className="mt-1 text-sm text-gray-500">Gérez les inscriptions adultes et enfants.</p>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={exportCurrentTable}
+            className="inline-flex items-center gap-2 rounded-lg border border-[#DF6436] bg-[#DF6436] px-3 py-2 text-xs font-bold uppercase tracking-widest text-white transition hover:bg-[#c95328]"
+          >
+            <Download size={15} />
+            Télécharger XLSX
+          </button>
+          <button
+            type="button"
+            onClick={printCurrentTable}
+            className="inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-3 py-2 text-xs font-bold uppercase tracking-widest text-gray-700 transition hover:bg-gray-50"
+          >
+            <Printer size={15} />
+            Imprimer
+          </button>
         </div>
       </div>
 
@@ -46,7 +184,7 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
       <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
         {activeTab === "Adultes" && (
           <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-200">
+            <table id="adultes-table" className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Date</th>
@@ -95,7 +233,7 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
 
         {activeTab === "Enfants" && (
           <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-200">
+            <table id="enfants-table" className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Date</th>
