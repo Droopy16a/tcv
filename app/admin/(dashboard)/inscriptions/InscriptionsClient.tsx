@@ -62,74 +62,109 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
   };
 
   const exportCurrentTable = () => {
-    const headers =
-      activeTab === "Adultes"
-        ? [
-            "Date",
-            "Joueur",
-            "Sexe",
-            "Date de naissance",
-            "Email",
-            "Téléphone",
-            "Formule",
-            "Entraînement équipe",
-            "Niveau",
-            "Classement",
-            "Prix",
-            "Position famille",
-            "Observations",
-          ]
-        : [
-            "Date",
-            "Enfant",
-            "Sexe",
-            "Date de naissance",
-            "Email mère",
-            "Téléphone mère",
-            "Email père",
-            "Téléphone père",
-            "Formule",
-            "Créneau Baby/Mini",
-            "Niveau",
-            "Galaxie",
-            "Prix",
-            "Position famille",
-            "Observations",
-          ];
+    const adultHeaders = [
+      "Date inscription",
+      "Nom",
+      "Prénom",
+      "Sexe",
+      "Date de naissance",
+      "Adresse",
+      "Code postal",
+      "Ville",
+      "Téléphone",
+      "Email",
+      "Étudiant",
+      "Position famille",
+      "Cours collectifs",
+      "Durée cours",
+      "Entraînement équipe",
+      "Niveau",
+      "Classement",
+      "Années de pratique",
+      "Cours sélectionnés",
+      "Autorisation mail",
+      "Observations",
+      "Prix calculé",
+    ];
+
+    const childHeaders = [
+      "Date inscription",
+      "Nom",
+      "Prénom",
+      "Sexe",
+      "Date de naissance",
+      "Adresse",
+      "Code postal",
+      "Ville",
+      "Téléphone mère",
+      "Email mère",
+      "Téléphone père",
+      "Email père",
+      "Formule",
+      "Créneau baby/mini",
+      "Niveau",
+      "Galaxie couleur",
+      "Classement",
+      "Années de pratique",
+      "Disponibilités",
+      "Position famille",
+      "Autorisation mail",
+      "Observations",
+      "Prix calculé",
+    ];
+
+    const headers = activeTab === "Adultes" ? adultHeaders : childHeaders;
 
     const rows =
       activeTab === "Adultes"
         ? adultes.map((item) => [
             item.created_at ? format(new Date(item.created_at), "dd/MM/yyyy") : "",
-            `${item.nom} ${item.prenom}`,
+            item.nom,
+            item.prenom,
             item.sexe,
             item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
-            item.email,
+            item.adresse,
+            item.code_postal,
+            item.ville,
             item.telephone,
-            item.cours_collectifs ? `Cours ${item.duree_cours}` : "Adhésion seule",
+            item.email,
+            item.est_etudiant ? "Oui" : "Non",
+            item.position_famille,
+            item.cours_collectifs ? "Oui" : "Non",
+            item.duree_cours,
             item.entrainement_equipe ? "Oui" : "Non",
             item.niveau,
             item.classement,
-            item.calculated_cost,
-            item.position_famille,
+            item.annees_pratique,
+            Array.isArray(item.selected_courses) ? item.selected_courses.join(", ") : "",
+            item.autorisation_mail ? "Oui" : "Non",
             item.observations,
+            item.calculated_cost,
           ])
         : enfants.map((item) => [
             item.created_at ? format(new Date(item.created_at), "dd/MM/yyyy") : "",
-            `${item.nom} ${item.prenom}`,
+            item.nom,
+            item.prenom,
             item.sexe,
             item.date_naissance ? format(new Date(item.date_naissance), "dd/MM/yyyy") : "",
-            item.email_mere,
+            item.adresse,
+            item.code_postal,
+            item.ville,
             item.telephone_mere,
-            item.email_pere,
+            item.email_mere,
             item.telephone_pere,
+            item.email_pere,
             item.formule,
             item.creneau_baby_mini,
             item.niveau,
             item.galaxie_couleur,
-            item.calculated_cost,
+            item.classement,
+            item.annees_pratique,
+            Array.isArray(item.dispos_jours) ? item.dispos_jours.join(", ") : "",
             item.position_famille,
+            item.autorisation_mail ? "Oui" : "Non",
             item.observations,
+            item.calculated_cost,
           ]);
 
     const worksheet = XLSX.utils.aoa_to_sheet([headers, ...rows]);
@@ -192,7 +227,6 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
                   <th className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Contact</th>
                   <th className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Formule</th>
                   <th className="px-6 py-3 text-right text-xs font-bold text-gray-500 uppercase tracking-wider">Prix</th>
-                  <th className="px-6 py-3"></th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
@@ -216,11 +250,6 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
                     <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-bold text-gray-900">
                       {item.calculated_cost} €
                     </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                      <button onClick={() => setSelectedAdulte(item)} className="text-[#DF6436] hover:text-[#c95328] font-bold text-xs uppercase tracking-widest">
-                        Détails
-                      </button>
-                    </td>
                   </tr>
                 ))}
                 {adultes.length === 0 && (
@@ -241,7 +270,6 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
                   <th className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Parents</th>
                   <th className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Formule</th>
                   <th className="px-6 py-3 text-right text-xs font-bold text-gray-500 uppercase tracking-wider">Prix</th>
-                  <th className="px-6 py-3"></th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
@@ -263,11 +291,6 @@ export default function InscriptionsClient({ adultes, enfants }: { adultes: Adul
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-bold text-gray-900">
                       {item.calculated_cost} €
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                      <button onClick={() => setSelectedEnfant(item)} className="text-[#DF6436] hover:text-[#c95328] font-bold text-xs uppercase tracking-widest">
-                        Détails
-                      </button>
                     </td>
                   </tr>
                 ))}
