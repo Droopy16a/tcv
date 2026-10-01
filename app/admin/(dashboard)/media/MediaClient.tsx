@@ -1,9 +1,16 @@
 "use client";
 
-import { useState, useTransition, useRef } from "react";
-import { UploadCloud, Folder, File as FileIcon, Image as ImageIcon, Trash2, Download, ExternalLink } from "lucide-react";
+import { useTransition, useRef } from "react";
+import { UploadCloud, File as FileIcon, Trash2, ExternalLink } from "lucide-react";
 import { toast } from "sonner";
 import { uploadMedia, deleteMedia } from "./actions";
+
+const MAX_FILE_SIZE = 20 * 1024 * 1024;
+const ALLOWED_FILE_TYPES = new Set([
+  "image/jpeg",
+  "image/png",
+  "application/pdf",
+]);
 
 type StorageFile = {
   name: string;
@@ -11,15 +18,20 @@ type StorageFile = {
   updated_at: string | null;
   created_at: string | null;
   last_accessed_at: string | null;
-  metadata: any;
+  metadata: {
+    mimetype?: string;
+    size?: number;
+  } | null;
 };
 
 export default function MediaClient({ 
   initialFiles, 
-  publicUrlPrefix 
+  publicUrlPrefix,
+  loadError,
 }: { 
   initialFiles: StorageFile[],
-  publicUrlPrefix: string 
+  publicUrlPrefix: string,
+  loadError?: string,
 }) {
   const [isPending, startTransition] = useTransition();
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -27,16 +39,38 @@ export default function MediaClient({
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
+
+      if (file.size > MAX_FILE_SIZE) {
+        toast.error("Le fichier dépasse la taille maximale de 20 Mo.");
+        e.target.value = "";
+        return;
+      }
+
+      if (!ALLOWED_FILE_TYPES.has(file.type)) {
+        toast.error("Seuls les fichiers JPG, PNG et PDF sont autorisés.");
+        e.target.value = "";
+        return;
+      }
+
       const formData = new FormData();
       formData.append("file", file);
 
       startTransition(async () => {
         toast.info("Upload en cours...");
-        const result = await uploadMedia(formData);
-        if (result.error) {
-          toast.error(result.error);
-        } else {
-          toast.success("Fichier uploadé avec succès !");
+        try {
+          const result = await uploadMedia(formData);
+          if (result.error) {
+            toast.error(result.error);
+          } else {
+            toast.success("Fichier uploadé avec succès !");
+          }
+        } catch (error) {
+          console.error("[admin/media] Upload request failed", error);
+          toast.error("L'envoi a échoué. Vérifiez que le fichier ne dépasse pas 20 Mo.");
+        } finally {
+          if (fileInputRef.current) {
+            fileInputRef.current.value = "";
+          }
         }
       });
     }
@@ -71,7 +105,7 @@ export default function MediaClient({
       <div className="mb-6 flex justify-between items-center flex-wrap gap-4">
         <div>
           <h1 className="text-3xl font-heading font-bold text-gray-900">Médias</h1>
-          <p className="mt-1 text-sm text-gray-500">Gérez vos images et documents uploadés (dossier 'uploads').</p>
+          <p className="mt-1 text-sm text-gray-500">Gérez vos images et documents uploadés (dossier &apos;uploads&apos;).</p>
         </div>
         <button 
           onClick={() => fileInputRef.current?.click()}
@@ -97,8 +131,14 @@ export default function MediaClient({
       >
         <UploadCloud className="mx-auto h-12 w-12 text-gray-400 mb-4" />
         <h3 className="text-lg font-medium text-gray-900">Cliquez pour ajouter un fichier</h3>
-        <p className="mt-1 text-sm text-gray-500">PNG, JPG, PDF (Dossier principal)</p>
+        <p className="mt-1 text-sm text-gray-500">PNG, JPG ou PDF — 20 Mo maximum</p>
       </div>
+
+      {loadError ? (
+        <div className="mb-8 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+          Impossible de charger les médias : {loadError}
+        </div>
+      ) : null}
 
       <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
         <div className="p-4 border-b border-gray-200 bg-gray-50 flex items-center justify-between">
@@ -154,7 +194,7 @@ export default function MediaClient({
           </ul>
         ) : (
           <div className="p-8 text-center text-gray-500 text-sm">
-            Aucun fichier trouvé dans le dossier 'uploads'.
+            Aucun fichier trouvé dans le dossier &apos;uploads&apos;.
           </div>
         )}
       </div>
