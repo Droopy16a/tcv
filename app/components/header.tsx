@@ -5,28 +5,19 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { navItems } from "../data";
 import Image from "next/image";
+import { useRegistrationAvailability } from "./RegistrationAvailability";
 
-type HeaderProps = {
-  onGuideOpen?: () => void;
-};
-
-export function Header({ onGuideOpen }: HeaderProps) {
+export function Header() {
   const pathname = usePathname();
   const isMainPage = pathname === "/";
   const contactEmail = "tcvernouillet@gmail.com";
+  const registrationsEnabled = useRegistrationAvailability();
 
   const [bannerVisible, setBannerVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const stored = localStorage.getItem("bannerVisible");
-    if (stored === "false" && Date.now() - parseInt(localStorage.getItem("bannerVisibleTimestamp") || "0") < 24 * 60 * 60 * 1000) {
-      setBannerVisible(false);
-    }
-  }, []);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
@@ -44,23 +35,25 @@ export function Header({ onGuideOpen }: HeaderProps) {
 
   return (
     <>
-      {bannerVisible ? (
+      {registrationsEnabled && bannerVisible ? (
         <div className="info-banner" data-theme="orange">
           <div className="info-banner-content">
             <p>Inscription Ouverte</p>
-            <Link href="/inscription">S'INSCRIRE</Link>
+            <Link href="/inscription">S&apos;INSCRIRE</Link>
           </div>
           <button
             className="info-banner-close"
             aria-label="Close announcement"
-            onClick={() => {localStorage.setItem("bannerVisible", `{false, ${Date.now()}}`); setBannerVisible(false);}}
+            onClick={() => {
+              setBannerVisible(false);
+            }}
           />
         </div>
       ) : null}
 
       <header className={`site-header ${(!isMainPage || scrolled) ? "is-scrolled" : ""}`}>
         <div className="header-wrapper">
-          <a className="header-logo" href="/" aria-label="T.C. VERNOUILLET" style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+          <Link className="header-logo" href="/" aria-label="T.C. VERNOUILLET" style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
             <Image
               src="/images/logo.png"
               alt="logo"
@@ -69,7 +62,7 @@ export function Header({ onGuideOpen }: HeaderProps) {
               priority
             />
             <span className="logo-text">{!isMobile ? "T.C. VERNOUILLET" : "T.C.V"}</span>
-          </a>
+          </Link>
 
           <nav className="desktop-menu" aria-label="Main menu">
             {navItems.map((item) => (

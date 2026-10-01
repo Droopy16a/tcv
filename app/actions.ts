@@ -1,6 +1,7 @@
 "use server";
 
 import { getSupabaseAdminClient } from "../lib/supabase";
+import { areRegistrationsEnabled } from "../lib/site-settings";
 import { cookies } from "next/headers";
 
 async function getHelloAssoToken() {
@@ -95,6 +96,10 @@ export async function getHelloAssoCheckoutIntent(checkoutIntentId: string) {
 }
 
 export async function submitEnfant(data: any, cost: number) {
+  if (!(await areRegistrationsEnabled())) {
+    return { success: false, error: "Les inscriptions en ligne sont actuellement fermées." };
+  }
+
   try {
     if (cost > 0) {
       const checkoutUrl = await createCheckoutIntent(cost, {
@@ -148,6 +153,10 @@ export async function submitEnfant(data: any, cost: number) {
 }
 
 export async function submitAdulte(data: any, cost: number) {
+  if (!(await areRegistrationsEnabled())) {
+    return { success: false, error: "Les inscriptions en ligne sont actuellement fermées." };
+  }
+
   try {
     if (cost > 0) {
       const checkoutUrl = await createCheckoutIntent(cost, {

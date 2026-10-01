@@ -8,7 +8,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 type TeamMember = {
   id: number;
   name: string;
-  role: string;
+  role?: string;
   image: string;
 };
 
@@ -71,12 +71,6 @@ const equipePedagogique: TeamMember[] = [
     image: "/images/unk.png",
   },
   {
-    id: 10,
-    name: "Naomy CHALA",
-    role: "Stagiaire DE JEPS",
-    image: "/images/unk.png",
-  },
-  {
     id: 9,
     name: "Jeremy PHILIPPE",
     role: "Initiateur 1\nEnseignant loisir adultes",
@@ -91,7 +85,19 @@ const equipePedagogique: TeamMember[] = [
   {
     id: 12,
     name: "François Sébastien OCZKOWSKI",
-    role: "CQP ET\nEnseignant loisir école de tennis et adultes",
+    role: "Stagiaire DEJEPS",
+    image: "/images/unk.png",
+  },
+  {
+    id: 14,
+    name: "Mathias",
+    role: "CQP ET\nEnseignant école de tennis",
+    image: "/images/unk.png",
+  },
+  {
+    id: 15,
+    name: "Julien",
+    role: "CQP ET\nEnseignant école de tennis",
     image: "/images/unk.png",
   },
   {
@@ -102,59 +108,35 @@ const equipePedagogique: TeamMember[] = [
   }
 ];
 
-const coachMini: TeamMember[] = [
-  {
-    id: 14,
-    name: "Matteo",
-    role: "Coach Junior",
-    image: "/images/unk.png",
-  },
-  {
-    id: 15,
-    name: "Louis",
-    role: "Coach Junior",
-    image: "/images/unk.png",
-  },
+const coachJunior: TeamMember[] = [
   {
     id: 16,
-    name: "Gabin",
-    role: "Coach Junior",
+    name: "Matteo",
     image: "/images/unk.png",
   },
   {
     id: 17,
-    name: "Noah",
-    role: "Coach Junior",
+    name: "Victor",
     image: "/images/unk.png",
   },
   {
     id: 18,
     name: "Eloan",
-    role: "Coach Junior",
     image: "/images/unk.png",
   },
   {
     id: 19,
-    name: "Antonin",
-    role: "Coach Junior",
+    name: "Noah",
     image: "/images/unk.png",
   },
   {
     id: 20,
     name: "Arthur",
-    role: "Coach Junior",
     image: "/images/unk.png",
   },
   {
     id: 21,
-    name: "Quentin",
-    role: "Coach Junior",
-    image: "/images/unk.png",
-  },
-  {
-    id: 22,
     name: "Jules",
-    role: "Coach Junior",
     image: "/images/unk.png",
   },
 ];
@@ -238,9 +220,11 @@ function SliderCarousel({ title, members }: { title: string; members: TeamMember
               <h4 className="font-heading font-black text-2xl md:text-3xl text-white uppercase tracking-tight mb-2">
                 {member.name}
               </h4>
-              <p className="text-gray-400 font-medium text-sm md:text-base border border-gray-800 inline-block px-3 py-1 whitespace-pre-wrap">
-                {member.role}
-              </p>
+              {member.role && (
+                <p className="text-gray-400 font-medium text-sm md:text-base border border-gray-800 inline-block px-3 py-1 whitespace-pre-wrap">
+                  {member.role}
+                </p>
+              )}
             </motion.div>
           ))}
         </div>
@@ -308,7 +292,7 @@ export default function TeamSlider() {
 
       <SliderCarousel title="Notre équipe dirigeante" members={equipeDirigeante} />
       <SliderCarousel title="Notre équipe pédagogique" members={equipePedagogique} />
-      <SliderCarousel title="Nos Minis Coachs" members={coachMini} />
+      <SliderCarousel title="Nos coachs juniors" members={coachJunior} />
     </section>
   );
 }

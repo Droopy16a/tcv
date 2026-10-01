@@ -1,9 +1,11 @@
 import type { MetadataRoute } from 'next';
+import { areRegistrationsEnabled } from '@/lib/site-settings';
 
 const BASE_URL = 'https://www.tcvernouillet.com';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const registrationsEnabled = await areRegistrationsEnabled();
+  const routes: MetadataRoute.Sitemap = [
     {
       url: BASE_URL,
       lastModified: new Date(),
@@ -29,12 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/inscription`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
       url: `${BASE_URL}/mentions-legales`,
       lastModified: new Date(),
       changeFrequency: 'yearly',
@@ -53,4 +49,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.2,
     },
   ];
+
+  if (registrationsEnabled) {
+    routes.splice(4, 0, {
+      url: `${BASE_URL}/inscription`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    });
+  }
+
+  return routes;
 }

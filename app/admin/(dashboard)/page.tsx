@@ -1,9 +1,21 @@
-export default function AdminDashboard() {
+import { areRegistrationsEnabled } from "@/lib/site-settings";
+import RegistrationToggle from "./RegistrationToggle";
+
+export default async function AdminDashboard() {
+  const registrationsEnabled = await areRegistrationsEnabled();
+
   return (
     <div>
       <div className="mb-8">
         <h1 className="text-3xl font-heading font-bold text-gray-900">Tableau de bord</h1>
-        <p className="mt-2 text-gray-600">Bienvenue dans l'interface d'administration du TC Vernouillet.</p>
+        <p className="mt-2 text-gray-600">Bienvenue dans l&apos;interface d&apos;administration du TC Vernouillet.</p>
+      </div>
+
+      <div className="mb-6 rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
+        <h2 className="text-lg font-bold text-gray-900">Réglages du site</h2>
+        <div className="mt-4 border-t border-gray-100 pt-4">
+          <RegistrationToggle initialEnabled={registrationsEnabled} />
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

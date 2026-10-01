@@ -4,8 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
 import ImageSlideshow from "@/app/components/ImageSlideshow";
+import { useRegistrationAvailability } from "@/app/components/RegistrationAvailability";
 
 export default function EcoleDeTennisPage() {
+  const registrationsEnabled = useRegistrationAvailability();
+
   const fadeIn: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
@@ -153,14 +156,16 @@ export default function EcoleDeTennisPage() {
 
           </div>
 
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="mt-16 text-center">
-            <Link 
-              href="/inscription" 
-              className="inline-block bg-black text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-[#DF6436] transition-all"
-            >
-              S'inscrire (Jeunes)
-            </Link>
-          </motion.div>
+          {registrationsEnabled && (
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="mt-16 text-center">
+              <Link
+                href="/inscription"
+                className="inline-block bg-black text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-[#DF6436] transition-all"
+              >
+                S'inscrire (Jeunes)
+              </Link>
+            </motion.div>
+          )}
         </div>
       </section>
 
@@ -249,14 +254,16 @@ export default function EcoleDeTennisPage() {
 
           </div>
 
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="mt-16 text-center">
-            <Link 
-              href="/inscription" 
-              className="inline-block bg-[#DF6436] text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all"
-            >
-              S'inscrire (Adultes)
-            </Link>
-          </motion.div>
+          {registrationsEnabled && (
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="mt-16 text-center">
+              <Link
+                href="/inscription"
+                className="inline-block bg-[#DF6436] text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all"
+              >
+                S'inscrire (Adultes)
+              </Link>
+            </motion.div>
+          )}
         </div>
       </section>
 

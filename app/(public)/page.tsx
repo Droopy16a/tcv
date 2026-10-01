@@ -8,9 +8,11 @@ import { ArrowRight } from "lucide-react";
 import TeamSlider from "@/app/components/TeamSlider";
 import SponsorTicker from "@/app/components/SponsorTicker";
 import ImageSlideshow from "@/app/components/ImageSlideshow";
+import { useRegistrationAvailability } from "@/app/components/RegistrationAvailability";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const registrationsEnabled = useRegistrationAvailability();
 
   const handleMouseEnter = () => {
     if (videoRef.current) {
@@ -80,13 +82,15 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12"
           >
-            <Link 
-              href="/inscription"
-              role="button"
-              className="bg-transparent border border-white text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
-            >
-              Rejoindre le club
-            </Link>
+            {registrationsEnabled && (
+              <Link
+                href="/inscription"
+                role="button"
+                className="bg-transparent border border-white text-white font-bold uppercase tracking-widest text-sm px-12 py-5 hover:bg-white hover:text-black transition-all w-full sm:w-auto"
+              >
+                Rejoindre le club
+              </Link>
+            )}
             <Link 
               href="/reservation"
               role="button"
@@ -134,7 +138,7 @@ export default function Home() {
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Ans d'histoire</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.1 }}>
-              <div className="font-heading font-black text-5xl text-accent mb-2">524</div>
+              <div className="font-heading font-black text-5xl text-accent mb-2">500+</div>
               <div className="text-gray-500 font-medium uppercase tracking-wider text-xs">Licenciés</div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: 0.2 }}>

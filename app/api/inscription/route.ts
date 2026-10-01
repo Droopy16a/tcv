@@ -1,8 +1,16 @@
 import { NextResponse } from "next/server";
 import { getSupabaseAdminClient } from "@/lib/supabase";
+import { areRegistrationsEnabled } from "@/lib/site-settings";
 
 export async function POST(req: Request) {
   try {
+    if (!(await areRegistrationsEnabled())) {
+      return NextResponse.json(
+        { error: "Les inscriptions en ligne sont actuellement fermées." },
+        { status: 403 },
+      );
+    }
+
     const supabase = getSupabaseAdminClient();
     const body = await req.json();
 

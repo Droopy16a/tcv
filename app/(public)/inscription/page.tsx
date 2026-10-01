@@ -1,5 +1,7 @@
 import SubscribeForm from "@/app/components/SubscribeForm";
+import { areRegistrationsEnabled } from "@/lib/site-settings";
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: 'Inscription au Club',
@@ -23,7 +25,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function InscriptionPage() {
+export default async function InscriptionPage() {
+  if (!(await areRegistrationsEnabled())) {
+    redirect("/");
+  }
+
   return (
     <section className="py-5 px-6">
       <div className="container mx-auto max-w-6xl">
