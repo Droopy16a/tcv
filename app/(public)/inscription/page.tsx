@@ -1,7 +1,10 @@
 import SubscribeForm from "@/app/components/SubscribeForm";
+import { getRegistrationPricing } from "@/lib/registration-pricing-server";
 import { areRegistrationsEnabled } from "@/lib/site-settings";
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: 'Inscription au Club',
@@ -30,10 +33,14 @@ export default async function InscriptionPage() {
     redirect("/");
   }
 
+  const pricing = await getRegistrationPricing();
+
   return (
     <section className="py-5 px-6">
       <div className="container mx-auto max-w-6xl">
-        <SubscribeForm />
+        {pricing ? <SubscribeForm pricing={pricing} /> : (
+          <p role="alert" className="my-16 text-center text-gray-700">Les tarifs sont temporairement indisponibles. Veuillez réessayer plus tard ou contacter le club.</p>
+        )}
       </div>
     </section>
   );

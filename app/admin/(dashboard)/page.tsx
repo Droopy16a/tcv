@@ -23,6 +23,7 @@ export default async function AdminDashboard() {
           <h3 className="text-lg font-bold text-gray-900">Raccourcis</h3>
           <div className="mt-4 space-y-2">
             <a href="/admin/inscriptions" className="block text-sm text-[#DF6436] hover:underline">Gérer les inscriptions</a>
+            <a href="/admin/tarifs" className="block text-sm text-[#DF6436] hover:underline">Modifier les frais d’inscription</a>
             <a href="/admin/calendar" className="block text-sm text-[#DF6436] hover:underline">Ajouter un événement</a>
             <a href="/admin/news" className="block text-sm text-[#DF6436] hover:underline">Publier une actualité</a>
           </div>

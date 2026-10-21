@@ -23,6 +23,7 @@ import { Toaster } from "sonner";
 const navigation = [
   { name: "Tableau de bord", href: "/admin", icon: LayoutDashboard },
   { name: "Inscriptions", href: "/admin/inscriptions", icon: Users },
+  { name: "Tarifs", href: "/admin/tarifs", icon: Banknote },
   { name: "Calendrier", href: "/admin/calendar", icon: Calendar },
   { name: "Paiements", href: "/admin/paiements", icon: Banknote },
   { name: "Médias", href: "/admin/media", icon: ImageIcon },

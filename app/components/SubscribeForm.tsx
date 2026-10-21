@@ -2,16 +2,16 @@
 
 import { useState } from "react";
 import { motion, Variants } from "framer-motion";
+import { calculateRegistrationCost, familyLabels, familyPositions, type FamilyPosition, type RegistrationPricing } from "@/lib/registration-pricing";
 
 type FormType = "enfants" | "adultes";
-type FamilyPosition = "1" | "2-3" | "4-5" | "6-7" | "8";
 
 const fadeIn: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
 };
 
-export default function SubscribeForm() {
+export default function SubscribeForm({ pricing }: { pricing: RegistrationPricing }) {
   const [activeForm, setActiveForm] = useState<FormType>("enfants");
 
   return (
@@ -93,7 +93,7 @@ export default function SubscribeForm() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          {activeForm === "enfants" ? <EnfantsForm /> : <AdultesForm />}
+          {activeForm === "enfants" ? <EnfantsForm pricing={pricing} /> : <AdultesForm pricing={pricing} />}
         </motion.div>
       </div>
     </div>
@@ -103,7 +103,7 @@ export default function SubscribeForm() {
 // ==========================================
 // FORMULAIRE ENFANTS
 // ==========================================
-function EnfantsForm() {
+function EnfantsForm({ pricing }: { pricing: RegistrationPricing }) {
   const [form, setForm] = useState({
     nom: "",
     prenom: "",
@@ -184,42 +184,7 @@ function EnfantsForm() {
     }));
   };
 
-  const calculateCost = () => {
-    const isVernouillet = form.ville.toLowerCase().trim() === "vernouillet";
-    let base = 0;
-
-    switch (form.formule) {
-      case "baby":
-      case "mini":
-        base = isVernouillet ? 270 : 290;
-        break;
-      case "ecole_1h":
-        base = isVernouillet ? 341 : 361;
-        break;
-      case "ecole_1h30":
-        base = isVernouillet ? 408 : 428;
-        break;
-      case "ecole_2h":
-        base = isVernouillet ? 469 : 489;
-        break;
-      case "ecole_3h":
-        base = isVernouillet ? 581 : 601;
-        break;
-      case "ecole_4h30":
-        base = isVernouillet ? 980 : 1000;
-        break;
-    }
-
-    let discount = 0;
-    if (form.positionFamille === "2-3") discount = 16;
-    if (form.positionFamille === "4-5") discount = 21;
-    if (form.positionFamille === "6-7") discount = 26;
-    if (form.positionFamille === "8") discount = 31;
-
-    return Math.max(0, base - discount);
-  };
-
-  const cost = calculateCost();
+  const cost = calculateRegistrationCost(pricing, "enfant", form);
 
   return (
     <form onSubmit={handleSubmit} className="space-y-16">
@@ -377,11 +342,9 @@ function EnfantsForm() {
           <label className="text-gray-500 font-bold uppercase tracking-widest text-xs mb-3 block">Réduction famille (même foyer) :</label>
           <div className="relative w-full md:w-1/2">
             <select name="positionFamille" value={form.positionFamille} onChange={handleChange} className={selectClass}>
-              <option value="1">1ère personne inscrite (Aucune réduction)</option>
-              <option value="2-3">2ème et 3ème personne (-16 €)</option>
-              <option value="4-5">4ème et 5ème personne (-21 €)</option>
-              <option value="6-7">6ème et 7ème personne (-26 €)</option>
-              <option value="8">8ème personne (-31 €)</option>
+              {familyPositions.map((position) => (
+                <option key={position} value={position}>{familyLabels[position]} ({position === "1" ? "Aucune réduction" : `-${pricing.discounts[position]} €`})</option>
+              ))}
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
               <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
@@ -417,7 +380,7 @@ function EnfantsForm() {
         <div className="bg-[#111] text-white p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <h3 className="font-heading font-black text-3xl uppercase tracking-tight mb-2">Tarif final Enfant</h3>
-            <p className="text-gray-400 font-light text-lg">Licence incluse (13€ ou 23€ selon âge) — {form.ville.toLowerCase().trim() === "vernouillet" ? "Résident" : "Extérieur"}</p>
+            <p className="text-gray-400 font-light text-lg">Licence incluse — {form.ville.toLowerCase().trim() === "vernouillet" ? "Résident" : "Extérieur"}</p>
           </div>
           <div className="text-right flex flex-col sm:flex-row items-center gap-8 w-full md:w-auto">
             <span className="font-heading font-black text-5xl md:text-6xl text-[#DF6436]">{cost} €</span>
@@ -434,7 +397,7 @@ function EnfantsForm() {
 // ==========================================
 // FORMULAIRE ADULTES
 // ==========================================
-function AdultesForm() {
+function AdultesForm({ pricing }: { pricing: RegistrationPricing }) {
   const [form, setForm] = useState({
     nom: "",
     prenom: "",
@@ -521,34 +484,7 @@ function AdultesForm() {
     );
   };
 
-  const calculateCost = () => {
-    const isVernouillet = form.ville.toLowerCase().trim() === "vernouillet";
-    let total = 0;
-
-    if (form.entrainementEquipe) {
-      total += isVernouillet ? 428 : 448; // Inclus la cotisation
-    } else {
-      total += form.estEtudiant ? (isVernouillet ? 209 : 229) : (isVernouillet ? 270 : 290);
-    }
-
-    if (form.coursCollectifs && !form.entrainementEquipe) {
-      if (form.dureeCours === "1H") {
-        total += isVernouillet ? 300 : 320;
-      } else {
-        total += isVernouillet ? 535 : 555;
-      }
-    }
-
-    let discount = 0;
-    if (form.positionFamille === "2-3") discount = 16;
-    if (form.positionFamille === "4-5") discount = 21;
-    if (form.positionFamille === "6-7") discount = 26;
-    if (form.positionFamille === "8") discount = 31;
-
-    return Math.max(0, total - discount);
-  };
-
-  const cost = calculateCost();
+  const cost = calculateRegistrationCost(pricing, "adulte", form);
 
   return (
     <form onSubmit={handleSubmit} className="space-y-16">
@@ -599,11 +535,9 @@ function AdultesForm() {
             <label className="text-gray-500 font-bold uppercase tracking-widest text-xs mb-3 block">Réduction famille (même foyer) :</label>
             <div className="relative w-full md:w-1/2">
               <select name="positionFamille" value={form.positionFamille} onChange={handleChange} className={selectClass}>
-                <option value="1">1ère personne (Aucune réduction)</option>
-                <option value="2-3">2ème et 3ème personne (-16 €)</option>
-                <option value="4-5">4ème et 5ème personne (-21 €)</option>
-                <option value="6-7">6ème et 7ème personne (-26 €)</option>
-                <option value="8">8ème personne (-31 €)</option>
+                {familyPositions.map((position) => (
+                <option key={position} value={position}>{familyLabels[position]} ({position === "1" ? "Aucune réduction" : `-${pricing.discounts[position]} €`})</option>
+              ))}
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
                 <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
@@ -737,7 +671,7 @@ function AdultesForm() {
         <div className="bg-[#111] text-white p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <h3 className="font-heading font-black text-3xl uppercase tracking-tight mb-2">Tarif final Adulte</h3>
-            <p className="text-gray-400 font-light text-lg">Licence 33€ incluse à la cotisation</p>
+            <p className="text-gray-400 font-light text-lg">Licence incluse à la cotisation</p>
           </div>
           <div className="text-right flex flex-col sm:flex-row items-center gap-8 w-full md:w-auto">
             <span className="font-heading font-black text-5xl md:text-6xl text-[#DF6436]">{cost} €</span>

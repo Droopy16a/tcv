@@ -3,6 +3,8 @@
 import { getSupabaseAdminClient } from "../lib/supabase";
 import { areRegistrationsEnabled } from "../lib/site-settings";
 import { cookies } from "next/headers";
+import { getRegistrationPricing } from "@/lib/registration-pricing-server";
+import { calculateRegistrationCost } from "@/lib/registration-pricing";
 
 async function getHelloAssoToken() {
   const clientId = process.env.HELLO_ASSO_CLIENT;
@@ -43,8 +45,8 @@ async function createCheckoutIntent(cost: number, payerInfo: any) {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
   const payload = {
-    totalAmount: cost * 100, // Amount in cents
-    initialAmount: cost * 100,
+    totalAmount: Math.round(cost * 100), // Amount in cents
+    initialAmount: Math.round(cost * 100),
     itemName: "Inscription TC Vernouillet",
     backUrl: `${baseUrl}/inscription`,
     errorUrl: `${baseUrl}/inscription/error`,
@@ -101,6 +103,11 @@ export async function submitEnfant(data: any, cost: number) {
   }
 
   try {
+    const pricing = await getRegistrationPricing();
+    if (!pricing) return { success: false, error: "Les tarifs sont temporairement indisponibles." };
+    const currentCost = calculateRegistrationCost(pricing, "enfant", data);
+    if (cost !== currentCost) return { success: false, error: "Les tarifs ont changé. Rechargez la page avant de valider votre inscription." };
+    cost = currentCost;
     if (cost > 0) {
       const checkoutUrl = await createCheckoutIntent(cost, {
         prenom: data.prenom,
@@ -158,6 +165,11 @@ export async function submitAdulte(data: any, cost: number) {
   }
 
   try {
+    const pricing = await getRegistrationPricing();
+    if (!pricing) return { success: false, error: "Les tarifs sont temporairement indisponibles." };
+    const currentCost = calculateRegistrationCost(pricing, "adulte", data);
+    if (cost !== currentCost) return { success: false, error: "Les tarifs ont changé. Rechargez la page avant de valider votre inscription." };
+    cost = currentCost;
     if (cost > 0) {
       const checkoutUrl = await createCheckoutIntent(cost, {
         prenom: data.prenom,
